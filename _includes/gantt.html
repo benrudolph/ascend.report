@@ -1,0 +1,13 @@
+<div id="gantt-agenda" style="height: 300px"></div>
+
+<script>
+  var ganttData = [
+  ["Briefings", new Date(2014, 3, 2, 9), new Date(2014, 3, 2, 17)],
+  ["Focus Group", new Date(2014, 3, 3, 9), new Date(2014, 3, 3, 11)],
+  ["Conduct Trainings", new Date(2014, 3, 3, 12), new Date(2014, 3, 4, 12)],
+  ["Prepare Software", new Date(2014, 3, 4, 12), new Date(2014, 3, 8, 17)],
+  ["Send Messages", new Date(2014, 3, 4, 12), new Date(2014, 3, 8, 17)],
+  ["Recap", new Date(2014, 3, 9, 8), new Date(2014, 3, 11, 17)],
+  ]
+  new Chartkick.Timeline('gantt-agenda', ganttData);
+</script>

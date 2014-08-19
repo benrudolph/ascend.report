@@ -5,6 +5,28 @@
 /*****************************************************************************/
 
 /* Global Reset */
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url('/fonts/Lato/Lato-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url('/fonts/Lato/Lato-Regular.ttf')
+  format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url('/fonts/Lato/Lato-Bold.ttf') format('truetype');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,24 +35,57 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center;
+  background-color: #f9f9f9;
+  font: 18px/26px 'vollkorn', Georgia, serif;
+  font-weight: lighter;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
 
 h1 {
   margin-bottom: 1em;
   font-size: 38px;
 }
+
+h2 {
+  font-weight: bold;
+}
+
 p { margin: 1em 0; }
+
+li {
+  margin-left: 20px;
+}
 
 a         { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
+
+.header {
+  background-image: url('/images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+  max-height: 800px;
+  width: 100%;
+  position: relative;
+}
+
+.tagline {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  color: white;
+  font-weight: light;
+}
+
+.tagline h1 {
+  font-size: 72px;
+}
 
 /*****************************************************************************/
 /*
@@ -57,41 +112,6 @@ a:visited { color: #a0a; }
 /* Site
 /*
 /*****************************************************************************/
-
-.site {
-  font-size: 115%;
-  text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
-  line-height: 1.5em;
-}
-
-.header a {
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.title {
-  display: inline-block;
-  margin-bottom: 2em;
-}
-
-.title a {
-  color: #a00;
-}
-
-.title a:hover {
-  color: #000;
-}
-
-.header a.extra {
-  color: #aaa;
-  margin-left: 1em;
-}
-
-.header a.extra:hover {
-  color: #000;
-}
 
 .meta {
   color: #aaa;

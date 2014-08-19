@@ -1,5 +1,5 @@
 name: Your New Jekyll Site
 markdown: redcarpet
 redcarpet:
-  extensions: [with_toc_data]
-pygments: true
+  extensions: [with_toc_data, tables]
+highlighter: true

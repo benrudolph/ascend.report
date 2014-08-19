@@ -9,15 +9,46 @@
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
 
+        <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
 
     </head>
-    <body>
+    <body data-spy="scroll">
+        <script src="http://www.google.com/jsapi"></script>
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/highcharts.js"></script>
+        <script src="/js/highcharts-more.js"></script>
+        <script src="/js/chartkick.js"></script>
 
-        <div class="site">
+        <div class="site container-fluid">
+          <div class="row header">
+            <div class="tagline">
+              <h1>Ascend</h1>
+            </div>
 
-          {{ content }}
+          </div>
+
+          <div class="row content">
+            <div class="col-md-9">
+              {{ content }}
+            </div>
+            <div class="col-md-3">
+              <div class="as-sidebar hidden-print hidden-xs hidden-sm" role="complementary">
+                <ul class="nav as-sidenav">
+                  <li>
+                    <a href="#overview">Overview</a>
+                  </li>
+                  <li>
+                    <a href="#ecuador">Ecuador</a>
+                  </li>
+                  <li>
+                    <a href="#costa-rica">Costa Rica</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
           <div class="footer">
             <div class="contact">
@@ -36,5 +67,14 @@
           </div>
         </div>
 
+        <script src="/bootstrap/js/bootstrap.min.js"></script>
+        <script>
+          var $header = $('.header');
+          $header.css('height', $(window).height())
+          $header.css('width', $(window).width())
+
+          $('table').addClass('table')
+
+        </script>
     </body>
 </html>

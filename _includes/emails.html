@@ -1,0 +1,228 @@
+<div id="emails" style="height: 400px; min-width: 310px; max-width: 600px; margin: 0 auto"></div>
+<script type="text/javascript">
+$(function () {
+    var size = 1;
+    var unhcr = 0;
+    var cr = 1;
+    var skype = 2;
+    $('#emails').highcharts({
+
+	    chart: {
+	        type: 'bubble',
+	        zoomType: 'xy'
+	    },
+
+      plotOptions: {
+        bubble: {
+          maxSize: 10
+        }
+
+      },
+
+      xAxis: {
+        type: 'datetime',
+      },
+
+      yAxis: {
+        type: 'category',
+        labels: {
+          enabled: false
+        },
+      },
+
+	    title: {
+	    	text: 'Highcharts Bubbles'
+	    },
+
+	    series: [{
+
+                name: 'unhcr innovation emails',
+                data:
+                [
+                // RE: RE: SMS pilot project in Costa Rica
+                [Date.UTC(2013, 11, 9, 10, 50),0,size],
+                [Date.UTC(2013, 11, 12, 17, 23),0,size],
+                [Date.UTC(2014, 0, 22, 9, 53),0,size],
+                [Date.UTC(2014, 0, 26, 10, 56),0,size],
+                [Date.UTC(2014, 0, 27, 15, 20),0,size],
+                [Date.UTC(2014, 0, 27, 15, 51),0,size],
+                [Date.UTC(2014, 0, 27, 17, 25),0,size],
+                [Date.UTC(2014, 0, 31, 12, 22),0,size],
+                [Date.UTC(2014, 1, 10, 15, 08),0,size],
+                [Date.UTC(2014, 1, 11, 15, 55),0,size],
+                [Date.UTC(2014, 1, 13, 9, 21),0,size],
+                [Date.UTC(2014, 1, 20, 20, 13),0,size],
+                [Date.UTC(2014, 1, 21, 16, 10),0,size],
+                [Date.UTC(2014, 1, 25, 9, 44),0,size],
+                [Date.UTC(2014, 1, 26, 16, 13),0,size],
+                [Date.UTC(2014, 1, 26, 16, 27),0,size],
+                [Date.UTC(2014, 1, 26, 16, 27),0,size],
+                [Date.UTC(2014, 1, 26, 16, 31),0,size],
+                [Date.UTC(2014, 1, 26, 22, 59),0,size],
+                [Date.UTC(2014, 2, 6, 18, 40),0,size],
+                [Date.UTC(2014, 2, 10, 23, 35),0,size],
+                [Date.UTC(2014, 2, 12, 9, 14),0,size],
+                [Date.UTC(2014, 2, 13, 14, 56),0,size],
+                [Date.UTC(2014, 2, 13, 15, 01),0,size],
+                [Date.UTC(2014, 2, 13, 16, 55),0,size],
+                [Date.UTC(2014, 2, 19, 10, 18),0,size],
+                [Date.UTC(2014, 2, 19, 12, 28),0,size],
+                [Date.UTC(2014, 2, 20, 14, 6),0,size],
+                [Date.UTC(2014, 2, 24, 10, 11),0,size],
+                [Date.UTC(2014, 2, 26, 13, 10),0,size],
+                [Date.UTC(2014, 2, 26, 14, 50),0,size],
+
+                // Re: Shared Refugee Database
+                [Date.UTC(2014, 2, 17, 11, 32),0,size],
+                [Date.UTC(2014, 2, 19, 12, 29),0,size],
+
+                // Re: Hotel
+                [Date.UTC(2014, 2, 20, 0, 17),0,size],
+                [Date.UTC(2014, 2, 27, 8, 50),0,size],
+
+                // Re: about the items needed
+                [Date.UTC(2014, 2, 19, 18, 02),0,size],
+                [Date.UTC(2014, 2, 20, 18, 19),0,size],
+
+                // Re: Simcard tests - UNHCR Costa Rica
+                [Date.UTC(2014, 2, 26, 21, 45),0,size],
+                [Date.UTC(2014, 2, 27, 14, 00),0,size],
+                [Date.UTC(2014, 2, 27, 15, 52),0,size],
+
+                // Re: Good books about or from Costa Rica
+                [Date.UTC(2014, 2, 27, 20, 29),0,size],
+                [Date.UTC(2014, 2, 30, 23, 36),0,size],
+
+                // Re: about the cloud
+                [Date.UTC(2014, 2, 27, 21, 08),0,size],
+
+                // Re: SMS Sync success
+                [Date.UTC(2014, 2, 27, 23, 21),0,size],
+
+                // Re: FW: RUDOLPH/BENJAMIN DANIEL MR
+                [Date.UTC(2014, 2, 28, 22, 47),0,size],
+                [Date.UTC(2014, 2, 31, 16, 17),0,size],
+
+                // Re: general presentation about UNHCR Innovation
+                [Date.UTC(2014, 2, 31, 22, 25),0,size],
+
+                // Re: welcome!
+                [Date.UTC(2014, 3, 2, 1, 39),0,size],
+
+                // Re: Our dirve William will look for you 8:30
+                [Date.UTC(2014, 3, 2, 11, 49),0,size],
+
+                // Re: we will look for you in ten minutes :)
+                [Date.UTC(2014, 3, 3, 16, 11),0,size],
+
+                // Re: tomorrow
+                [Date.UTC(2014, 3, 4, 6, 54),0,size],
+
+                ]
+              },
+              {
+                name: 'costa rica emails',
+                data: [
+                // Re: tomorrow
+                [Date.UTC(2014, 3, 4, 4, 8),cr,size],
+                // Re: we will look for you in ten minutes :)
+                [Date.UTC(2014, 3, 3, 16, 10),cr,size],
+                // Re: Our dirve William will look for you 8:30
+                [Date.UTC(2014, 3, 2, 15, 36),cr,size],
+                // Re: welcome!
+                [Date.UTC(2014, 3, 2, 0, 59),cr,size],
+                // Re: welcome!
+                [Date.UTC(2014, 3, 2, 0, 59),cr,size],
+                [Date.UTC(2014, 3, 2, 1, 54),cr,size],
+                // Re: general presentation about UNHCR Innovation
+                [Date.UTC(2014, 2, 31, 22, 3),cr,size],
+
+                // Re: FW: RUDOLPH/BENJAMIN DANIEL MR
+                [Date.UTC(2014, 2, 28, 16, 14),cr,size],
+                [Date.UTC(2014, 2, 28, 16, 25),cr,size],
+
+                // Re: SMS Sync success
+                [Date.UTC(2014, 2, 27, 23, 06),cr,size],
+                [Date.UTC(2014, 2, 27, 23, 07),cr,size],
+
+                // Re: about the cloud
+                [Date.UTC(2014, 2, 27, 21, 01),cr,size],
+                [Date.UTC(2014, 2, 27, 21, 19),cr,size],
+
+                // Re: Good books about or from Costa Rica
+                [Date.UTC(2014, 2, 27, 20, 57),cr,size],
+
+                // Re: Simcard tests - UNHCR Costa Rica
+                [Date.UTC(2014, 2, 26, 19, 28),cr,size],
+                [Date.UTC(2014, 2, 27, 0, 14),cr,size],
+                [Date.UTC(2014, 2, 27, 15, 44),cr,size],
+
+                // Re: about the items needed
+                [Date.UTC(2014, 2, 19, 18, 05),cr,size],
+                [Date.UTC(2014, 2, 19, 16, 27),cr,size],
+                [Date.UTC(2014, 2, 20, 18, 33),cr,size],
+
+                // Re: Hotel
+                [Date.UTC(2014, 2, 19, 17, 49),cr,size],
+                [Date.UTC(2014, 2, 19, 16, 33),cr,size],
+
+                // Re: Shared Refugee Database
+                [Date.UTC(2014, 2, 18, 16, 05),cr,size],
+                [Date.UTC(2014, 2, 19, 16, 48),cr,size],
+
+                // RE: RE: SMS pilot project in Costa Rica
+                [Date.UTC(2013, 11, 13, 14, 45),cr,size],
+                [Date.UTC(2014, 0, 21, 21, 10),cr,size],
+                [Date.UTC(2014, 1, 4, 14, 26),cr,size],
+                [Date.UTC(2014, 1, 7, 21, 15),cr,size],
+                [Date.UTC(2014, 1, 12, 15, 28),cr,size],
+                [Date.UTC(2014, 1, 20, 23, 33),cr,size],
+                [Date.UTC(2014, 1, 21, 17, 41),cr,size],
+                [Date.UTC(2014, 1, 25, 0, 17),cr,size],
+                [Date.UTC(2014, 1, 25, 15, 45),cr,size],
+                [Date.UTC(2014, 1, 26, 14, 21),cr,size],
+                [Date.UTC(2014, 1, 26, 16, 29),cr,size],
+                [Date.UTC(2014, 1, 26, 16, 33),cr,size],
+                [Date.UTC(2014, 1, 26, 17, 40),cr,size],
+                [Date.UTC(2014, 2, 4, 2, 53),cr,size],
+                [Date.UTC(2014, 2, 7, 1, 04),cr,size],
+                [Date.UTC(2014, 2, 12, 0, 06),cr,size],
+                [Date.UTC(2014, 2, 12, 0, 27),cr,size],
+                [Date.UTC(2014, 2, 12, 15, 57),cr,size],
+                [Date.UTC(2014, 2, 13, 15, 00),cr,size],
+                [Date.UTC(2014, 2, 13, 15, 02),cr,size],
+                [Date.UTC(2014, 2, 13, 15, 45),cr,size],
+                [Date.UTC(2014, 2, 13, 20, 07),cr,size],
+                [Date.UTC(2014, 2, 19, 1, 00),cr,size],
+                [Date.UTC(2014, 2, 21, 18, 56),cr,size],
+                [Date.UTC(2014, 2, 25, 15, 31),cr,size],
+                [Date.UTC(2014, 2, 26, 15, 4),cr,size],
+
+                ]
+              },
+              {
+                name: 'Skype',
+                data: [
+                [Date.UTC(2014, 2, 13, 15, 4),skype,size],
+                [Date.UTC(2014, 2, 19, 15, 4),skype,size],
+                [Date.UTC(2014, 2, 26, 15, 4),skype,size],
+                [Date.UTC(2014, 2, 27, 15, 4),skype,size],
+                [Date.UTC(2014, 3, 30, 15, 4),skype,size],
+                [Date.UTC(2014, 4, 5, 15, 4),skype,size],
+                [Date.UTC(2014, 4, 20, 15, 4),skype,size],
+                [Date.UTC(2014, 4, 30, 15, 4),skype,size],
+                [Date.UTC(2014, 5, 5, 15, 4),skype,size],
+                [Date.UTC(2014, 5, 18, 15, 4),skype,size],
+                [Date.UTC(2014, 6, 04, 15, 4),skype,size],
+                [Date.UTC(2014, 7, 08, 15, 4),skype,size],
+
+                ]
+              }
+
+    ]
+
+	});
+
+});
+</script>
+
