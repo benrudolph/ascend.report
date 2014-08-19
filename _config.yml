@@ -3,3 +3,4 @@ markdown: redcarpet
 redcarpet:
   extensions: [with_toc_data, tables]
 highlighter: true
+baseurl: /ascend.report
