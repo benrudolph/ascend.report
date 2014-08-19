@@ -28,7 +28,7 @@ These questions arose from gaps and assumptions we made when conceptualizing the
 
 The location and population you test on can greatly impact the results of your pilot. We found it important to understand the biases that Costa Rica would bring to our results. There were multiple reasons for choosing San Jose.
 
-*	Interest from “the field” – At UNHCR, headquarters is notorious for implementing new projects on already overworked field staff. In the case of Costa Rica, we received a request from their office to pilot the SMS program.  With both headquarters and the field operation committed to working on the project, we believed the pilot would have a much higher probably of success.
+*	Interest from “the field” – At UNHCR, headquarters is known for implementing new projects on already overworked field staff. In the case of Costa Rica, we received a request from their office to pilot the SMS program.  With both headquarters and the field operation committed to working on the project, we believed the pilot would have a much higher probably of success.
 *	Stability within the region – While no refugee situation is truly stable, it is fair to say the refugee situation in Costa Rica is less turbulent than a place like Lebanon. In extreme emergency situations such as Lebanon, things like providing food, water and shelter are rightly prioritized over an SMS pilot.
 *	Mobile phone precedence – Not all UNHCR operations deal with a population that have mobile phones or even cell signal to send messages. In some areas, the literacy rate isn’t high enough for it to make sense to use SMS as a tool of communication. However, Costa Rica ended up being an ideal operation where both literacy rates and cellphone usage were quite high.*
 
@@ -49,7 +49,7 @@ We concretely designed our scope for the pilot so that we’d have clear areas w
 
 ### Choosing a champion
 
-A champion is someone within the organization where you will be piloting that is enthusiastic and a strong supporter of the project. This person often pushes the project and ensures that it succeeds.  For many reasons identifying a champion is critical for the success of the pilot. After running a fair share of pilots, I cannot stress enough how essential this aspect is to embedding a project within an institution.
+A champion is someone within the organization where you will be piloting that is enthusiastic and a strong supporter of the project. This person often pushes the project and ensures that it succeeds.  For many reasons identifying a champion is critical for the success of the pilot. I cannot stress enough how essential this aspect is to embedding a project within an institution.
 
 Early on with Costa Rica we identified our champion, Valentina Duque. She was instrumental in coordinating implementation, getting key stakeholders involved and ensuring follow through from various other organizations.
 
@@ -70,7 +70,7 @@ Even after months of preparation, the ability to improvise on the ground is almo
 
 ## Followup & Monitoring
 
-Now that FrontlineCloud had been installed and trainings had been conducted, the monitoring and evaluation plan (M&E) that was setup upon arrival and then reviewed before the end of the pilot became essential. I would argue this is the most important part of running a pilot.
+Now that FrontlineCloud had been installed and trainings had been conducted, the monitoring and evaluation plan (M&E) that was setup upon arrival and then reviewed before the end of the pilot became essential. I would argue this is one of the most important part of running a pilot.
 
 When done correctly, M&E allows us to iterate on our solution. Without it we are merely guessing at how to improve. For Costa Rica we chose the indicators listed below as the ones we would record. There was a fine balance between overly bureaucratizing the process, reducing the quality of information recorded and selecting too few indicators, making it difficult to determine how to iterate.
 
