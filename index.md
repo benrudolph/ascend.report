@@ -26,7 +26,7 @@ These questions arose from gaps and assumptions we made when conceptualizing the
 
 ## Identifying a location and population
 
-Whether testing the next photo-sharing app or aid delivering drones, the location and population you test on will impact the results of your pilot. We found it important to understand the biases that Costa Rica would bring to our results. There were multiple reasons for choosing San Jose.
+The location and population you test on can greatly impact the results of your pilot. We found it important to understand the biases that Costa Rica would bring to our results. There were multiple reasons for choosing San Jose.
 
 *	Interest from “the field” – At UNHCR, headquarters is notorious for implementing new projects on already overworked field staff. In the case of Costa Rica, we received a request from their office to pilot the SMS program.  With both headquarters and the field operation committed to working on the project, we believed the pilot would have a much higher probably of success.
 *	Stability within the region – While no refugee situation is truly stable, it is fair to say the refugee situation in Costa Rica is less turbulent than a place like Lebanon. In extreme emergency situations such as Lebanon, things like providing food, water and shelter are rightly prioritized over an SMS pilot.
