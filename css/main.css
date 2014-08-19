@@ -1,3 +1,6 @@
+---
+title: CSS stylesheet
+---
 /*****************************************************************************/
 /*
 /* Common
@@ -10,13 +13,13 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 300;
-  src: local('Lato Light'), local('Lato-Light'), url('/fonts/Lato/Lato-Light.ttf') format('truetype');
+  src: local('Lato Light'), local('Lato-Light'), url('{{ site.baseurl }}/fonts/Lato/Lato-Light.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url('/fonts/Lato/Lato-Regular.ttf')
+  src: local('Lato Regular'), local('Lato-Regular'), url('{{ site.baseurl }}/fonts/Lato/Lato-Regular.ttf')
   format('truetype');
 }
 
@@ -24,21 +27,21 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url('/fonts/Lato/Lato-Bold.ttf') format('truetype');
+  src: local('Lato Bold'), local('Lato-Bold'), url('{{ site.baseurl }}/fonts/Lato/Lato-Bold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'vollkorn';
   font-style: bold;
   font-weight: 700;
-  src: local('Vollkorn Bold'), local('Vollkorn-Bold'), url('/fonts/Vollkorn/Vollkorn-Bold.ttf') format('truetype');
+  src: local('Vollkorn Bold'), local('Vollkorn-Bold'), url('{{ site.baseurl }}/fonts/Vollkorn/Vollkorn-Bold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'vollkorn';
   font-style: normal;
   font-weight: 400;
-  src: local('Vollkorn Regular'), local('Vollkorn-Regular'), url('/fonts/Vollkorn/Vollkorn-Regular.ttf') format('truetype');
+  src: local('Vollkorn Regular'), local('Vollkorn-Regular'), url('{{ site.baseurl }}/fonts/Vollkorn/Vollkorn-Regular.ttf') format('truetype');
 }
 
 
@@ -81,7 +84,7 @@ a:hover   { color: #000; }
 a:visited { color: #a0a; }
 
 .header {
-  background-image: url('/images/background.jpg');
+  background-image: url('{{ site.baseurl }}/images/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 600px;
