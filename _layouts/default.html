@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
 
     </head>
-    <body data-spy="scroll">
+    <body data-spy="scroll" data-target=".as-sidebar">
         <script src="http://www.google.com/jsapi"></script>
         <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
         <script src="{{ site.baseurl }}/js/highcharts.js"></script>
@@ -34,16 +34,31 @@
               {{ content }}
             </div>
             <div class="col-md-3">
-              <div class="as-sidebar hidden-print hidden-xs hidden-sm" role="complementary">
+              <div data-spy="affix" data-offset-top="670" class="as-sidebar hidden-print hidden-xs hidden-sm" role="complementary">
                 <ul class="nav as-sidenav">
                   <li>
-                    <a href="#overview">Overview</a>
+                    <a href="#introduction">Introduction</a>
                   </li>
                   <li>
-                    <a href="#ecuador">Ecuador</a>
+                    <a href="#choosing-to-prototype">Choose to prototype</a>
                   </li>
                   <li>
-                    <a href="#costa-rica">Costa Rica</a>
+                    <a href="#identifying-a-location">Identifying a location</a>
+                  </li>
+                  <li>
+                    <a href="#preparation">Preparation</a>
+                  </li>
+                  <li>
+                    <a href="#implementation">Implementation</a>
+                  </li>
+                  <li>
+                    <a href="#followup-and-monitoring">Followup & Monitoring</a>
+                  </li>
+                  <li>
+                    <a href="#lessons-learned">Lessons Learned</a>
+                  </li>
+                  <li>
+                    <a href="#conclusions">Conclusions</a>
                   </li>
                 </ul>
               </div>
@@ -70,7 +85,7 @@
         <script src="{{ site.baseurl }}/bootstrap/js/bootstrap.min.js"></script>
         <script>
           var $header = $('.header');
-          $header.css('height', $(window).height())
+          //$header.css('height', $(window).height())
           $header.css('width', $(window).width())
 
           $('table').addClass('table')

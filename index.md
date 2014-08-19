@@ -24,7 +24,7 @@ Before any plans and preparations were made, we asked ourselves, “What do we h
 
 These questions arose from gaps and assumptions we made when conceptualizing the SMS system as well as from the previous pilot in Esmeraldas, Ecuador. With our priorities set, we could now start to frame the pilot to answer these questions.  Based on these goals, we chose to pilot FrontlineCloud. FrontlineCloud was an off the shelf solution for SMS that would easily let us answer these questions without having to invest vast amounts of time and resources to build our own system only to find out later that SMS perhaps wasn’t an ideal tool for urban refugees.
 
-## Identifying a location and population
+## Identifying a location
 
 The location and population you test on can greatly impact the results of your pilot. We found it important to understand the biases that Costa Rica would bring to our results. There were multiple reasons for choosing San Jose.
 
@@ -68,7 +68,7 @@ Even after months of preparation, the ability to improvise on the ground is almo
 
 {% include gantt.html %}
 
-## Followup & Monitoring
+## Followup and Monitoring
 
 Now that FrontlineCloud had been installed and trainings had been conducted, the monitoring and evaluation plan (M&E) that was setup upon arrival and then reviewed before the end of the pilot became essential. I would argue this is one of the most important part of running a pilot.
 
@@ -128,4 +128,6 @@ A very difficult part of running a pilot is embedding the system knowledge withi
 We knew it took hours sometimes even a whole day to send bulk messages to hundreds of contacts. However we overlooked the fact that if we send the message at 6pm, many of the messages won’t be delivered until the wee hours of the morning. We received a few complaints about this and promptly decided that broadcast messages had to be sent in the morning or they’d have to be delayed until the next day.
 
 ## Conclusions
+
+???
 

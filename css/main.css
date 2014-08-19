@@ -53,6 +53,7 @@ title: CSS stylesheet
 html, body { height: 100%; }
 
 body {
+  position: relative;
   background-color: #f9f9f9;
   font: 18px/26px 'vollkorn', Georgia, serif;
   font-weight: lighter;
@@ -71,6 +72,7 @@ h1 {
 
 h2 {
   font-weight: bold;
+  padding: 20px 0;        /* Size of fixed header */
 }
 
 p { margin: 1em 0; }
@@ -87,8 +89,8 @@ a:visited { color: #a0a; }
   background-image: url('{{ site.baseurl }}/images/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 600px;
-  max-height: 800px;
+  height: 600px;
+  margin-bottom: 70px;
   width: 100%;
   position: relative;
 }
@@ -104,6 +106,33 @@ a:visited { color: #a0a; }
 .tagline h1 {
   font-size: 72px;
 }
+
+
+.as-sidebar {
+  margin-top: 20px;
+}
+
+.as-sidebar a,  .as-sidebar a:visited {
+  color: rgb(120, 120, 120);
+}
+.content .as-sidebar a:hover {
+  color: rgb(20, 20, 20);
+  border-left: 2px solid rgb(32, 180, 180);
+  background-color: inherit;
+  padding-left: 13px;
+
+}
+.as-sidebar li.active a {
+  color: rgb(20, 20, 20);
+  border-left: 3px solid rgb(32, 180, 180);
+  padding-left: 12px;
+}
+
+.affix {
+  top: 0;
+}
+
+
 
 /*****************************************************************************/
 /*
