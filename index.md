@@ -164,7 +164,7 @@ You can view our more detailed version [here](https://docs.google.com/document/d
 
 ## Conclusion
 
-After a pilot that began in January 2014 and came to a close in September 2014, what did these nine months teach us. I first went back and looked at the [questions](/#choosing-to-prototype) we set out to answer.
+After a pilot that began in January 2014 and came to a close in September 2014, what did these nine months teach us. I first went back and looked at the [questions]({{ site.baseurl }}/#choosing-to-prototype) we set out to answer.
 
 Did we find out ways to best utilize SMS to connect with refugees? Of course there's always more to learn, but I would still answer yes. We learned about different roles an SMS system can play. Will it mainly be used for polling, broadcast messages, answering individual queries or all three? SMS can go a long way to educating asylum seekers and refugees about their rights and opportunities.
 
