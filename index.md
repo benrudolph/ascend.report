@@ -168,13 +168,13 @@ After a pilot that began in January 2014 and came to a close in September 2014, 
 
 Did we find out ways to best utilize SMS to connect with refugees? Of course there's always more to learn, but I would still answer yes. We learned about different roles an SMS system can play. Will it mainly be used for polling, broadcast messages, answering individual queries or all three? SMS can go a long way to educating asylum seekers and refugees about their rights and opportunities.
 
-Did we find out ways to embed an SMS into an organization? By conducting as many trainings as possible and setting up a guideline for usage within an organization, we were able to establish a lasting and sustainable impact on the Costa Rica operation.
+Did we find out ways to embed an SMS system into an organization? By conducting as many trainings as possible and setting up a guideline for usage within an organization, we were able to establish a lasting and sustainable impact on the Costa Rica operation.
 
 Did we find out what staff need in an SMS application? After becoming deeply familiar with FrontlineCloud, I've developed lots of areas where the SMS applications could be improved. From this pilot, we can now make recommendations for the requirements that a UNHCR SMS system would have.
 
 There were many bumps along the road and not everything worked out as planned, but I'd undoubtedly say the pilot was a success. The Costa Rica UNHCR operation is now planning on setting up FrontlineCloud with two other refugee organizations in San José, after receiving requests to do so. Most importantly, the feedback from refugees was extremely positive and indicates that this should be a part of more operations.
 
-The next steps for us would be to move UNHCR to adopting a common SMS system that is deployed in each operation. Currently, UNHCR has a SMS system randomly spattered across the globe. This has a lot to do with the level of technical capacity that a specific country office has. In fact, there exists a giant spreadsheet of all the different SMS systems that UNHCR is using. Moving forward, it would be ideal to have a deploy kit that UNHCR can use to setup SMS.
+The next steps for us would be to move UNHCR to adopting a common SMS system that is deployed in each operation. Currently, UNHCR has a SMS system randomly spattered across the globe. This has a lot to do with the level of technical capacity that a specific country office has. In fact, there exists a giant spreadsheet of all the different SMS systems that UNHCR is using. Moving forward, it would be ideal to have a deploy kit that UNHCR can use to setup SMS capabilities.
 
 As often as possible, UNHCR Innovation tries to be as transparent as possible. Please feel free to leave any feedback or questions!
 
