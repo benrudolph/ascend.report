@@ -69,6 +69,10 @@ Even after months of preparation, the ability to improvise on the ground is almo
 
 Most of the time was spent preparing the messages and the software. However, we would have had spent longer sending the messages if we did not put time into conducting the trainings. Without this portion, we would have had to individually explain to each person using the system, or I would have had to send the messages, jeopardizing the pilot's sustainability after I left.
 
+![Running practical training]({{ site.baseurl }}/images/TRAINING.jpg)
+
+<small>Conducting a training with ACAI. This was the hands-on component.</small>
+
 ## Community involvement
 
 At UNHCR Innovation, we try as hard as possible to keep refugees at the center of our work. That means that for pilots and projects we try to get as much feedback from refugees as we can. Before the implementation of the project, we sat down with four refugees to engage in a conversation about communication with organizations like UNHCR. We've anonymized the interviews and posted our notes for your [viewing](https://docs.google.com/document/d/1bMDeYQ0fI1IrIPhDY2ofc4iKdH96ln03KL-8HOw5nY4/edit). In short, some key takeaways were:
