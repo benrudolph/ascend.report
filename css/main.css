@@ -89,6 +89,12 @@ a         { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
 
+small {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .header {
   background-image: url('{{ site.baseurl }}/images/background.jpg');
   background-repeat: no-repeat;
