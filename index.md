@@ -93,6 +93,7 @@ When done correctly, M&E allows us to iterate on our solution. Without it we are
 | % of refugees interested in using SMS to communicate with UNHCR | This is to measure the population of concern's interest in the project |
 | # of refugees participating in the pilot | To determine growth of system. |
 | % of refugees who actively send messages to UNHCR staff | To measure the population of concern's engagement with the system |
+| % of refugees who respond to a poll sent by UNHCR staff | To measure the effectiveness of questions asked in polls |
 
 {% include acai.html %}
 
@@ -165,7 +166,7 @@ You can view our more detailed version here. This also includes a few guidelines
 
 After a pilot that began in January 2014 and came to a close in September 2014, what did these nine months teach us. I first went back and looked at the [questions](/#choosing-to-prototype) we set out to answer.
 
-Did we find out ways to best utilize SMS to connect with refugees? For this, I'd say yes. We learned about different roles an SMS system can play. Will it mainly be used for polling, broadcast messages, answering individual queries or all three? SMS can go a long way to educating asylum seekers and refugees about their rights and opportunities.
+Did we find out ways to best utilize SMS to connect with refugees? Of course there's always more to learn, but I would still answer yes. We learned about different roles an SMS system can play. Will it mainly be used for polling, broadcast messages, answering individual queries or all three? SMS can go a long way to educating asylum seekers and refugees about their rights and opportunities.
 
 Did we find out ways to embed an SMS into an organization? By conducting as many trainings as possible and setting up a guideline for usage within an organization, we were able to establish a lasting and sustainable impact on the Costa Rica operation.
 

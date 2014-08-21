@@ -1,7 +1,8 @@
 <div id="acai-messages" style="height: 300px"></div>
-<small> hello caption </small>
+<small>At the beginning, ACAI sent more broadcast messages which is why you see the spike in messages toward the beginning. Later, they found it more useful to send messages to smaller groups and on an individual basis</small>
+<hr />
 <div id="unhcr-messages" style="height: 300px"></div>
-<small> hello  caption</small>
+<small>UNHCR setup a weekly messaging program to send broad cast messages to their contacts. This is why there is a steady stream of messages throughout the pilot. The dip is due to holidays in Costa Rica.</small>
 
 <script>
   var data = [
@@ -60,14 +61,22 @@
   ];
   new Chartkick.LineChart("acai-messages", data,
     {
-      library: { backgroundColor: '#f9f9f9' },
+      library: {
+        backgroundColor: '#f9f9f9',
+        title: 'ACAI messages sent vs. contacts in database',
+        legend: 'bottom'
+      },
       adapter: 'google'
 
     });
 
   new Chartkick.LineChart("unhcr-messages", dataUNHCR,
     {
-      library: { backgroundColor: '#f9f9f9' },
+      library: {
+        backgroundColor: '#f9f9f9',
+        title: 'UNHCR messages sent vs. contacts in database',
+        legend: 'bottom'
+      },
       adapter: 'google'
 
     });
