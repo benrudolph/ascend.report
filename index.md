@@ -5,13 +5,13 @@ title: Ascend
 
 ## Introduction
 
-SMS as a tool for humanitarian aid is becoming an increasingly common tool. UNHCR Innovation recently piloted an SMS system in two UNHCR operations: Esmeraldas, Ecuador and San Jose, Costa Rica. Along the way we made a few blunders and also did a few things right. We wanted to share our experiences piloting FrontlineCloud in San Jose, Costa Rica so that you could learn from us.
+SMS as a tool for humanitarian aid is becoming an increasingly common tool. UNHCR Innovation recently piloted an SMS system in two UNHCR operations: Esmeraldas, Ecuador and San José, Costa Rica. Along the way we made a few blunders and also did a few things right. We wanted to share our experiences piloting FrontlineCloud in San José, Costa Rica so that you could learn from us.
 
 The project, named Ascend, began as a collaboration between Stanford University and UNHCR Innovation. The two institutions developed a class called “Rethinking Refugee Communities.” From this, Ascend was born out of a student group with the initial intention of tackling early camp registration by using mobile phone devices. The course took the students through the design process: research, challenge definition, ideation and prototyping. Along the way, UNHCR Innovation colleagues were in contact with the students to provide feedback.
 
 About six months after the course ended, Ascend iterated based on needs and limitations discovered in a need-finding trip to Ethiopia. Ascend shifted from a tool to help registration to general purpose messaging. A few key takeaways were observed: one, the need for message classification to handle a large number of inbound SMS (think Gmail classifying messages as priority or not priority); two, the ability to have a feature rich application to conduct polls and surveys via SMS; three, a focus on visualizing the data received and report generation in order to convey effectiveness to potential donors.
 
-By the end of 2013, the Ascend group was adopted into UNHCR Innovation where the project would continue and have better access to piloting locations. The decision was made to use FrontlineCloud as a prototype with the goal of better understanding SMS in humanitarian contexts. The first pilot was conducted, as mentioned, in Esmeraldas, Ecuador. In April 2014, FrontlineCloud was piloted in San Jose, Costa Rica. The following is an account of the process we went through to pilot FrontlineCloud in San Jose.
+By the end of 2013, the Ascend group was adopted into UNHCR Innovation where the project would continue and have better access to piloting locations. The decision was made to use FrontlineCloud as a prototype with the goal of better understanding SMS in humanitarian contexts. The first pilot was conducted, as mentioned, in Esmeraldas, Ecuador. In April 2014, FrontlineCloud was piloted in San José, Costa Rica. The following is an account of the process we went through to pilot FrontlineCloud in San José.
 
 
 ## Choosing to prototype
@@ -26,7 +26,7 @@ These questions arose from gaps and assumptions we made when conceptualizing the
 
 ## Identifying a location
 
-The location and population you test on can greatly impact the results of your pilot. We found it important to understand the biases that Costa Rica would bring to our results. There were multiple reasons for choosing San Jose.
+The location and population you test on can greatly impact the results of your pilot. We found it important to understand the biases that Costa Rica would bring to our results. There were multiple reasons for choosing San José.
 
 *	Interest from “the field” – At UNHCR, headquarters is known for implementing new projects on already overworked field staff. In the case of Costa Rica, we received a request from their office to pilot the SMS program.  With both headquarters and the field operation committed to working on the project, we believed the pilot would have a much higher probably of success.
 *	Stability within the region – While no refugee situation is truly stable, it is fair to say the refugee situation in Costa Rica is less turbulent than a place like Lebanon. In extreme emergency situations such as Lebanon, things like providing food, water and shelter are rightly prioritized over an SMS pilot.
@@ -76,7 +76,7 @@ At UNHCR Innovation, we try as hard as possible to keep refugees at the center o
 * SMS uses - By and large, most of the interviewees wanted more information on activities and opportunities that were available to them. In addition, some thought it would be a good way to ask questions to UNHCR, ACAI or Aprode.
 * Challenges faced - The biggest challenges for the refugees upon arrival was surviving in a context they were not used to. In a similar vein, they also found it very difficult to find jobs.
 
-From these interviews we were able to begin formulating ways to address the challenges presented by the refugees. At the end of the monitoring and evaluation phase, we again got in contact with the same refugees to get their opinion on the program. These interviews were conducted over the phone and can be viewed here. The responses were overwhelmingly positive which is a huge success for the pilot as a whole.
+From these interviews we were able to begin formulating ways to address the challenges presented by the refugees. At the end of the monitoring and evaluation phase, we again got in contact with the same refugees to get their opinion on the program. These interviews were conducted over the phone and can be viewed [here](https://docs.google.com/document/d/1-5v-UI1kdsaQiAjk2EUTT21DXQKpPQV9Z6IT1teRTlA/edit). The responses were overwhelmingly positive which is a huge success for the pilot as a whole.
 
 {% include interviews.html %}
 
@@ -89,9 +89,9 @@ When done correctly, M&E allows us to iterate on our solution. Without it we are
 | Indicator | Purpose |
 | -------- | -------- |
 | # of messages sent per week | This is to measure organization's engagement with SMS system   |
-| % of PoC interested in using SMS to communicate with UNHCR | This is to measure the population of concern's interest in the project |
-| # of PoC participating in the pilot | To determine growth of system. |
-| % of PoC who actively send messages to UNHCR staff | To measure the population of concern's engagement with the system |
+| % of refugees interested in using SMS to communicate with UNHCR | This is to measure the population of concern's interest in the project |
+| # of refugees participating in the pilot | To determine growth of system. |
+| % of refugees who actively send messages to UNHCR staff | To measure the population of concern's engagement with the system |
 
 {% include acai.html %}
 
@@ -120,7 +120,7 @@ Initially we had started the pilot with a prepared list of contacts to message. 
 
 ![SMS poster for Costa Rica](/images/SMS-COSTARICA-POSTERS.png)
 
-Above are an example of the posters we distributed during the pilot.
+{% include poster_caption.html %}
 
 *Invalid or unused phone numbers*
 
@@ -160,8 +160,20 @@ We soon discovered there needed to be a human system in place for each organizat
 
 You can view our more detailed version here. This also includes a few guidelines on the types of messages that should and should not be sent.
 
-## Conclusions
+## Conclusion
 
-???
+After a pilot that began in January 2014 and came to a close in September 2014, what did these nine months teach us. I first went back and looked at the [questions](/#choosing-to-prototype) we set out to answer.
+
+Did we find out ways to best utilize SMS to connect with refugees? For this, I'd say yes. We learned about different roles an SMS system can play. Will it mainly be used for polling, broadcast messages, answering individual queries or all three? SMS can go a long way to educating asylum seekers and refugees about their rights and opportunities.
+
+Did we find out ways to embed an SMS into an organization? By conducting as many trainings as possible and setting up a guideline for usage within an organization, we were able to establish a lasting and sustainable impact on the Costa Rica operation.
+
+Did we find out what staff need in an SMS application? After becoming deeply familiar with FrontlineCloud, I've developed lots of areas where the SMS applications could be improved. From this pilot, we can now make recommendations for the requirements that a UNHCR SMS system would have.
+
+There were many bumps along the road and not everything worked out as planned, but I'd undoubtedly say the pilot was a success. The Costa Rica UNHCR operation is now planning on setting up FrontlineCloud with two other refugee organizations in San José, after receiving requests to do so. Most importantly, the feedback from refugees was extremely positive and indicates that this should be a part of more operations.
+
+The next steps for us would be to move UNHCR to adopting a common SMS system that is deployed in each operation. Currently, UNHCR has a SMS system randomly spattered across the globe. This has a lot to do with the level of technical capacity that a specific country office has. In fact, there exists a giant spreadsheet of all the different SMS systems that UNHCR is using. Moving forward, it would be ideal to have a deploy kit that UNHCR can use to setup SMS.
+
+As often as possible, UNHCR Innovation tries to be as transparent as possible. Please feel free to leave any feedback or questions!
 
 {% include comment_template.html %}
