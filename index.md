@@ -68,6 +68,19 @@ Even after months of preparation, the ability to improvise on the ground is almo
 
 {% include gantt.html %}
 
+
+## Community involvement
+
+At UNHCR Innovation, we try as hard as possible to keep refugees at the center of our work. That means that for pilots and projects we try to get as much feedback from refugees as we can. Before the implementation of the project, we sat down with four refugees to engage in a conversation about communication with organizations like UNHCR. We've anonymized the interviews and posted our notes for your [viewing](https://docs.google.com/document/d/1bMDeYQ0fI1IrIPhDY2ofc4iKdH96ln03KL-8HOw5nY4/edit). In short, some key takeaways were:
+
+* Phone presence - Most of the interviewees had phones and used them, though some only used it for family matters. Many cited it as a good means of reaching them. There were also a couple who said it was better to call rather than send an SMS.
+* SMS uses - By and large, most of the interviewees wanted more information on activities and opportunities that were available to them. In addition, some thought it would be a good way to ask questions to UNHCR, ACAI or Aprode.
+* Challenges faced - The biggest challenges for the refugees upon arrival was surviving in a context they were not used to. In a similar vein, they also found it very difficult to find jobs.
+
+From these interviews we were able to begin formulating ways to address the challenges presented by the refugees. At the end of the monitoring and evaluation phase, we again got in contact with the same refugees to get their opinion on the program. These interviews were conducted over the phone and can be viewed here. The responses were overwhelmingly positive which is a huge success for the pilot as a whole.
+
+{% include interviews.html %}
+
 ## Followup and Monitoring
 
 Now that FrontlineCloud had been installed and trainings had been conducted, the monitoring and evaluation plan (M&E) that was setup upon arrival and then reviewed before the end of the pilot became essential. I would argue this is one of the most important part of running a pilot.
