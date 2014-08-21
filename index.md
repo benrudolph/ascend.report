@@ -160,7 +160,7 @@ We soon discovered there needed to be a human system in place for each organizat
 * Daily messenger - This person handled all the messages that were sent in to the system on an individual basis.
 * Supervisor - The supervisor was in charge of giving the final check on the broadcast messages that were sent.
 
-You can view our more detailed version here. This also includes a few guidelines on the types of messages that should and should not be sent.
+You can view our more detailed version [here](https://docs.google.com/document/d/14C5gVPdaXYDcRy6uoHMVeJlnFavVHKuHurwKriIJDoI/edit). This also includes a few guidelines on the types of messages that should and should not be sent.
 
 ## Conclusion
 
