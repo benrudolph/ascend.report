@@ -81,6 +81,10 @@ li {
   margin-left: 20px;
 }
 
+img {
+  width: 100%;
+}
+
 a         { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
@@ -107,6 +111,16 @@ a:visited { color: #a0a; }
   font-size: 72px;
 }
 
+.as-info {
+
+  font-family: 'Lato' 'Helvetica Neue';
+  padding: 20px;
+
+}
+.as-info p {
+  font-size: 14px;
+  line-height: 20px;
+}
 
 .as-sidebar {
   margin-top: 20px;
