@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Ascend
+comments: True
 ---
 
 ## Introduction
@@ -176,4 +177,4 @@ The next steps for us would be to move UNHCR to adopting a common SMS system tha
 
 As often as possible, UNHCR Innovation tries to be as transparent as possible. Please feel free to leave any feedback or questions!
 
-{% include comment_template.html %}
+{% include comments.html %}
