@@ -97,6 +97,10 @@
           var $header = $('.header');
           //$header.css('height', $(window).height())
           $header.css('width', $(window).width())
+          $(window).on('resize', function() {
+
+            $header.css('width', $(window).width())
+          })
 
           $('table').addClass('table')
 
