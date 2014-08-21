@@ -118,7 +118,7 @@ A host of issues with the software became apparent when working with FrontlineCl
 
 Initially we had started the pilot with a prepared list of contacts to message. Sending the blast welcome message explaining the project elicited many responses saying, “Who is this?” or “Why am I receiving this?” After interviewing refugees we began to see a pattern. People were hesitant to trust a message from an unknown number. We ended up tackling this issue by first advertising the number in UNHCR and the other NGOs so that people would become familiar with the program and expect to receive messages. In addition to that, we setup boxes where people could drop their contact information and we would then add that phone number to the Frontline database. In this way we increased trust in and awareness for the program.
 
-![SMS poster for Costa Rica](/images/SMS-COSTARICA-POSTERS.png)
+![SMS poster for Costa Rica]({{ site.baseurl }}/images/SMS-COSTARICA-POSTERS.png)
 
 {% include poster_caption.html %}
 
