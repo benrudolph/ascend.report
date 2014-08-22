@@ -137,17 +137,17 @@ Currently, there is no functionality in FrontlineCloud that enables you to deter
 
 {% include phone_breakdown.html %}
 
-Looking at the above chart it is easy to see that 20 out of 50 contacts in the sample needed to be updated or a full 40% of the contacts were out of date. This gave us an indication that the excel contact database badly needed to be updated or we'd miss 40% of potential recipients. After this discovery, UNHCR worked with ACAI to update all 670 contacts. The database is now much more complete and better formatted.
+Looking at the above chart it is easy to see that 20 out of 50 contacts need to be updated - a full 40% of the contacts were out of date. This gave us an indication that the excel contact database badly needed to be updated or we could miss 40% of potential recipients. After this discovery, UNHCR worked with ACAI to update all 670 contacts. The database is now much more complete and better formatted.
 
 {% include stat_significance.html %}
 
 *Consistent SMS programming*
 
-One strategy that worked well for UNHCR was setting up a consistent messaging program. Every week UNHCR would send out some sort of asylum related fact or interesting event that was happening. This became a way for UNHCR to engage with its users on a weekly basis and received many positive responses from the receivers.
+One strategy that worked well for UNHCR was setting up a consistent messaging program. Every week UNHCR would send out some sort of asylum related fact or interesting event that was happening. This became a way for UNHCR to engage with its users on a weekly basis, and they garnered many positive responses from the receivers.
 
 *Two-way communication*
 
-At ACAI, we planned to send many broadcast messages and polls to their entire contact database. After a few weeks, ACAI found that it was more useful to use the system to communicate on the individual level. This why you'll notice the dip in messages sent by ACAI after the beginning weeks of the pilot.
+At ACAI, we planned to send many broadcast messages and polls to their entire contact database. After a few weeks, ACAI found that it was more useful to use the system to communicate on an individual level. This why you'll notice the dip in messages sent by ACAI after the beginning weeks of the pilot.
 
 *Institutional knowledge of the system*
 
