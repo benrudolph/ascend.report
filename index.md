@@ -31,7 +31,7 @@ The location and population you test on can greatly impact the results of your p
 
 *	Interest from “the field” – At UNHCR, headquarters is known for implementing new projects on already overworked field staff. In the case of Costa Rica, we received a request from their office to pilot the SMS program.  With both headquarters and the field operation committed to working on the project, we believed the pilot would have a much higher probably of success.
 *	Stability within the region – While no refugee situation is truly stable, it is fair to say the refugee situation in Costa Rica is less turbulent than a place like Lebanon. In extreme emergency situations such as Lebanon, things like providing food, water and shelter are rightly prioritized over an SMS pilot.
-*	Mobile phone precedence – Not all UNHCR operations deal with a population that have mobile phones or even cell signal to send messages. In some areas, the literacy rate isn’t high enough for it to make sense to use SMS as a tool of communication. However, Costa Rica ended up being an ideal operation where both literacy rates and cellphone usage were quite high.*
+*	Mobile phone precedence – Not all UNHCR operations deal with a population that have mobile phones or even cell signal to send messages. In some areas, the literacy rate isn’t high enough for it to make sense to use SMS as a tool of communication. However, Costa Rica ended up being an ideal operation where both literacy rates and cellphone usage were quite high.[^1]
 
 While it isn’t always the best to prototype in an ideal location, for our purposes we thought it would be the best way to discover how to effectively use SMS. We made the bet that more and more locations will have higher literacy rate and mobile phone penetration as time goes on rather than less. In this way, we hope that more operations will be similar Costa Rica in the future.
 
@@ -184,3 +184,5 @@ The next steps for us would be to move UNHCR to adopting a common SMS system tha
 As often as possible, UNHCR Innovation tries to be as transparent as possible. Please feel free to leave any feedback or questions!
 
 {% include comments.html %}
+
+[^1]: Cell phone subscriptions per 100 inhabitants in [Costa Rica and Colombia](http://www.google.com/publicdata/explore?ds=emi9ik86jcuic_&ctype=l&strail=false&bcs=d&nselm=h&met_y=i911&scale_y=lin&ind_y=false&rdim=country&idim=country:CR:CO&ifdim=country&hl=en_US&dl=en&ind=false&icfg)

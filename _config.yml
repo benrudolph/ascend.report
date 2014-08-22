@@ -1,6 +1,6 @@
 name: Your New Jekyll Site
 markdown: redcarpet
 redcarpet:
-  extensions: [with_toc_data, tables]
+  extensions: [with_toc_data, tables, footnotes]
 highlighter: true
 baseurl: /ascend.report
