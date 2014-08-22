@@ -1,0 +1,48 @@
+<div id="phone-breakdown"></div>
+<p>
+After looking at the reasons for not answering the poll, the next question was to ask how does this reflect the current contact database? We put the categories into three different groups. Group one (Yes) would signify that the phone number would need to be updated; group 2 (Maybe) would signify that the phone number might need to be updated; group 3 (No) would signify that the phone number did not need to be updated.
+</p>
+<div id="phone-breakdown-2"></div>
+<script>
+  google.setOnLoadCallback(drawChart);
+  google.load("visualization", "1", {packages:["corechart"]});
+
+  var phonedata = [
+    ['No longer in use', 17],
+    ['Answered phone call but did not reply to poll', 11],
+    ['Sent directly to voicemail', 8],
+    ['Replied to poll', 7],
+    ['Did not answer the phone', 4],
+    ['Wrong numbers', 2],
+    ['Malformatted phone number', 1]
+    ]
+
+  new Chartkick.ColumnChart("phone-breakdown", phonedata, {
+    library: {
+      backgroundColor: '#f9f9f9',
+      title: 'Causes for invalid phone numbers',
+      height: '450'
+    },
+    adapter: 'google'
+
+  });
+
+  function drawChart() {
+    var phonedata2 = google.visualization.arrayToDataTable([
+      ['Reason', 'Count', { role: 'style' }, { role: 'annotation' }],
+      ['Yes', 20, '#2ecc71', '20 / 50'],
+      ['Maybe', 8, '#f1c40f', '8 / 50'],
+      ['No', 22, '#e74c3c', '22 / 50'],
+    ]);
+    var phoneopts = {
+      title: 'Does the phone number need to be updated?',
+      backgroundColor: '#f9f9f9',
+      height: '400',
+      bar: {groupWidth: "25%"},
+      legend: { position: 'none' }
+    }
+
+    var chart = new google.visualization.BarChart(document.getElementById('phone-breakdown-2'));
+    chart.draw(phonedata2, phoneopts);
+  }
+</script>

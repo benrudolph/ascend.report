@@ -52,6 +52,9 @@ A champion is someone within the organization where you will be piloting that is
 
 Early on with Costa Rica we identified our champion, Valentina Duque. Valentina had been involved in our Innovation fellowship program and proved to be an excellent champion. She was instrumental in coordinating the implementation, getting key stakeholders involved and ensuring followup from various other organizations.
 
+![Valentina Duque]({{ site.baseurl }}/images/VALENTINA.jpg)
+<small>Valentina helping out during a training with Aprode</small>
+
 ### Preparation tasks
 
 Depending on the pilot, there’ll be a varying number of tasks that need to be completed before the pilot takes place. When I first began piloting projects, I had the tendency to offload all of the work from the operation onto myself in order to save the operation some time and effort. I’d advise against this for two reasons. One, if the operation is unable to complete a few tasks before the pilot because of time constraints, then this often indicates that the operation does not have the capacity to take on this pilot. Two, when the documents come from the operation, I’ve found that there is more ownership over the pilot and thus there is a greater effort to make the pilot succeed. We worked with the Costa Rica operation to complete these tasks before the pilot began:
@@ -122,7 +125,7 @@ A host of issues with the software became apparent when working with FrontlineCl
 
 *Trust Building*
 
-Initially we had started the pilot with a prepared list of contacts to message. Sending the blast welcome message explaining the project elicited many responses saying, “Who is this?” or “Why am I receiving this?” After interviewing refugees we began to see a pattern. People were hesitant to trust a message from an unknown number. We ended up tackling this issue by first advertising the number in UNHCR and the other NGOs so that people would become familiar with the program and expect to receive messages. In addition to that, we setup boxes where people could drop their contact information and we would then add that phone number to the Frontline database. In this way we increased trust in and awareness for the program.
+Initially we had started the pilot with a prepared list of contacts to message. Sending the blast welcome message explaining the project elicited many responses saying, “Who is this?” or “Why am I receiving this?” After interviewing refugees we began to see a pattern. People were hesitant to trust a message from an unknown number. We ended up tackling this issue by first advertising the number in UNHCR and the other NGOs so that people would become familiar with the program and expect to receive messages. In addition to that, we setup boxes where people could drop their contact information and we would then add that phone number to the FrontlineCloud database. In this way we increased trust in and awareness for the program.
 
 ![SMS poster for Costa Rica]({{ site.baseurl }}/images/SMS-COSTARICA-POSTERS.png)
 
@@ -130,15 +133,13 @@ Initially we had started the pilot with a prepared list of contacts to message. 
 
 *Invalid or unused phone numbers*
 
-Currently, there is no functionality in FrontlineCloud that enables you to determine whether a phone number you just messaged is inactive. This ended up being an issue since the contact databases were well-known to be out of date. Therefore, the only people we could assume received the SMS are those that responded. In fact, to get a better estimate of the number invalid phone numbers in use, one of the UNHCR workers did a small case study on the existing contacts.
+Currently, there is no functionality in FrontlineCloud that enables you to determine whether a phone number you just messaged is inactive. This ended up being an issue since the contact databases were well-known to be out of date. Therefore, the only people we could assume received the SMS are those that responded. In fact, to get a better estimate of the number invalid phone numbers in use, one of the UNHCR workers did a small case study on the existing contacts. UNHCR sent out a poll to 50 random contacts. Here is the breakdown of the 50 contacts:
 
-(talk about the 50 phones called).
+{% include phone_breakdown.html %}
 
-After this discovery, UNHCR worked with ACAI to update the database.
+Looking at the above chart it is easy to see that 20 out of 50 contacts in the sample needed to be updated or a full 40% of the contacts were out of date. This gave us an indication that the excel contact database badly needed to be updated or we'd miss 40% of potential recipients. After this discovery, UNHCR worked with ACAI to update all 670 contacts. The database is now much more complete and better formatted.
 
-*Number of contacts*
-
-[to be filled in]
+{% include stat_significance.html %}
 
 *Consistent SMS programming*
 
@@ -150,7 +151,7 @@ At ACAI, we planned to send many broadcast messages and polls to their entire co
 
 *Institutional knowledge of the system*
 
-A very difficult part of running a pilot is embedding the system knowledge within the organization. We accomplished this through establishing a champion for the project who would be able to carry on the project after UNHCR Innovation had left. In addition to this, we ran as many trainings as possible with UNHCR, ACAI and Aprode. We had two sets of trainings. The first was a brief overview of the system designed for those who wouldn’t be directly interacting with the system. It lasted for an hour. The second part was more in depth with hands-on practice, geared to those who would be using Frontline.
+A very difficult part of running a pilot is embedding the system knowledge within the organization. We accomplished this through establishing a champion for the project who would be able to carry on the project after UNHCR Innovation had left. In addition to this, we ran as many trainings as possible with UNHCR, ACAI and Aprode. We had two sets of trainings. The first was a brief overview of the system designed for those who wouldn’t be directly interacting with the system. It lasted for an hour. The second part was more in depth with hands-on practice, geared to those who would be using FrontlineCloud.
 
 *Time of sending the messages*
 
