@@ -44,7 +44,7 @@ The first stage of any of our innovation projects revolves around ensuring that 
 *	Participatory Assessments – In a few months time, UNHCR Costa Rica would be conducting Participatory Assessments, which are surveys that UNHCR gives to refugees to evaluate different aspects of the operation. We planned to use SMS as a way to notify and remind people to complete the assessment.
 *	Microcredit Program – The last program we’d tackle was a Microcredit program established by an organization called Aprode. Aprode gives out small loans incrementally to refugees as well as other Costa Ricans to start businesses. Throughout the process though, it’s important for Aprode to maintain contact with the people they’ve lent money to in order to assess whether they would need more assistance or potentially need more money.
 
-We concretely designed our scope for the pilot so that we’d have clear areas we could focus on during the arrival. No matter the preparation though, we learned that the scope often grows as we respond to real world contexts.
+We concretely designed the scope for the pilot so that we’d have clear areas we could focus on. No matter the preparation though, we learned that the scope often grows as we respond to real world contexts.
 
 ### Choosing a champion
 
@@ -85,6 +85,7 @@ At UNHCR Innovation, we try as hard as possible to keep refugees at the center o
 * Challenges faced - The biggest challenges for the refugees upon arrival was surviving in a context they were not used to. In a similar vein, they also found it very difficult to find jobs.
 
 From these interviews we were able to begin formulating ways to address the challenges presented by the refugees. At the end of the monitoring and evaluation phase, we again got in contact with the same refugees to get their opinion on the program. These interviews were conducted over the phone and can be viewed [here](https://docs.google.com/document/d/1-5v-UI1kdsaQiAjk2EUTT21DXQKpPQV9Z6IT1teRTlA/edit). The responses were overwhelmingly positive which is a huge success for the pilot as a whole.
+
 
 {% include interviews.html %}
 
@@ -144,6 +145,10 @@ Looking at the above chart it is easy to see that 20 out of 50 contacts need to 
 *Consistent SMS programming*
 
 One strategy that worked well for UNHCR was setting up a consistent messaging program. Every week UNHCR would send out some sort of asylum related fact or interesting event that was happening. This became a way for UNHCR to engage with its users on a weekly basis, and they garnered many positive responses from the receivers.
+
+Here are a few sample SMS sent by UNHCR and ACAI:
+
+{% include sms.html %}
 
 *Two-way communication*
 
