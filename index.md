@@ -50,7 +50,7 @@ We concretely designed the scope for the pilot so that we’d have clear areas w
 
 A champion is someone within the organization where you will be piloting that is enthusiastic and a strong supporter of the project. This person often pushes the project and ensures that it succeeds.  For many reasons identifying a champion is critical for the success of the pilot. I cannot stress enough how essential this aspect is to embedding a project within an institution.
 
-Early on with Costa Rica we identified our champion, Valentina Duque. Valentina had been involved in our Innovation fellowship program and proved to be an excellent champion. She was instrumental in coordinating the implementation, getting key stakeholders involved and ensuring followup from various other organizations.
+Early on with Costa Rica we identified our champion, Valentina Duque. Valentina had been involved in our Innovation fellowship program and proved to be an excellent champion. She was instrumental in coordinating the implementation, getting key stakeholders involved and ensuring follow up from various other organizations.
 
 ![Valentina Duque]({{ site.baseurl }}/images/VALENTINA.jpg)
 <small>Valentina helping out during a training with Aprode</small>
@@ -89,7 +89,7 @@ From these interviews we were able to begin formulating ways to address the chal
 
 {% include interviews.html %}
 
-## Followup and Monitoring
+## Follow up and Monitoring
 
 Now that FrontlineCloud had been installed and trainings had been conducted, the monitoring and evaluation plan (M&E) that was setup upon arrival and then reviewed before the end of the pilot became essential. I would argue this is one of the most important parts of running a pilot.
 
