@@ -19,45 +19,45 @@ By the end of 2013, the Ascend group was adopted into UNHCR Innovation where the
 
 Before any plans and preparations were made, we asked ourselves, “What do we hope to achieve with this prototype?” This framed our pilot with specific objectives. The goals for this particular pilot were:
 
-1.	How do we best utilize SMS to connect with an urban refugee population
+1.	How do we best utilize SMS to connect with a refugees residing in an urban area?
 2.	How do we embed a new tool like SMS in organizations to be sustainable, even after the pilot is over?
 3.	What types of utilities does an SMS application need to appropriately handle the desires of UNHCR and NGO staff?
 
-These questions arose from gaps and assumptions we made when conceptualizing the SMS system as well as from the previous pilot in Esmeraldas, Ecuador. With our priorities set, we could now start to frame the pilot to answer these questions.  Based on these goals, we chose to pilot FrontlineCloud. FrontlineCloud was an off the shelf solution for SMS that would easily let us answer these questions without having to invest vast amounts of time and resources into building our own system only to find out later that SMS perhaps wasn’t an ideal tool for urban refugees.
+These questions arose from gaps and assumptions we made when conceptualizing the SMS system as well as from the previous pilot in Esmeraldas, Ecuador. With our priorities set, we could now start to frame the pilot to answer these questions.  Based on these goals, we chose to pilot FrontlineCloud. FrontlineCloud was an off the shelf solution for SMS that would easily let us answer these questions without having to invest vast amounts of time and resources into building our own system only to find out later that SMS perhaps wasn’t an ideal tool for refugees in an urban context.
 
 ## Identifying a location
 
 The location and type of population you test can greatly impact the results of your pilot. We found it important to understand the biases that Costa Rica would bring to our results. There were multiple reasons for choosing San José.
 
-*	Interest from “the field” – At UNHCR, headquarters is known for implementing new projects on already overworked field staff. In the case of Costa Rica, we received a request from their office to pilot the SMS program.  With both headquarters and the field operation committed to working on the project, we believed the pilot would have a much higher probability of success.
-*	Stability within the region – While no refugee situation is truly stable, it is fair to say the refugee situation in Costa Rica is less turbulent than a place like Lebanon. In extreme emergency situations such as Lebanon, things like providing food, water and shelter are rightly prioritized over an SMS pilot.
-*	Mobile phone precedence – Not all UNHCR operations deal with a population that have mobile phones or even cell signal to send messages. In some areas, the literacy rate isn’t high enough for it to make sense to use SMS as a tool of communication. However, Costa Rica ended up being an ideal operation where both literacy rates and cellphone usage were quite high.[^1]
+*	Interest from “the field” – At UNHCR, headquarters is known for implementing new projects on already overworked field staff. In the case of Costa Rica, we received a request from their office to pilot the SMS program.  With both headquarters and the field operation committed to working on the project, we believed the pilot would have a high probability of success.
+*	Stability within the region – while no refugee situation is truly stable, it is fair to say the refugee situation in Costa Rica is less turbulent than a place like Lebanon. In extreme emergency situations such as in Lebanon, where many other things are rightly prioritized over an SMS pilot.
+*	Mobile phone precedence – not all UNHCR operations work with populations that have mobile phones or even cell signal to send messages. In some areas, the literacy rate isn’t high enough for it to make sense to use SMS as a tool of communication. However, Costa Rica ended up being an ideal operation where both literacy rates and cellphone usage were quite high.[^1]
 
-While it isn’t always the best to prototype in an ideal location, for our purposes we thought it would be the best way to discover how to effectively use SMS. We made the bet that more and more locations will have higher literacy rate and mobile phone penetration as time goes on rather than less. In this way, we hope that more operations will be similar to Costa Rica in the future.
+While it isn’t always the best option to prototype in an ideal location, for our purposes we thought it would be the most appropriate way to discover how to effectively use SMS. We assumed that more and more locations will have higher literacy rate and mobile phone penetration as time goes on rather than less.
 
 ## Preparation
 
-The first stage of any of our innovation projects revolves around ensuring that the need for that project actually exists. This was done in Costa Rica through focus groups and discussions with UNHCR and NGO staff. Through these methods we decided to focus on three areas that SMS could immediately impact. This helped us define the scope of the project and where we’d focus our efforts. We identified these areas:
+One of the first stages of any of our innovation projects revolves around ensuring that the need for that project actually exists. This was done in Costa Rica through focus groups and discussions with UNHCR and NGO staff. Through these methods we decided to focus on three areas that SMS could immediately impact. This helped us define the scope of the project and where we’d focus our efforts. We identified these areas:
 
 
-*	Job opportunity alerts – One of the NGOs we were working with, ACAI, has a job placement program. Currently they were having difficulty notifying refugees of the new jobs that were available. SMS could easily provide a way to notify the relevant population, especially since ACAI had a database of phone numbers that they’d like to contact.
-*	Participatory Assessments – In a few months time, UNHCR Costa Rica would be conducting Participatory Assessments, which are surveys that UNHCR gives to refugees to evaluate different aspects of the operation. We planned to use SMS as a way to notify and remind people to complete the assessment.
-*	Microcredit Program – The last program we’d tackle was a Microcredit program established by an organization called Aprode. Aprode gives out small loans incrementally to refugees as well as other Costa Ricans to start businesses. Throughout the process though, it’s important for Aprode to maintain contact with the people they’ve lent money to in order to assess whether they would need more assistance or potentially need more money.
+*	Job opportunity alerts – one of the NGOs we were working with, ACAI, has a job placement program. Currently they were having difficulty notifying refugees of the new jobs that were available. SMS could easily provide a way to notify the relevant population, especially since ACAI had a database of phone numbers that they’d like to contact.
+*	Participatory Assessments – in a few months time, UNHCR Costa Rica would be conducting Participatory Assessments, which are surveys that UNHCR gives to refugees to evaluate different aspects of the operation. We planned to use SMS as a way to notify and remind people to complete the assessment.
+*	Microcredit Program – the last program we’d tackle was a Microcredit program established by an organization called Aprode. Aprode gives out small loans incrementally to refugees as well as other Costa Ricans to start businesses. Throughout the process though, it’s important for Aprode to maintain contact with the people they’ve lent money to in order to assess whether they would need more assistance or potentially need more money.
 
-We concretely designed the scope for the pilot so that we’d have clear areas we could focus on. No matter the preparation though, we learned that the scope often grows as we respond to real world contexts.
+We concretely designed the scope for the pilot so that we’d have clear areas we could focus on. No matter the preparation though, we learned that the scope often grows as we're responding to real world contexts.
 
 ### Choosing a champion
 
-A champion is someone within the organization where you will be piloting that is enthusiastic and a strong supporter of the project. This person often pushes the project and ensures that it succeeds.  For many reasons identifying a champion is critical for the success of the pilot. I cannot stress enough how essential this aspect is to embedding a project within an institution.
+A champion is someone within the organization where you will be piloting that is enthusiastic and a strong supporter of the project. This person often pushes the project and ensures that it succeeds.  For many reasons identifying a champion is critical for the success of the pilot.
 
-Early on with Costa Rica we identified our champion, Valentina Duque. Valentina had been involved in our Innovation fellowship program and proved to be an excellent champion. She was instrumental in coordinating the implementation, getting key stakeholders involved and ensuring follow up from various other organizations.
+Early on with Costa Rica we identified our champion, Valentina Duque. Valentina had been involved in our Innovation [fellowship program](http://www.unhcrifellows.org/) and proved to be an excellent champion. She was instrumental in coordinating the implementation, getting key stakeholders involved and ensuring follow up from various other organizations.
 
 ![Valentina Duque]({{ site.baseurl }}/images/VALENTINA.jpg)
 <small>Valentina helping out during a training with Aprode</small>
 
 ### Preparation tasks
 
-Depending on the pilot, there’ll be a varying number of tasks that need to be completed before the pilot takes place. When I first began piloting projects, I had the tendency to offload all of the work from the operation onto myself in order to save the operation some time and effort. I’d advise against this for two reasons. One, if the operation is unable to complete a few tasks before the pilot because of time constraints, then this often indicates that the operation does not have the capacity to take on this pilot. Two, when the documents come from the operation, I’ve found that there is more ownership over the pilot and thus there is a greater effort to make the pilot succeed. We worked with the Costa Rica operation to complete these tasks before the pilot began:
+Depending on the pilot, there’ll be a varying number of tasks that need to be completed before the pilot takes place. We had the tendency to offload all of the work from the operation onto ourselves in order to save the operation some time and effort. For a couple reasons, the opposite could be beneficial. One, if the operation is unable to complete a few tasks before the pilot because of time constraints, then this often indicates that the operation does not have the capacity to take on this pilot. Two, when the documents come from the operation, there is more ownership over the pilot and thus there is a greater effort to make the pilot succeed. We worked with the Costa Rica operation to complete these tasks before the pilot began:
 
 *	Contact database development - This comprised of aggregating the disparate sources of phone numbers from ACAI, Aprode and UNHCR. With an Excel sheet containing all of the phone numbers, we would be prepared to send messages as soon as the software was ready.
 *	Monitoring and evaluation plan – Before starting the pilot, we wanted to agree on outputs that we’d focus on and the indicators to help measure the success at achieving those outputs.
@@ -70,7 +70,7 @@ Even after months of preparation, the ability to improvise on the ground is almo
 
 {% include gantt.html %}
 
-Most of the time was spent preparing the messages and the software. However, we would have had spent longer sending the messages if we did not put time into conducting the trainings. Without this portion, we would have had to individually explain to each person using the system, or I would have had to send the messages, jeopardizing the pilot's sustainability after I left.
+Most of the time was spent preparing the messages and the software. However, we would have had spent longer sending the messages if we did not put time into conducting the trainings. Without this portion, we would have had to individually explain to each person using the system, or we would have had to send the messages, jeopardizing the pilot's sustainability after UNHCR Innovation left.
 
 ![Running practical training]({{ site.baseurl }}/images/TRAINING.jpg)
 
@@ -91,7 +91,7 @@ From these interviews we were able to begin formulating ways to address the chal
 
 ## Follow up and Monitoring
 
-Now that FrontlineCloud had been installed and trainings had been conducted, the monitoring and evaluation plan (M&E) that was setup upon arrival and then reviewed before the end of the pilot became essential. I would argue this is one of the most important parts of running a pilot.
+Now that FrontlineCloud had been installed and trainings had been conducted, the monitoring and evaluation plan (M&E) that was setup upon arrival and then reviewed before the end of the pilot became essential.
 
 When done correctly, M&E allows us to iterate on our solution. Without it we are merely guessing at how to improve. For Costa Rica we chose the indicators listed below as the ones we would record. There was a fine balance between overly bureaucratizing the process, reducing the quality of information recorded and selecting too few indicators, making it difficult to determine how to iterate.
 
@@ -174,15 +174,15 @@ You can view our more detailed version [here](https://docs.google.com/document/d
 
 ## Conclusion
 
-After a pilot that began in January 2014 and came to a close in September 2014, what did these nine months teach us. I first went back and looked at the [questions]({{ site.baseurl }}/#choosing-to-prototype) we set out to answer.
+After a pilot that began in January 2014 and came to a close in September 2014, what did these nine months teach us. We first went back and looked at the [questions]({{ site.baseurl }}/#choosing-to-prototype) we set out to answer.
 
-Did we find out ways to best utilize SMS to connect with refugees? Of course there's always more to learn, but I would still answer yes. We learned about different roles an SMS system can play. Will it mainly be used for polling, broadcast messages, answering individual queries or all three? SMS can go a long way to educating asylum seekers and refugees about their rights and opportunities.
+Did we find out ways to best utilize SMS to connect with refugees? Of course there's always more to learn, but we would still answer yes. We learned about different roles an SMS system can play. Will it mainly be used for polling, broadcast messages, answering individual queries or all three? SMS can go a long way to educating asylum seekers and refugees about their rights and opportunities.
 
 Did we find out ways to embed an SMS system into an organization? By conducting as many trainings as possible and setting up a guideline for usage within an organization, we were able to establish a lasting and sustainable impact on the Costa Rica operation.
 
-Did we find out what staff need in an SMS application? After becoming deeply familiar with FrontlineCloud, I've developed lots of areas where the SMS applications could be improved. From this pilot, we can now make recommendations for the requirements that a UNHCR SMS system would have.
+Did we find out what staff need in an SMS application? After becoming deeply familiar with FrontlineCloud, we've developed lots of areas where the SMS applications could be improved. From this pilot, we can now make recommendations for the requirements that a UNHCR SMS system would have.
 
-There were many bumps along the road and not everything worked out as planned, but I'd undoubtedly say the pilot was a success. The Costa Rica UNHCR operation is now planning on setting up FrontlineCloud with two other refugee organizations in San José, after receiving requests to do so. Most importantly, the feedback from refugees was extremely positive and indicates that this should be a part of more operations.
+There were many bumps along the road and not everything worked out as planned, but we'd undoubtedly say the pilot was a success. The Costa Rica UNHCR operation is now planning on setting up FrontlineCloud with two other refugee organizations in San José, after receiving requests to do so. Most importantly, the feedback from refugees was extremely positive and indicates that this should be a part of more operations.
 
 The next steps for us would be to move UNHCR to adopting a common SMS system that is deployed in each operation. Currently, UNHCR has a SMS system randomly spattered across the globe. This has a lot to do with the level of technical capacity that a specific country office has. In fact, there exists a giant spreadsheet of all the different SMS systems that UNHCR is using. Moving forward, it would be ideal to have a deploy kit that UNHCR can use to setup SMS capabilities.
 
