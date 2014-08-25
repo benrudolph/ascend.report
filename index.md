@@ -27,13 +27,13 @@ These questions arose from gaps and assumptions we made when conceptualizing the
 
 ## Identifying a location
 
-The location and population you test on can greatly impact the results of your pilot. We found it important to understand the biases that Costa Rica would bring to our results. There were multiple reasons for choosing San José.
+The location and type of population you test can greatly impact the results of your pilot. We found it important to understand the biases that Costa Rica would bring to our results. There were multiple reasons for choosing San José.
 
-*	Interest from “the field” – At UNHCR, headquarters is known for implementing new projects on already overworked field staff. In the case of Costa Rica, we received a request from their office to pilot the SMS program.  With both headquarters and the field operation committed to working on the project, we believed the pilot would have a much higher probably of success.
+*	Interest from “the field” – At UNHCR, headquarters is known for implementing new projects on already overworked field staff. In the case of Costa Rica, we received a request from their office to pilot the SMS program.  With both headquarters and the field operation committed to working on the project, we believed the pilot would have a much higher probability of success.
 *	Stability within the region – While no refugee situation is truly stable, it is fair to say the refugee situation in Costa Rica is less turbulent than a place like Lebanon. In extreme emergency situations such as Lebanon, things like providing food, water and shelter are rightly prioritized over an SMS pilot.
 *	Mobile phone precedence – Not all UNHCR operations deal with a population that have mobile phones or even cell signal to send messages. In some areas, the literacy rate isn’t high enough for it to make sense to use SMS as a tool of communication. However, Costa Rica ended up being an ideal operation where both literacy rates and cellphone usage were quite high.[^1]
 
-While it isn’t always the best to prototype in an ideal location, for our purposes we thought it would be the best way to discover how to effectively use SMS. We made the bet that more and more locations will have higher literacy rate and mobile phone penetration as time goes on rather than less. In this way, we hope that more operations will be similar Costa Rica in the future.
+While it isn’t always the best to prototype in an ideal location, for our purposes we thought it would be the best way to discover how to effectively use SMS. We made the bet that more and more locations will have higher literacy rate and mobile phone penetration as time goes on rather than less. In this way, we hope that more operations will be similar to Costa Rica in the future.
 
 ## Preparation
 
@@ -152,7 +152,7 @@ Here are a few sample SMS sent by UNHCR and ACAI:
 
 *Two-way communication*
 
-At ACAI, we planned to send many broadcast messages and polls to their entire contact database. After a few weeks, ACAI found that it was more useful to use the system to communicate on an individual level. This why you'll notice the dip in messages sent by ACAI after the beginning weeks of the pilot.
+At ACAI, we planned to send many broadcast messages and polls to their entire contact database. After a few weeks, ACAI found that it was more useful to use the system to communicate on an individual level. This is why you'll notice the dip in messages sent by ACAI after the beginning weeks of the pilot.
 
 *Institutional knowledge of the system*
 
@@ -166,8 +166,8 @@ We knew it took hours sometimes even a whole day to send bulk messages to hundre
 
 We soon discovered there needed to be a human system in place for each organization to send SMS after the pilot was over. We didn't want everyone haphazardly sending messages, but we also didn't want one person to have absolute control over the system. Under these contraints, we came up with a plan that composed of:
 
-* Focal point - This person was resonsible for sending broadcasts and polls. S/he was also the person to receive message requests from others in the organization.
-* Daily messenger - This person handled all the messages that were sent in to the system on an individual basis.
+* Focal point - This person was responsible for sending broadcasts and polls. S/he was also the person to receive message requests from others in the organization.
+* Daily messenger - This person handled all the messages that were sent into the system on an individual basis.
 * Supervisor - The supervisor was in charge of giving the final check on the broadcast messages that were sent.
 
 You can view our more detailed version [here](https://docs.google.com/document/d/14C5gVPdaXYDcRy6uoHMVeJlnFavVHKuHurwKriIJDoI/edit). This also includes a few guidelines on the types of messages that should and should not be sent.
