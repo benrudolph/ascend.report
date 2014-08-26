@@ -25,11 +25,13 @@ Before any plans and preparations were made, we asked ourselves, “What do we h
 
 These questions arose from gaps and assumptions we made when conceptualizing the SMS system as well as from the previous pilot in Esmeraldas, Ecuador. With our priorities set, we could now start to frame the pilot to answer these questions.  Based on these goals, we chose to pilot FrontlineCloud. FrontlineCloud was an off the shelf solution for SMS that would easily let us answer these questions without having to invest vast amounts of time and resources into building our own system only to find out later that SMS perhaps wasn’t an ideal tool for refugees in an urban context.
 
+{% include fidelity.html %}
+
 ## Identifying a location
 
 The location and type of population you test can greatly impact the results of your pilot. We found it important to understand the biases that Costa Rica would bring to our results. There were multiple reasons for choosing San José.
 
-*	Interest from “the field” – At UNHCR, headquarters is known for implementing new projects on already overworked field staff. In the case of Costa Rica, we received a request from their office to pilot the SMS program.  With both headquarters and the field operation committed to working on the project, we believed the pilot would have a high probability of success.
+*	Interest from “the field” – in the case of Costa Rica, we received a request from their office to pilot the SMS program.  With both headquarters and the field operation committed to working on the project, we believed the pilot would have a high probability of success.
 *	Stability within the region – while no refugee situation is truly stable, it is fair to say the refugee situation in Costa Rica is less turbulent than a place like Lebanon. In extreme emergency situations such as in Lebanon, where many other things are rightly prioritized over an SMS pilot.
 *	Mobile phone precedence – not all UNHCR operations work with populations that have mobile phones or even cell signal to send messages. In some areas, the literacy rate isn’t high enough for it to make sense to use SMS as a tool of communication. However, Costa Rica ended up being an ideal operation where both literacy rates and cellphone usage were quite high.[^1]
 
@@ -40,9 +42,9 @@ While it isn’t always the best option to prototype in an ideal location, for o
 One of the first stages of any of our innovation projects revolves around ensuring that the need for that project actually exists. This was done in Costa Rica through focus groups and discussions with UNHCR and NGO staff. Through these methods we decided to focus on three areas that SMS could immediately impact. This helped us define the scope of the project and where we’d focus our efforts. We identified these areas:
 
 
-*	Job opportunity alerts – one of the NGOs we were working with, ACAI, has a job placement program. Currently they were having difficulty notifying refugees of the new jobs that were available. SMS could easily provide a way to notify the relevant population, especially since ACAI had a database of phone numbers that they’d like to contact.
+*	Job opportunity alerts – one of the NGOs we were working with, [Association of International Consultants and Advisors](https://www.facebook.com/pages/ACAI/114321045280940?sk=timeline) or ACAI, has a job placement program. ACAI creates projects and livelihood activities for asylum seekers and refugees to facilitate integration into the community. Currently they were having difficulty notifying refugees of the new jobs that were available. SMS could easily provide a way to notify the relevant population, especially since ACAI had a database of phone numbers that they’d like to contact.
 *	Participatory Assessments – in a few months time, UNHCR Costa Rica would be conducting Participatory Assessments, which are surveys that UNHCR gives to refugees to evaluate different aspects of the operation. We planned to use SMS as a way to notify and remind people to complete the assessment.
-*	Microcredit Program – the last program we’d tackle was a Microcredit program established by an organization called Aprode. Aprode gives out small loans incrementally to refugees as well as other Costa Ricans to start businesses. Throughout the process though, it’s important for Aprode to maintain contact with the people they’ve lent money to in order to assess whether they would need more assistance or potentially need more money.
+*	Microcredit Program – the last program we’d tackle was a Microcredit program established by an organization called [Aprode](http://www.corresponsaldepaz.org/news/es/2009/05/11/0004/costa-rica-microcreditos-para-refugiados-en-tiempos-de-crisis). Aprode gives out small loans incrementally to refugees as well as other Costa Ricans to start businesses. Throughout the process though, it’s important for Aprode to maintain contact with the people they’ve lent money to in order to assess whether they would need more assistance or potentially need more money.
 
 We concretely designed the scope for the pilot so that we’d have clear areas we could focus on. No matter the preparation though, we learned that the scope often grows as we're responding to real world contexts.
 
