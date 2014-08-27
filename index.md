@@ -12,6 +12,9 @@ The project, named Ascend, began as a collaboration between Stanford University 
 
 About six months after the course ended, Ascend iterated based on needs and limitations discovered in a need-finding trip to Ethiopia. Ascend shifted from a tool to help registration to general purpose messaging. A few key takeaways were observed: one, the need for message classification to handle a large number of inbound SMS (think Gmail classifying messages as priority or not priority); two, the ability to have a feature rich application to conduct polls and surveys via SMS; three, a focus on visualizing the data received and report generation in order to convey effectiveness to potential donors.
 
+![ETHIOPIA]({{ site.baseurl }}/images/ETHIOPIA.jpg)
+<small>A Stanford student conducting interviews in Ethiopia to learn more about communications within a camp setting</small>
+
 By the end of 2013, the Ascend group was adopted into UNHCR Innovation where the project would continue and have better access to piloting locations. The decision was made to use FrontlineCloud as a prototype with the goal of better understanding SMS in humanitarian contexts. The first pilot was conducted, as mentioned, in Esmeraldas, Ecuador. In April 2014, FrontlineCloud was piloted in San José, Costa Rica. The following is an account of the process we went through to pilot FrontlineCloud in San José.
 
 
@@ -29,11 +32,14 @@ These questions arose from gaps and assumptions we made when conceptualizing the
 
 ## Identifying a location
 
+![San Jose, Costa Rica]({{ site.baseurl }}/images/MAP.png)
+<small>San José, Costa Rica</small>
+
 The location and type of population you test can greatly impact the results of your pilot. We found it important to understand the biases that Costa Rica would bring to our results. There were multiple reasons for choosing San José.
 
-*	Interest from “the field” – in the case of Costa Rica, we received a request from their office to pilot the SMS program.  With both headquarters and the field operation committed to working on the project, we believed the pilot would have a high probability of success.
-*	Stability within the region – while no refugee situation is truly stable, it is fair to say the refugee situation in Costa Rica is less turbulent than a place like Lebanon. In extreme emergency situations such as in Lebanon, where many other things are rightly prioritized over an SMS pilot.
-*	Mobile phone precedence – not all UNHCR operations work with populations that have mobile phones or even cell signal to send messages. In some areas, the literacy rate isn’t high enough for it to make sense to use SMS as a tool of communication. However, Costa Rica ended up being an ideal operation where both literacy rates and cellphone usage were quite high.[^1]
+*	__Interest from “the field”__ – in the case of Costa Rica, we received a request from their office to pilot the SMS program.  With both headquarters and the field operation committed to working on the project, we believed the pilot would have a high probability of success.
+*	__Stability within the region__ – while no refugee situation is truly stable, it is fair to say the refugee situation in Costa Rica is less turbulent than a place like Lebanon. In extreme emergency situations such as in Lebanon, where many other things are rightly prioritized over an SMS pilot.
+*	__Mobile phone precedence__ – not all UNHCR operations work with populations that have mobile phones or even cell signal to send messages. In some areas, the literacy rate isn’t high enough for it to make sense to use SMS as a tool of communication. However, Costa Rica ended up being an ideal operation where both literacy rates and cellphone usage were quite high.[^1]
 
 While it isn’t always the best option to prototype in an ideal location, for our purposes we thought it would be the most appropriate way to discover how to effectively use SMS. We assumed that more and more locations will have higher literacy rate and mobile phone penetration as time goes on rather than less.
 
@@ -42,9 +48,9 @@ While it isn’t always the best option to prototype in an ideal location, for o
 One of the first stages of any of our innovation projects revolves around ensuring that the need for that project actually exists. This was done in Costa Rica through focus groups and discussions with UNHCR and NGO staff. Through these methods we decided to focus on three areas that SMS could immediately impact. This helped us define the scope of the project and where we’d focus our efforts. We identified these areas:
 
 
-*	Job opportunity alerts – one of the NGOs we were working with, [Association of International Consultants and Advisors](https://www.facebook.com/pages/ACAI/114321045280940?sk=timeline) or ACAI, has a job placement program. ACAI creates projects and livelihood activities for asylum seekers and refugees to facilitate integration into the community. Currently they were having difficulty notifying refugees of the new jobs that were available. SMS could easily provide a way to notify the relevant population, especially since ACAI had a database of phone numbers that they’d like to contact.
-*	Participatory Assessments – in a few months time, UNHCR Costa Rica would be conducting Participatory Assessments, which are surveys that UNHCR gives to refugees to evaluate different aspects of the operation. We planned to use SMS as a way to notify and remind people to complete the assessment.
-*	Microcredit Program – the last program we’d tackle was a Microcredit program established by an organization called [Aprode](http://www.corresponsaldepaz.org/news/es/2009/05/11/0004/costa-rica-microcreditos-para-refugiados-en-tiempos-de-crisis). Aprode gives out small loans incrementally to refugees as well as other Costa Ricans to start businesses. Throughout the process though, it’s important for Aprode to maintain contact with the people they’ve lent money to in order to assess whether they would need more assistance or potentially need more money.
+*	__Job opportunity alerts__ – one of the NGOs we were working with, [Association of International Consultants and Advisors](https://www.facebook.com/pages/ACAI/114321045280940?sk=timeline) or ACAI, has a job placement program. ACAI creates projects and livelihood activities for asylum seekers and refugees to facilitate integration into the community. Currently they were having difficulty notifying refugees of the new jobs that were available. SMS could easily provide a way to notify the relevant population, especially since ACAI had a database of phone numbers that they’d like to contact.
+*	__Participatory Assessments__ – in a few months time, UNHCR Costa Rica would be conducting Participatory Assessments, which are surveys that UNHCR gives to refugees to evaluate different aspects of the operation. We planned to use SMS as a way to notify and remind people to complete the assessment.
+*	__Microcredit Program__ – the last program we’d tackle was a Microcredit program established by an organization called [Aprode](http://www.corresponsaldepaz.org/news/es/2009/05/11/0004/costa-rica-microcreditos-para-refugiados-en-tiempos-de-crisis). Aprode gives out small loans incrementally to refugees as well as other Costa Ricans to start businesses. Throughout the process though, it’s important for Aprode to maintain contact with the people they’ve lent money to in order to assess whether they would need more assistance or potentially need more money.
 
 We concretely designed the scope for the pilot so that we’d have clear areas we could focus on. No matter the preparation though, we learned that the scope often grows as we're responding to real world contexts.
 
@@ -61,10 +67,10 @@ Early on with Costa Rica we identified our champion, Valentina Duque. Valentina 
 
 Depending on the pilot, there’ll be a varying number of tasks that need to be completed before the pilot takes place. We had the tendency to offload all of the work from the operation onto ourselves in order to save the operation some time and effort. For a couple reasons, the opposite could be beneficial. One, if the operation is unable to complete a few tasks before the pilot because of time constraints, then this often indicates that the operation does not have the capacity to take on this pilot. Two, when the documents come from the operation, there is more ownership over the pilot and thus there is a greater effort to make the pilot succeed. We worked with the Costa Rica operation to complete these tasks before the pilot began:
 
-*	Contact database development - This comprised of aggregating the disparate sources of phone numbers from ACAI, Aprode and UNHCR. With an Excel sheet containing all of the phone numbers, we would be prepared to send messages as soon as the software was ready.
-*	Monitoring and evaluation plan – Before starting the pilot, we wanted to agree on outputs that we’d focus on and the indicators to help measure the success at achieving those outputs.
-*	Pilot implementation plan – This was a rough plan of how the software will be rolled out to the various organizations.
-*	Software and phone installation – To ensure that everything would work upon arrival, we walked through the installation of FrontlineCloud over video conference.
+*	__Contact database development__ - This comprised of aggregating the disparate sources of phone numbers from ACAI, Aprode and UNHCR. With an Excel sheet containing all of the phone numbers, we would be prepared to send messages as soon as the software was ready.
+*	__Monitoring and evaluation plan__ – Before starting the pilot, we wanted to agree on outputs that we’d focus on and the indicators to help measure the success at achieving those outputs.
+*	__Pilot implementation plan__ – This was a rough plan of how the software will be rolled out to the various organizations.
+*	__Software and phone installation__ – To ensure that everything would work upon arrival, we walked through the installation of FrontlineCloud over video conference.
 
 ## Implementation
 
@@ -82,9 +88,9 @@ Most of the time was spent preparing the messages and the software. However, we 
 
 At UNHCR Innovation, we try as hard as possible to keep refugees at the center of our work. That means that for pilots and projects we try to get as much feedback from refugees as we can. Before the implementation of the project, we sat down with four refugees to engage in a conversation about communication with organizations like UNHCR. We've anonymized the interviews and posted our notes for your [viewing](https://docs.google.com/document/d/1bMDeYQ0fI1IrIPhDY2ofc4iKdH96ln03KL-8HOw5nY4/edit). In short, some key takeaways were:
 
-* Phone presence - Most of the interviewees had phones and used them, though some only used it for family matters. Many cited it as a good means of reaching them. There were also a couple who said it was better to call rather than send an SMS.
-* SMS uses - By and large, most of the interviewees wanted more information on activities and opportunities that were available to them. In addition, some thought it would be a good way to ask questions to UNHCR, ACAI or Aprode.
-* Challenges faced - The biggest challenges for the refugees upon arrival was surviving in a context they were not used to. In a similar vein, they also found it very difficult to find jobs.
+* __Phone presence__ - most of the interviewees had phones and used them, though some only used it for family matters. Many cited it as a good means of reaching them. There were also a couple who said it was better to call rather than send an SMS.
+* __SMS uses__ - by and large, most of the interviewees wanted more information on activities and opportunities that were available to them. In addition, some thought it would be a good way to ask questions to UNHCR, ACAI or Aprode.
+* __Challenges faced__ - the biggest challenges for the refugees upon arrival was surviving in a context they were not used to. In a similar vein, they also found it very difficult to find jobs.
 
 From these interviews we were able to begin formulating ways to address the challenges presented by the refugees. At the end of the monitoring and evaluation phase, we again got in contact with the same refugees to get their opinion on the program. These interviews were conducted over the phone and can be viewed [here](https://docs.google.com/document/d/1-5v-UI1kdsaQiAjk2EUTT21DXQKpPQV9Z6IT1teRTlA/edit). The responses were overwhelmingly positive which is a huge success for the pilot as a whole.
 
@@ -122,9 +128,9 @@ After monitoring for three months, we underwent the process of consolidating and
 
 A host of issues with the software became apparent when working with FrontlineCloud. All these issues have been reported to FrontlineCloud and hopefully will be corrected in the future. Here are a few common software "gotchas" that should always be checked before a pilot begins, including this one.
 
-*	Internationalization/Locality - The compatability across all languages and regions is often one of the last features to be refined. When using FrontlineCloud we came across several issues when using characters outside the Roman alphabet. Another thing to be cognizant of is the incompatability of file types in different regions. While rare, it was an issue we experienced.
-*	Scalability – When testing FrontlineCloud beforehand, only small contact databases were used. However, upon arrival we needed to use much larger databases and the software did not work as well. We should have tested the software on representative database sizes.
-*	Low connectivity – In places where the Internet goes out from time to time, SMS software needs to be able to handle syncing. FrontlineCloud worked well when the connection was great. However, we experienced difficulties in buildings where the Internet would sporadically go out. The result was sometimes duplicate messages in the system, or worse, missing messages.
+*	__Internationalization/Locality__ - The compatability across all languages and regions is often one of the last features to be refined. When using FrontlineCloud we came across several issues when using characters outside the Roman alphabet. Another thing to be cognizant of is the incompatability of file types in different regions. While rare, it was an issue we experienced.
+*	__Scalability__ – When testing FrontlineCloud beforehand, only small contact databases were used. However, upon arrival we needed to use much larger databases and the software did not work as well. We should have tested the software on representative database sizes.
+*	__Low connectivity__ – In places where the Internet goes out from time to time, SMS software needs to be able to handle syncing. FrontlineCloud worked well when the connection was great. However, we experienced difficulties in buildings where the Internet would sporadically go out. The result was sometimes duplicate messages in the system, or worse, missing messages.
 
 *Trust Building*
 
@@ -168,9 +174,9 @@ We knew it took hours sometimes even a whole day to send bulk messages to hundre
 
 We soon discovered there needed to be a human system in place for each organization to send SMS after the pilot was over. We didn't want everyone haphazardly sending messages, but we also didn't want one person to have absolute control over the system. Under these contraints, we came up with a plan that composed of:
 
-* Focal point - This person was responsible for sending broadcasts and polls. S/he was also the person to receive message requests from others in the organization.
-* Daily messenger - This person handled all the messages that were sent into the system on an individual basis.
-* Supervisor - The supervisor was in charge of giving the final check on the broadcast messages that were sent.
+* __Focal point__ - This person was responsible for sending broadcasts and polls. S/he was also the person to receive message requests from others in the organization.
+* __Daily messenger__ - This person handled all the messages that were sent into the system on an individual basis.
+* __Supervisor__ - The supervisor was in charge of giving the final check on the broadcast messages that were sent.
 
 You can view our more detailed version [here](https://docs.google.com/document/d/14C5gVPdaXYDcRy6uoHMVeJlnFavVHKuHurwKriIJDoI/edit). This also includes a few guidelines on the types of messages that should and should not be sent.
 
