@@ -44,6 +44,12 @@ title: CSS stylesheet
   src: local('Vollkorn Regular'), local('Vollkorn-Regular'), url('{{ site.baseurl }}/fonts/Vollkorn/Vollkorn-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'gentium book basic';
+  font-style: bold;
+  font-weight: 400;
+  src: local('Gentium Regular'), local('Gentium-Regular'), url('{{ site.baseurl }}/fonts/Gentium/GenBkBasR.ttf') format('truetype');
+}
 
 * {
   margin: 0;
@@ -149,9 +155,44 @@ small {
   padding: 20px;
 
 }
+
+p.as-quote {
+  padding: 20px 70px;
+  color: rgb(150,150,150);
+  position:relative;
+  font-family: 'Helvetica';
+}
+
+p.as-quote:after, p.as-quote:before {
+  font-family: 'Gentium';
+  font-size: 100px;
+  position:absolute;
+}
+
+p.as-quote:before {
+  content: '“';
+  left: 15px;
+  color: rgb(32,180,180);
+  top: 30px;
+}
+p.as-quote:after {
+  content: '”';
+  right: 15px;
+  color: rgb(32,180,180);
+  bottom: -10px;
+}
+
 .as-info p {
   font-size: 14px;
   line-height: 20px;
+}
+
+.click-to-tweet, .click-to-tweet:visited {
+  cursor: pointer;
+  color: black;
+}
+.click-to-tweet:hover {
+  color: #4099FF;
 }
 
 .as-sidebar {
@@ -172,6 +213,10 @@ small {
   color: rgb(20, 20, 20);
   border-left: 3px solid rgb(32, 180, 180);
   padding-left: 12px;
+}
+
+.as-sidebar li {
+  margin-bottom: 0;
 }
 
 .affix {

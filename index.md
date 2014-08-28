@@ -52,7 +52,12 @@ One of the first stages of any of our innovation projects revolves around ensuri
 *	__Participatory Assessments__ – in a few months time, UNHCR Costa Rica would be conducting Participatory Assessments, which are surveys that UNHCR gives to refugees to evaluate different aspects of the operation. We planned to use SMS as a way to notify and remind people to complete the assessment.
 *	__Microcredit Program__ – the last program we’d tackle was a Microcredit program established by an organization called [Aprode](http://www.corresponsaldepaz.org/news/es/2009/05/11/0004/costa-rica-microcreditos-para-refugiados-en-tiempos-de-crisis). Aprode gives out small loans incrementally to refugees as well as other Costa Ricans to start businesses. Throughout the process though, it’s important for Aprode to maintain contact with the people they’ve lent money to in order to assess whether they would need more assistance or potentially need more money.
 
-We concretely designed the scope for the pilot so that we’d have clear areas we could focus on. No matter the preparation though, we learned that the scope often grows as we're responding to real world contexts.
+<p class="as-quote">
+One of the first stages of any of our innovation projects revolves around ensuring that the need for that project actually exists.
+  <a class="click-to-tweet" href="http://ctt.ec/y22jL"><i class="fa fa-twitter"></i></a>
+</p>
+
+We concretely defined the scope for the pilot so that we’d have clear areas we could focus on. No matter the preparation though, we learned that the scope often grows as we're responding to real world contexts.
 
 ### Choosing a champion
 
@@ -92,6 +97,10 @@ At UNHCR Innovation, we try as hard as possible to keep refugees at the center o
 * __SMS uses__ - by and large, most of the interviewees wanted more information on activities and opportunities that were available to them. In addition, some thought it would be a good way to ask questions to UNHCR, ACAI or Aprode.
 * __Challenges faced__ - the biggest challenges for the refugees upon arrival was surviving in a context they were not used to. In a similar vein, they also found it very difficult to find jobs.
 
+<p class="as-quote">
+At UNHCR Innovation, we try as hard as possible to keep refugees at the center of our work. That means that for pilots and projects we try to get as much feedback from refugees as we can.
+  <a class="click-to-tweet" href="http://ctt.ec/y22jL"><i class="fa fa-twitter"></i></a>
+</p>
 From these interviews we were able to begin formulating ways to address the challenges presented by the refugees. At the end of the monitoring and evaluation phase, we again got in contact with the same refugees to get their opinion on the program. These interviews were conducted over the phone and can be viewed [here](https://docs.google.com/document/d/1-5v-UI1kdsaQiAjk2EUTT21DXQKpPQV9Z6IT1teRTlA/edit). The responses were overwhelmingly positive which is a huge success for the pilot as a whole.
 
 
@@ -119,6 +128,11 @@ We conducted a three-month period of monitoring. The first six weeks included Sk
 At the end of the three-month evaluation period, we created two surveys for Costa Rican staff to complete. One survey was for those that interacted with the FrontlineCloud software directly, while the other was for those in the organization that did have direct contact with the software but were still able to send messages through their focal point.
 
 In addition to gathering feedback from the staff members themselves, we also conducted interviews with refugees about who had been receiving SMS from FrontlineCloud.
+
+<p class="as-quote">
+  When done correctly, M&E allows us to iterate on our solution. Without it we are merely guessing at how to improve.
+  <a class="click-to-tweet" href="http://ctt.ec/y22jL"><i class="fa fa-twitter"></i></a>
+</p>
 
 ## Lessons Learned
 
@@ -180,6 +194,11 @@ We soon discovered there needed to be a human system in place for each organizat
 
 You can view our more detailed version [here](https://docs.google.com/document/d/14C5gVPdaXYDcRy6uoHMVeJlnFavVHKuHurwKriIJDoI/edit). This also includes a few guidelines on the types of messages that should and should not be sent.
 
+<p class="as-quote">
+  A very difficult part of running a pilot is embedding the system knowledge within the organization. We accomplished this through establishing a champion for the project who would be able to carry on the project after UNHCR Innovation had left.
+  <a class="click-to-tweet" href="http://ctt.ec/y22jL"><i class="fa fa-twitter"></i></a>
+</p>
+
 ## Conclusion
 
 After a pilot that began in January 2014 and came to a close in September 2014, what did these nine months teach us. We first went back and looked at the [questions]({{ site.baseurl }}/#choosing-to-prototype) we set out to answer.
@@ -199,3 +218,22 @@ As often as possible, UNHCR Innovation tries to be as transparent as possible. P
 {% include comments.html %}
 
 [^1]: Cell phone subscriptions per 100 inhabitants in [Costa Rica and Colombia](http://www.google.com/publicdata/explore?ds=emi9ik86jcuic_&ctype=l&strail=false&bcs=d&nselm=h&met_y=i911&scale_y=lin&ind_y=false&rdim=country&idim=country:CR:CO&ifdim=country&hl=en_US&dl=en&ind=false&icfg)
+
+<script type="text/javascript">
+//<![CDATA[
+  (function() {
+    var shr = document.createElement('script');
+    shr.setAttribute('data-cfasync', 'false');
+    shr.src = '//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js';
+    shr.type = 'text/javascript'; shr.async = 'true';
+    shr.onload = shr.onreadystatechange = function() {
+      var rs = this.readyState;
+      if (rs && rs != 'complete' && rs != 'loaded') return;
+      var site_id = 'dcc228027f8c3c12fefc7de7391790db';
+      try { Shareaholic.init(site_id); } catch (e) {}
+    };
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(shr, s);
+  })();
+//]]>
+</script>
