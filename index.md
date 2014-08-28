@@ -32,8 +32,8 @@ These questions arose from gaps and assumptions we made when conceptualizing the
 
 ## Identifying a location
 
-![San Jose, Costa Rica]({{ site.baseurl }}/images/MAP.png)
-<small>San José, Costa Rica</small>
+<!-- ![San Jose, Costa Rica]({{ site.baseurl }}/images/MAP.png) -->
+<!-- <small>San José, Costa Rica</small> -->
 
 The location and type of population you test can greatly impact the results of your pilot. We found it important to understand the biases that Costa Rica would bring to our results. There were multiple reasons for choosing San José.
 
