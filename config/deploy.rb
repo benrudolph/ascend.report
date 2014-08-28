@@ -1,32 +1,29 @@
 set :application, "ascend"
-set :repository, '_site'
-set :scm, :none
+set :repository,  "git@github.com:benrudolph/ascend.report.git"
+set :scm, :git
 set :deploy_via, :copy
-set :copy_compression, :gzip
-set :use_sudo, false
+set :user, :deploy
+require '/Users/benrudolph/Dropbox/credientials/capcreds.rb'
+set :deploy_to, "/var/www/#{application}"
 
-# the name of the user that should be used for deployments on your VPS
-set :user, "deploy"
+# set :scm, :git # You can set :scm explicitly or Capistrano will make an intelligent guess based on known version control directory names
+# Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
-# the path to deploy to on your VPS
-set :deploy_to, "/var/www/#{application}/report"
+role :blog, "176.58.105.165"
 
-# the ip address of your VPS
-role :web, "176.58.105.165"
+set :ssh_options, { :forward_agent => true }
 
-before 'deploy:update', 'deploy:update_jekyll'
+# if you want to clean up old releases on each deploy uncomment this:
+# after "deploy:restart", "deploy:cleanup"
 
-namespace :deploy do
-  [:start, :stop, :restart, :finalize_update].each do |t|
-    desc "#{t} task is a no-op with jekyll"
-    task t, :roles => :app do ; end
-  end
+# if you're still using the script/reaper helper you will need
+# these http://github.com/rails/irs_process_scripts
 
-  desc 'Run jekyll to update site before uploading'
-  task :update_jekyll do
-    # clear existing _site
-    # build site using jekyll
-    # remove Capistrano stuff from build
-    %x(rm -rf _site/* && jekyll build && rm _site/Capfile && rm -rf _site/config)
-  end
-end
+# If you are using Passenger mod_rails uncomment this:
+# namespace :deploy do
+#   task :start do ; end
+#   task :stop do ; end
+#   task :restart, :roles => :app, :except => { :no_release => true } do
+#     run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
+#   end
+# end
