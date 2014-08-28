@@ -45,7 +45,7 @@ While it isn’t always the best option to prototype in an ideal location, for o
 
 ## Preparation
 
-One of the first stages of any of our innovation projects revolves around ensuring that the need for that project actually exists. This was done in Costa Rica through focus groups and discussions with UNHCR and NGO staff. Through these methods we decided to focus on three areas that SMS could immediately impact. This helped us define the scope of the project and where we’d focus our efforts. We identified these areas:
+One of the first stages of our innovation projects revolves around ensuring that the need for that project actually exists. This was done in Costa Rica through focus groups and discussions with UNHCR and NGO staff. Through these methods we decided to focus on three areas that SMS could immediately impact. This helped us define the scope of the project and where we’d focus our efforts. We identified these areas:
 
 
 *	__Job opportunity alerts__ – one of the NGOs we were working with, [Association of International Consultants and Advisors](https://www.facebook.com/pages/ACAI/114321045280940?sk=timeline) or ACAI, has a job placement program. ACAI creates projects and livelihood activities for asylum seekers and refugees to facilitate integration into the community. Currently they were having difficulty notifying refugees of the new jobs that were available. SMS could easily provide a way to notify the relevant population, especially since ACAI had a database of phone numbers that they’d like to contact.
@@ -53,8 +53,8 @@ One of the first stages of any of our innovation projects revolves around ensuri
 *	__Microcredit Program__ – the last program we’d tackle was a Microcredit program established by an organization called [Aprode](http://www.corresponsaldepaz.org/news/es/2009/05/11/0004/costa-rica-microcreditos-para-refugiados-en-tiempos-de-crisis). Aprode gives out small loans incrementally to refugees as well as other Costa Ricans to start businesses. Throughout the process though, it’s important for Aprode to maintain contact with the people they’ve lent money to in order to assess whether they would need more assistance or potentially need more money.
 
 <p class="as-quote">
-One of the first stages of any of our innovation projects revolves around ensuring that the need for that project actually exists.
-  <a class="click-to-tweet" href="http://ctt.ec/y22jL"><i class="fa fa-twitter"></i></a>
+One of the first stages of our innovation projects revolves around ensuring that the need for that project actually exists.
+  <a class="click-to-tweet" href="http://ctt.ec/UaqCB"><i class="fa fa-twitter"></i></a>
 </p>
 
 We concretely defined the scope for the pilot so that we’d have clear areas we could focus on. No matter the preparation though, we learned that the scope often grows as we're responding to real world contexts.
@@ -99,7 +99,7 @@ At UNHCR Innovation, we try as hard as possible to keep refugees at the center o
 
 <p class="as-quote">
 At UNHCR Innovation, we try as hard as possible to keep refugees at the center of our work. That means that for pilots and projects we try to get as much feedback from refugees as we can.
-  <a class="click-to-tweet" href="http://ctt.ec/y22jL"><i class="fa fa-twitter"></i></a>
+  <a class="click-to-tweet" href="http://ctt.ec/c2fcI"><i class="fa fa-twitter"></i></a>
 </p>
 From these interviews we were able to begin formulating ways to address the challenges presented by the refugees. At the end of the monitoring and evaluation phase, we again got in contact with the same refugees to get their opinion on the program. These interviews were conducted over the phone and can be viewed [here](https://docs.google.com/document/d/1-5v-UI1kdsaQiAjk2EUTT21DXQKpPQV9Z6IT1teRTlA/edit). The responses were overwhelmingly positive which is a huge success for the pilot as a whole.
 
@@ -131,7 +131,7 @@ In addition to gathering feedback from the staff members themselves, we also con
 
 <p class="as-quote">
   When done correctly, M&E allows us to iterate on our solution. Without it we are merely guessing at how to improve.
-  <a class="click-to-tweet" href="http://ctt.ec/y22jL"><i class="fa fa-twitter"></i></a>
+  <a class="click-to-tweet" href="http://ctt.ec/6q5hJ"><i class="fa fa-twitter"></i></a>
 </p>
 
 ## Lessons Learned
@@ -196,7 +196,7 @@ You can view our more detailed version [here](https://docs.google.com/document/d
 
 <p class="as-quote">
   A very difficult part of running a pilot is embedding the system knowledge within the organization. We accomplished this through establishing a champion for the project who would be able to carry on the project after UNHCR Innovation had left.
-  <a class="click-to-tweet" href="http://ctt.ec/y22jL"><i class="fa fa-twitter"></i></a>
+  <a class="click-to-tweet" href="http://ctt.ec/P91dA"><i class="fa fa-twitter"></i></a>
 </p>
 
 ## Conclusion
