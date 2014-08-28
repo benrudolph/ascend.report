@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Ascend report</title>
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="Ascend was an SMS project to enable UNHCR staff more easily communicate with refugees. This is the UNHCR Innovation report detailing our process.">
+        <meta property="og:title" content="UNHCR Innovation: An SMS pilot in Costa Rica">
+        <meta property="og:description" content="Ascend was an SMS project to enable UNHCR staff more easily communicate with refugees. This is the UNHCR Innovation report detailing our process.">
+        <meta property="og:image" content="http://ascend.unhcrinnovation.org/images/TRAINING.jpg">
+        <meta property="og:url" content="http://ascend.unhcrinnovation.org">
+        <link rel="icon" href="ascend.ico" type="image/x-icon"/>
+
+
+        <!-- syntax highlighting CSS -->
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="/slick/slick.css"/>
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+
+    </head>
+    <body data-spy="scroll" data-target=".as-sidebar">
+        <script src="http://www.google.com/jsapi"></script>
+        <script src="/js/jquery.min.js"></script>
+        <script type="text/javascript" src="/slick/slick.min.js"></script>
+        <script src="/js/chartkick.js"></script>
+
+        <div class="site container-fluid">
+          <div class="row header">
+            <div class="col-md-12">
+              <div class="row tagline">
+                <div class="col-md-12">
+                  <h1>Ascend</h1>
+                  <span>An exploration of mobile phone usage in refugee situations</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="as-divider row"></div>
+
+          <div class="row content">
+            <div class="col-md-9">
+              <h2 id="introduction">Introduction</h2>
+
+<p>SMS as a tool for humanitarian aid is becoming an increasingly common tool. UNHCR Innovation recently piloted an SMS system in two UNHCR operations: Esmeraldas, Ecuador and San José, Costa Rica. Along the way we made a few blunders and also did a few things right. We wanted to share our experiences piloting FrontlineCloud in San José, Costa Rica so that you could learn from us.</p>
+
+<p>The project, named Ascend, began as a collaboration between Stanford University and UNHCR Innovation. The two institutions developed a class called “Rethinking Refugee Communities.” From this, Ascend was born out of a student group with the initial intention of tackling early camp registration by using mobile phone devices. The course took the students through the design process: research, challenge definition, ideation and prototyping. Along the way, UNHCR Innovation colleagues were in contact with the students to provide feedback.</p>
+
+<p>About six months after the course ended, Ascend iterated based on needs and limitations discovered in a need-finding trip to Ethiopia. Ascend shifted from a tool to help registration to general purpose messaging. A few key takeaways were observed: one, the need for message classification to handle a large number of inbound SMS (think Gmail classifying messages as priority or not priority); two, the ability to have a feature rich application to conduct polls and surveys via SMS; three, a focus on visualizing the data received and report generation in order to convey effectiveness to potential donors.</p>
+
+<p><img src="/images/ETHIOPIA.jpg" alt="ETHIOPIA">
+<small>A Stanford student conducting interviews in Ethiopia to learn more about communications within a camp setting</small></p>
+
+<p>By the end of 2013, the Ascend group was adopted into UNHCR Innovation where the project would continue and have better access to piloting locations. The decision was made to use FrontlineCloud as a prototype with the goal of better understanding SMS in humanitarian contexts. The first pilot was conducted, as mentioned, in Esmeraldas, Ecuador. In April 2014, FrontlineCloud was piloted in San José, Costa Rica. The following is an account of the process we went through to pilot FrontlineCloud in San José.</p>
+
+<h2 id="choosing-to-prototype">Choosing to prototype</h2>
+
+<p>Before any plans and preparations were made, we asked ourselves, “What do we hope to achieve with this prototype?” This framed our pilot with specific objectives. The goals for this particular pilot were:</p>
+
+<ol>
+<li> How do we best utilize SMS to connect with a refugees residing in an urban area?</li>
+<li> How do we embed a new tool like SMS in organizations to be sustainable, even after the pilot is over?</li>
+<li> What types of utilities does an SMS application need to appropriately handle the desires of UNHCR and non-governmental organization (NGO) staff?</li>
+</ol>
+
+<p>These questions arose from gaps and assumptions we made when conceptualizing the SMS system as well as from the previous pilot in Esmeraldas, Ecuador. With our priorities set, we could now start to frame the pilot to answer these questions.  Based on these goals, we chose to pilot FrontlineCloud. FrontlineCloud is an off the shelf solution for SMS that would easily let us answer these questions without having to invest vast amounts of time and resources into building our own system only to find out later that SMS perhaps wasn’t an ideal tool for refugees in an urban context.</p>
+
+<div class="bg-info as-info">
+  <b>Prototype Fidelity</b>
+  <img src="/images/FIDELITY.png" />
+  <p>
+    Above depicts a graph UNHCR Innovation thinks about often before deciding on our prototype. The x axis defines the time spent creating the prototype. The y axis defines the fidelity, or the quality of, the prototype. The two are often correlated. The more time you spend building a prototype the higher quality it will be. We have a tendency of pouring lots of time into the creation of the perfect prototype. However, this can be detrimental to the success of the project. At the beginning it's important to invest less time in the prototype so that we can iterate quickly. This is where the philosophy of "fail fast" originates.
+  </p>
+  <p>
+    For Ascend, using FrontlineCloud was a relatively low fidelity, low time prototype. It can be setup and mastered within a week. The tradeoff was a tool that was not exactly our vision for a UNHCR SMS platform.
+  </p>
+</div>
+
+<h2 id="identifying-a-location">Identifying a location</h2>
+
+<!-- ![San Jose, Costa Rica](/images/MAP.png) -->
+
+<!-- <small>San José, Costa Rica</small> -->
+
+<p>The location and type of population you test can greatly impact the results of your pilot. We found it important to understand the biases that Costa Rica would bring to our results. There were multiple reasons for choosing San José.</p>
+
+<ul>
+<li>  <strong>Interest from “the field”</strong> – in the case of Costa Rica, we received a request from their office to pilot the SMS program.  With both headquarters and the field operation committed to working on the project, we believed the pilot would have a high probability of success.</li>
+<li>  <strong>Stability within the region</strong> – while no refugee situation is truly stable, it is fair to say the refugee situation in Costa Rica is less turbulent than a place like Lebanon. In extreme emergency situations such as in Lebanon, many other things are rightly prioritized over an SMS pilot.</li>
+<li>  <strong>Mobile phone precedence</strong> – not all UNHCR operations work with populations that have mobile phones or even cell signal to send messages. In some areas, the literacy rate isn’t high enough for it to make sense to use SMS as a tool of communication. However, Costa Rica ended up being an ideal operation where both literacy rates and cellphone usage were quite high.<sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup></li>
+</ul>
+
+<p>While it isn’t always the best option to prototype in an ideal location, for our purposes we thought it would be the most appropriate way to discover how to effectively use SMS. We assumed that more and more locations will have higher literacy rates and mobile phone penetration as time goes on rather than less.</p>
+
+<h2 id="preparation">Preparation</h2>
+
+<p>A first stage of our innovation process is to ensure that the need for that project actually exists. This was done in Costa Rica through discussions with focus groups and UNHCR staff. Through these methods we decided to focus on three areas that SMS could immediately impact. This helped us define the scope of the project and where we’d focus our efforts. We identified these areas:</p>
+
+<ul>
+<li>  <strong>Job opportunity alerts</strong> – one of the NGOs we were working with, <a href="https://www.facebook.com/pages/ACAI/114321045280940?sk=timeline">Association of International Consultants and Advisors</a> or ACAI, has a job placement program. ACAI creates projects and livelihood activities for asylum seekers and refugees to facilitate integration into the community. Currently they were having difficulty notifying refugees of the new jobs that were available. SMS could easily provide a way to notify the relevant population, especially since ACAI already had a database of phone numbers.</li>
+<li>  <strong>Participatory Assessments</strong> – in a few months time, UNHCR Costa Rica would be conducting Participatory Assessments, which are surveys that UNHCR gives to refugees to evaluate different aspects of the operation. We planned to use SMS as a way to notify and remind people to complete the assessment.</li>
+<li>  <strong>Microcredit Program</strong> – the last program we’d tackle was a Microcredit program established by an organization called <a href="http://www.corresponsaldepaz.org/news/es/2009/05/11/0004/costa-rica-microcreditos-para-refugiados-en-tiempos-de-crisis">Aprode</a>. Aprode gives out small loans incrementally to refugees as well as other Costa Ricans to start businesses. Throughout the process though, it’s important for Aprode to maintain contact with the people they’ve lent money to in order to assess whether they would need more assistance or potentially need more money.</li>
+</ul>
+
+<p class="as-quote">
+A first stage of our innovation process is to ensure that the need for that project actually exists.
+  <a target="_blank" class="click-to-tweet" href="http://ctt.ec/UaqCB"><i class="fa fa-twitter"></i></a>
+</p>
+
+<p>We concretely defined the scope for the pilot so that we’d have clear areas we could focus on. No matter the preparation though, we learned that the scope often grows as we&#39;re responding to real world contexts.</p>
+
+<h3 id="choosing-a-champion">Choosing a champion</h3>
+
+<p>A champion is someone within the organization where you will be piloting that is enthusiastic and a strong supporter of the project. This person often advocates for the project and ensures that it succeeds.  For many reasons identifying a champion is critical for the success of the pilot.</p>
+
+<p>Early on with Costa Rica we identified our champion, Valentina Duque. Valentina had been involved in our Innovation <a href="http://www.unhcrifellows.org/">fellowship program</a> and proved to be an excellent champion. She was instrumental in coordinating the implementation, getting key stakeholders involved and ensuring follow up from various other organizations.</p>
+
+<p><img src="/images/VALENTINA.jpg" alt="Valentina Duque">
+<small>Valentina helping out during a training with Aprode</small></p>
+
+<h3 id="preparation-tasks">Preparation tasks</h3>
+
+<p>Depending on the pilot, there’ll be a varying number of tasks that need to be completed before the pilot takes place. We had the tendency to offload all of the work from the operation onto ourselves in order to save the operation some time and effort. For a couple reasons, the opposite could be beneficial. One, if the operation is unable to complete a few tasks before the pilot because of time constraints, then this often indicates that the operation does not have the capacity to take on this pilot. Two, when the documents come from the operation, there is more ownership over the pilot and thus there is a greater effort to make the pilot succeed. We worked with the Costa Rica operation to complete these tasks before the pilot began:</p>
+
+<ul>
+<li>  <strong>Contact database development</strong> - This comprised of aggregating the disparate sources of phone numbers from ACAI, Aprode and UNHCR. With an Excel sheet containing all of the phone numbers, we would be prepared to send messages as soon as the software was ready.</li>
+<li>  <strong>Monitoring and evaluation plan</strong> – Before starting the pilot, we wanted to agree on outputs that we’d focus on and the indicators to help measure the success at achieving those outputs.</li>
+<li>  <strong>Pilot implementation plan</strong> – This was a rough plan of how the software will be rolled out to the various organizations.</li>
+<li>  <strong>Software and phone installation</strong> – To ensure that everything would work upon arrival, we walked through the installation of FrontlineCloud over video conference.</li>
+</ul>
+
+<h2 id="implementation">Implementation</h2>
+
+<p>Even after months of preparation, the ability to improvise on the ground is almost always a necessity. In Costa Rica the biggest hiccups came when it was time to run the actual FrontlineCloud software. Here was our process for an eleven day mission.</p>
+
+<div id="gantt-agenda" style="height: 300px"></div>
+
+<script>
+  var ganttData = [
+  ["Briefings", new Date(2014, 3, 2, 9), new Date(2014, 3, 2, 17)],
+  ["Interviews", new Date(2014, 3, 3, 9), new Date(2014, 3, 3, 11)],
+  ["Conduct Trainings", new Date(2014, 3, 3, 12), new Date(2014, 3, 4, 12)],
+  ["Prepare Software", new Date(2014, 3, 4, 12), new Date(2014, 3, 8, 17)],
+  ["Send Messages", new Date(2014, 3, 4, 12), new Date(2014, 3, 8, 17)],
+  ["Recap", new Date(2014, 3, 9, 8), new Date(2014, 3, 11, 17)],
+  ]
+  new Chartkick.Timeline('gantt-agenda', ganttData);
+</script>
+
+<p>Most of the time was spent preparing the messages and the software. However, we would have had spent longer sending the messages if we did not put time into conducting the trainings. Without this portion, we would have had to individually explain to each person using the system, or we would have had to send the messages, jeopardizing the pilot&#39;s sustainability after UNHCR Innovation left.</p>
+
+<p><img src="/images/TRAINING.jpg" alt="Running practical training"></p>
+
+<p><small>Conducting a training with ACAI. This was the hands-on component.</small></p>
+
+<h2 id="community-involvement">Community involvement</h2>
+
+<p>At UNHCR Innovation, we try as hard as possible to keep refugees at the center of our work. That means that for pilots and projects we try to get as much feedback from refugees as we can. Before the implementation of the project, we sat down with four refugees to engage in a conversation about communication with organizations like UNHCR. We&#39;ve anonymized the interviews and posted our notes for your <a href="https://docs.google.com/document/d/1bMDeYQ0fI1IrIPhDY2ofc4iKdH96ln03KL-8HOw5nY4/edit">viewing</a>. In short, some key takeaways were:</p>
+
+<ul>
+<li><strong>Phone presence</strong> - most of the interviewees had phones and used them, though some only used it for family matters. Many cited it as a good means of reaching them. There were also a couple who said it was better to call rather than send an SMS.</li>
+<li><strong>SMS uses</strong> - by and large, most of the interviewees wanted more information on activities and opportunities that were available to them. In addition, some thought it would be a good way to ask questions to UNHCR, ACAI or Aprode.</li>
+<li><strong>Challenges faced</strong> - the biggest challenges for the refugees upon arrival was surviving in a context they were not used to. In a similar vein, they also found it very difficult to find jobs.</li>
+</ul>
+
+<p class="as-quote">
+At UNHCR Innovation, we try as hard as possible to keep refugees at the center of our work. That means that for pilots and projects we try to get as much feedback from refugees as we can.
+  <a target="_blank" class="click-to-tweet" href="http://ctt.ec/c2fcI"><i class="fa fa-twitter"></i></a>
+</p>
+
+<p>From these interviews we were able to begin formulating ways to address the challenges presented by the refugees. At the end of the monitoring and evaluation phase, we again got in contact with the same refugees to get their opinion on the program. These interviews were conducted over the phone and can be viewed <a href="https://docs.google.com/document/d/1-5v-UI1kdsaQiAjk2EUTT21DXQKpPQV9Z6IT1teRTlA/edit">here</a>. The responses were overwhelmingly positive which is a huge success for the pilot as a whole.</p>
+
+<div class="bg-info as-info">
+  <b>Interviews vs. Focus Groups</b>
+  <p>
+    Deciding between interviewing a user or creating a focus group can be tricky, both have their pros and cons. For me, I often choose to go with interviews when I'm looking to gain a deeper understanding of an issue. With one-on-one contact, I'm able to dig deeper and ask questions that may be sensitive to talk about in a group setting. One technique I use often is called "the five whys." This technique requires you to ask why to an answer five times before going on to a different topic. This has been highly effective at uncovering the root causes of issues.
+  </p>
+  <p>
+
+    Focus groups are great when you want to get advice on a topic. With everyone in the room, brainstorming can happen much more freely. Your responsibility is only to facilitate the conversation which allows you to focus on the ideas and conversation that is taking place.
+  </p>
+</div>
+
+<h2 id="follow-up-and-monitoring">Follow up and Monitoring</h2>
+
+<p>Now that FrontlineCloud had been installed and trainings had been conducted, the monitoring and evaluation plan (M&amp;E) that was setup upon arrival and then reviewed before the end of the pilot became essential.</p>
+
+<p>When done correctly, M&amp;E allows us to iterate on our solution. Without it we are merely guessing at how to improve. For Costa Rica we chose the indicators listed below as the ones we would record. There was a fine balance between overly bureaucratizing the process, reducing the quality of information recorded and selecting too few indicators, making it difficult to determine how to iterate.</p>
+
+<table><thead>
+<tr>
+<th>Indicator</th>
+<th>Purpose</th>
+</tr>
+</thead><tbody>
+<tr>
+<td># of messages sent per week</td>
+<td>This is to measure organization&#39;s engagement with SMS system</td>
+</tr>
+<tr>
+<td>% of refugees interested in using SMS to communicate with UNHCR</td>
+<td>This is to measure the population of concern&#39;s interest in the project</td>
+</tr>
+<tr>
+<td># of refugees participating in the pilot</td>
+<td>To determine growth of system.</td>
+</tr>
+<tr>
+<td>% of refugees who actively send messages to UNHCR staff</td>
+<td>To measure the population of concern&#39;s engagement with the system</td>
+</tr>
+<tr>
+<td>% of refugees who respond to a poll sent by UNHCR staff</td>
+<td>To measure the effectiveness of questions asked in polls</td>
+</tr>
+</tbody></table>
+
+<div id="acai-messages" style="height: 300px"></div>
+
+<p><small>At the beginning, ACAI sent more broadcast messages which is why you see the spike in messages toward the beginning. Later, they found it more useful to send messages to smaller groups and on an individual basis</small>
+<hr />
+<div id="unhcr-messages" style="height: 300px"></div>
+<small>UNHCR setup a weekly messaging program to send broad cast messages to their contacts. This is why there is a steady stream of messages throughout the pilot. The dip is due to holidays in Costa Rica.</small></p>
+
+<script>
+  var data = [
+    {
+      name: 'Messages Sent',
+      data: {
+        "2014-04-25 00:00:00 -0800": 1651,
+        "2014-05-02 00:00:00 -0800": 264,
+        "2014-05-09 00:00:00 -0800": 0,
+        "2014-05-16 00:00:00 -0800": 773,
+        "2014-05-23 00:00:00 -0800": 23,
+        "2014-05-30 00:00:00 -0800": 81,
+        "2014-06-06 00:00:00 -0800": 0,
+        "2014-06-20 00:00:00 -0800": 34,
+        "2014-07-03 00:00:00 -0800": 19,
+      }
+    },
+    {
+      name: 'Persons Participating',
+      data: {
+        "2014-04-25 00:00:00 -0800": 692,
+        "2014-05-02 00:00:00 -0800": 703,
+        "2014-05-09 00:00:00 -0800": 703,
+        "2014-05-16 00:00:00 -0800": 726,
+        "2014-05-23 00:00:00 -0800": 733,
+        "2014-05-30 00:00:00 -0800": 752,
+        "2014-06-06 00:00:00 -0800": 752,
+        "2014-06-20 00:00:00 -0800": 753,
+        "2014-07-03 00:00:00 -0800": 753,
+      }
+    }
+    ]
+  var dataUNHCR = [
+    {
+      name: 'Messages Sent',
+      data: {
+        "2014-05-15 00:00:00 -0800": 689,
+        "2014-05-30 00:00:00 -0800": 680,
+        "2014-06-13 00:00:00 -0800": 672,
+        "2014-06-28 00:00:00 -0800": 671,
+        "2014-07-11 00:00:00 -0800": 106,
+        "2014-07-31 00:00:00 -0800": 741,
+      }
+    },
+    {
+      name: 'Persons Participating',
+      data: {
+        "2014-05-15 00:00:00 -0800": 670,
+        "2014-05-30 00:00:00 -0800": 670,
+        "2014-06-13 00:00:00 -0800": 670,
+        "2014-06-28 00:00:00 -0800": 670,
+        "2014-07-11 00:00:00 -0800": 670,
+        "2014-07-31 00:00:00 -0800": 670,
+      }
+    }
+  ];
+  new Chartkick.LineChart("acai-messages", data,
+    {
+      library: {
+        backgroundColor: '#f9f9f9',
+        title: 'ACAI messages sent vs. contacts in database',
+        legend: 'bottom'
+      },
+      adapter: 'google'
+
+    });
+
+  new Chartkick.LineChart("unhcr-messages", dataUNHCR,
+    {
+      library: {
+        backgroundColor: '#f9f9f9',
+        title: 'UNHCR messages sent vs. contacts in database',
+        legend: 'bottom'
+      },
+      adapter: 'google'
+
+    });
+</script>
+
+<p>We conducted a three-month period of monitoring. The first six weeks included Skype meetings each week to detail progress of the system. During the meetings we would discuss things that were going well and thing that weren’t. These sessions were also critical for understanding how the system was performing.</p>
+
+<p>At the end of the three-month evaluation period, we created two surveys for Costa Rican staff to complete. One survey was for those that interacted with the FrontlineCloud software directly, while the other was for those in the organization that did have direct contact with the software but were still able to send messages through their focal point.</p>
+
+<p>In addition to gathering feedback from the staff members themselves, we also conducted interviews with refugees about who had been receiving SMS from FrontlineCloud.</p>
+
+<p class="as-quote">
+  When done correctly, M&E allows us to iterate on our solution. Without it we are merely guessing at how to improve.
+  <a target="_blank" class="click-to-tweet" href="http://ctt.ec/6q5hJ"><i class="fa fa-twitter"></i></a>
+</p>
+
+<h2 id="lessons-learned">Lessons Learned</h2>
+
+<p>After monitoring for three months, we underwent the process of consolidating and processing the data to come up with tangible lessons learned from the pilot. These lessons will serve to shape the steps we take to improve the solution.</p>
+
+<h3 id="technical-issues">Technical Issues</h3>
+
+<p>A host of issues with the software became apparent when working with FrontlineCloud. All these issues have been reported to FrontlineCloud and hopefully will be corrected in the future. Here are a few common software &quot;gotchas&quot; that should always be checked before a pilot begins, including this one.</p>
+
+<ul>
+<li>  <strong>Internationalization/Locality</strong> - The compatibility across all languages and regions is often one of the last features to be refined. When using FrontlineCloud we came across several issues when using characters outside the Roman alphabet. Another thing to be cognizant of is the incompatibility of file types in different regions. While rare, it was an issue we experienced.</li>
+<li>  <strong>Scalability</strong> – When testing FrontlineCloud beforehand, only small contact databases were used. However, upon arrival we needed to use much larger databases and the software did not work as well. We should have tested the software on representative database sizes.</li>
+<li>  <strong>Low connectivity</strong> – In places where the Internet goes out from time to time, SMS software needs to be able to handle syncing. FrontlineCloud worked well when the connection was great. However, we experienced difficulties in buildings where the Internet would sporadically go out. The result was sometimes duplicate messages in the system, or worse, missing messages.</li>
+</ul>
+
+<h3 id="trust-building">Trust Building</h3>
+
+<p>Initially we had started the pilot with a prepared list of contacts to message. Sending the blast welcome message explaining the project elicited many responses saying, “Who is this?” or “Why am I receiving this?” After interviewing refugees we began to see a pattern. People were hesitant to trust a message from an unknown number. We ended up tackling this issue by first advertising the number in UNHCR and the other NGOs so that people would become familiar with the program and expect to receive messages. In addition to that, we setup boxes where people could drop their contact information and we would then add that phone number to the FrontlineCloud database. In this way we increased trust in and awareness for the program.</p>
+
+<p><img src="/images/SMS-COSTARICA-POSTERS.png" alt="SMS poster for Costa Rica"></p>
+
+<p><small>
+Above are an example of the posters we distributed during the pilot.
+</small></p>
+
+<h3 id="invalid-or-unused-phone-numbers">Invalid or unused phone numbers</h3>
+
+<p>Currently, there is no functionality in FrontlineCloud that enables you to determine whether a phone number you just messaged is inactive. This ended up being an issue since the contact databases were well-known to be out of date. Therefore, the only people we could assume received the SMS are those that responded. In fact, to get a better estimate of the number invalid phone numbers in use, one of the UNHCR workers did a small case study on the existing contacts. UNHCR sent out a poll to 50 random contacts. Here is the breakdown of the 50 contacts:</p>
+
+<div id="phone-breakdown"></div>
+
+<p>
+After looking at the reasons for not answering the poll, the next question was to ask how does this reflect the current contact database? We put the categories into three different groups. Group one (Yes) would signify that the phone number would need to be updated; group 2 (Maybe) would signify that the phone number might need to be updated; group 3 (No) would signify that the phone number did not need to be updated.
+</p>
+
+<div id="phone-breakdown-2"></div>
+
+<script>
+  google.setOnLoadCallback(drawChart);
+  google.load("visualization", "1", {packages:["corechart"]});
+
+  var phonedata = [
+    ['No longer in use', 17],
+    ['Answered phone call but did not reply to poll', 11],
+    ['Sent directly to voicemail', 8],
+    ['Replied to poll', 7],
+    ['Did not answer the phone', 4],
+    ['Wrong numbers', 2],
+    ['Malformatted phone number', 1]
+    ]
+
+  new Chartkick.ColumnChart("phone-breakdown", phonedata, {
+    library: {
+      backgroundColor: '#f9f9f9',
+      title: 'Causes for invalid phone numbers',
+      height: '450'
+    },
+    adapter: 'google'
+
+  });
+
+  function drawChart() {
+    var phonedata2 = google.visualization.arrayToDataTable([
+      ['Reason', 'Count', { role: 'style' }, { role: 'annotation' }],
+      ['Yes', 20, '#2ecc71', '20 / 50'],
+      ['Maybe', 8, '#f1c40f', '8 / 50'],
+      ['No', 22, '#e74c3c', '22 / 50'],
+    ]);
+    var phoneopts = {
+      title: 'Does the phone number need to be updated?',
+      backgroundColor: '#f9f9f9',
+      height: '400',
+      bar: {groupWidth: "25%"},
+      legend: { position: 'none' }
+    }
+
+    var chart = new google.visualization.BarChart(document.getElementById('phone-breakdown-2'));
+    chart.draw(phonedata2, phoneopts);
+  }
+</script>
+
+<p>Looking at the above chart it is easy to see that 20 out of 50 contacts need to be updated - a full 40% of the contacts were out of date. This gave us an indication that the excel contact database badly needed to be updated or we could miss 40% of potential recipients. After this discovery, UNHCR worked with ACAI to update all 670 contacts. The database is now much more complete and better formatted.</p>
+
+<div class="bg-info as-info">
+  <b>Statistical Significance</b>
+  <p>
+  Sampling 50 random contacts from a database does not necessarily mean that that sample reflects the breakdown of the entire database. We can use a bit of statistics to reason about how accurate it would be to assume the same breakdown for the the 670 contacts in UNHCR's database.
+  </p>
+  <p>
+  For our sample, we calculated that with a desired confidence level of 95%, our margin of error would be 13%. In other words, we are 95% sure that the actual database will reflect our sample within a margin of error of plus or minus 13%. So with 95% assurance, there is anywhere from 234 to 302 contacts in the database that need updating.
+
+  </p>
+</div>
+
+<h3 id="consistent-sms-programming">Consistent SMS programming</h3>
+
+<p>One strategy that worked well for UNHCR was setting up a consistent messaging program. Every week UNHCR would send out some sort of asylum related fact or interesting event that was happening. This became a way for UNHCR to engage with its users on a weekly basis, and they garnered many positive responses from the receivers.</p>
+
+<p>Here are a few sample SMS sent by UNHCR and ACAI:</p>
+
+<div class="sms-carousel">
+  <div>
+    <div class="message">
+      Apertura de tres grupos del curso de manipulación de alimentos para el II semestre del 2014. Requisito: Permiso laboral al día. Para matricularse llame a ACAI al 1234-5678. Cupo limitado.
+    </div>
+    <div class="message-translation">
+      Opening of three groups for the Food Handling course for the 2nd Semester 2014. Requirement: updated work permit. To get enrolled, call ACAI 1234-5678. Limited number of participants
+    </div>
+  </div>
+  <div>
+    <div class="message">
+      Feria de empleo II semestre 2014: Para participar comuníquese a ACAI y pida su cita de actualización de curriculum. Requisito: permiso laboral vigente. Fecha límite: 10 de agosto.
+    </div>
+    <div class="message-translation">
+      Job Fair 2nd Semester 2014: To participate, call ACAI and ask for an appointment to create your CV. Requirement: Updated work permit. Deadline: August 10th
+    </div>
+  </div>
+  <div>
+    <div class="message">
+      ¿Es refugiado (a) con mas de 3 años de vivir en el país y tiene interés en ser residente? Llámenos al 123-4567890 y le daremos cita para guiarle en el proceso.
+    </div>
+    <div class="message-translation">
+      Are you a refugee living in Costa Rica for more than 3 years and interested in becoming permanent resident? Call us 123 456 7890 and we will give you an appointment to guide you in this process
+    </div>
+  </div>
+  <div>
+    <div class="message">
+      Sabias que si estas casado/a hace más de dos años con un costarricense puedes solicitar la naturalización. Infórmate ACNUR/ACAI 123 456 78 90.
+    </div>
+    <div class="message-translation">
+      Did you know that if you are married with a Costa Rican for more than 2 years you can apply for the citizenship? Get informed at UNHCR/ACAI 123 456 78 90.
+    </div>
+  </div>
+  <div>
+    <div class="message">
+      Sabias que si eres refugiado o solicitante, tienes los mismos derechos que un costarricense: salario minimo, vacaciones, cesantia, seguro social. Infórmate en www.mtss.go.cr
+    </div>
+    <div class="message-translation">
+      Did you know that refugees and asylum seeker are entitled to the same labour rights as Costa Ricans: minimum wage, paid vacations and social security. Get informed at www.mtss.org
+    </div>
+  </div>
+
+
+</div>
+
+<script>
+  $(document).ready(function(){
+    $('.sms-carousel').slick({ dots: true });
+  });
+
+</script>
+
+<h3 id="two-way-communication">Two-way communication</h3>
+
+<p>At ACAI, we planned to send many broadcast messages and polls to their entire contact database. After a few weeks, ACAI found that it was more useful to use the system to communicate on an individual level. This is why you&#39;ll notice the dip in messages sent by ACAI after the beginning weeks of the pilot.</p>
+
+<h3 id="institutional-knowledge-of-the-system">Institutional knowledge of the system</h3>
+
+<p>A very difficult part of running a pilot is embedding the system knowledge within the organization. We accomplished this through establishing a champion for the project who would be able to carry on the project after UNHCR Innovation had left. In addition to this, we ran as many trainings as possible with UNHCR, ACAI and Aprode. We had two sets of trainings. The first was a brief overview of the system designed for those who wouldn’t be directly interacting with the system. It lasted for an hour. The second part was more in depth with hands-on practice, geared to those who would be using FrontlineCloud.</p>
+
+<h3 id="time-of-sending-the-messages">Time of sending the messages</h3>
+
+<p>We knew it took hours sometimes even a whole day to send bulk messages to hundreds of contacts. However we overlooked the fact that if we send the message at 6pm, many of the messages won’t be delivered until the wee hours of the morning. We received a few complaints about this and promptly decided that broadcast messages had to be sent in the morning or they’d have to be delayed until the next day.</p>
+
+<h3 id="usage-guidelines">Usage guidelines</h3>
+
+<p>We soon discovered there needed to be a human system in place for each organization to send SMS after the pilot was over. We didn&#39;t want everyone haphazardly sending messages, but we also didn&#39;t want one person to have absolute control over the system. Under these constraints, we came up with a plan that composed of:</p>
+
+<ul>
+<li><strong>Focal point</strong> - This person was responsible for sending broadcasts and polls. S/he was also the person to receive message requests from others in the organization.</li>
+<li><strong>Daily messenger</strong> - This person handled all the messages that were sent into the system on an individual basis.</li>
+<li><strong>Supervisor</strong> - The supervisor was in charge of giving the final check on the broadcast messages that were sent.</li>
+</ul>
+
+<p>You can view our more detailed version <a href="https://docs.google.com/document/d/14C5gVPdaXYDcRy6uoHMVeJlnFavVHKuHurwKriIJDoI/edit">here</a>. This also includes a few guidelines on the types of messages that should and should not be sent.</p>
+
+<p class="as-quote">
+  A very difficult part of running a pilot is embedding the system knowledge within the organization. We accomplished this through establishing a champion for the project who would be able to carry on the project after UNHCR Innovation had left.
+  <a target="_blank" class="click-to-tweet" href="http://ctt.ec/P91dA"><i class="fa fa-twitter"></i></a>
+</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>After a pilot that began in January 2014 and came to a close in September 2014, what did these nine months teach us. We first went back and looked at the <a href="/#choosing-to-prototype">questions</a> we set out to answer.</p>
+
+<p>Did we find out ways to best utilize SMS to connect with refugees? Of course there&#39;s always more to learn, but we would still answer yes. We learned about different roles an SMS system can play. Will it mainly be used for polling, broadcast messages, answering individual queries or all three? SMS can go a long way to educating asylum seekers and refugees about their rights and opportunities.</p>
+
+<p>Did we find out ways to embed an SMS system into an organization? By conducting as many trainings as possible and setting up a guideline for usage within an organization, we were able to establish a lasting and sustainable impact on the Costa Rica operation.</p>
+
+<p>Did we find out what staff need in an SMS application? After becoming deeply familiar with FrontlineCloud, we&#39;ve developed lots of areas where the SMS applications could be improved. From this pilot, we can now make recommendations for the requirements that a UNHCR SMS system would have.</p>
+
+<p>There were many bumps along the road and not everything worked out as planned, but we&#39;d undoubtedly say the pilot was a success. The Costa Rica UNHCR operation is now planning on setting up FrontlineCloud with two other refugee organizations in San José, after receiving requests to do so. Most importantly, the feedback from refugees was extremely positive and indicates that this should be a part of more operations.</p>
+
+<p>The next steps for us would be to move UNHCR to adopting a common SMS system that is deployed in each operation. Currently, UNHCR has a SMS system randomly spattered across the globe. This has a lot to do with the level of technical capacity that a specific country office has. In fact, there exists a giant spreadsheet of all the different SMS systems that UNHCR is using. Moving forward, it would be ideal to have a deploy kit that UNHCR can use to setup SMS capabilities.</p>
+
+<p>As often as possible, UNHCR Innovation tries to be as transparent as possible. Please feel free to leave any feedback or questions!</p>
+
+<!-- Add Disqus comments. -->
+
+<div id="disqus_thread"></div>
+
+<script type="text/javascript">
+  var disqus_shortname = 'ascendreport';
+
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+<script type="text/javascript">
+//<![CDATA[
+  (function() {
+    var shr = document.createElement('script');
+    shr.setAttribute('data-cfasync', 'false');
+    shr.src = '//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js';
+    shr.type = 'text/javascript'; shr.async = 'true';
+    shr.onload = shr.onreadystatechange = function() {
+      var rs = this.readyState;
+      if (rs && rs != 'complete' && rs != 'loaded') return;
+      var site_id = 'dcc228027f8c3c12fefc7de7391790db';
+      try { Shareaholic.init(site_id); } catch (e) {}
+    };
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(shr, s);
+  })();
+//]]>
+</script>
+
+<div class="footnotes">
+<hr>
+<ol>
+
+<li id="fn1">
+<p>Cell phone subscriptions per 100 inhabitants in <a href="http://www.google.com/publicdata/explore?ds=emi9ik86jcuic_&amp;ctype=l&amp;strail=false&amp;bcs=d&amp;nselm=h&amp;met_y=i911&amp;scale_y=lin&amp;ind_y=false&amp;rdim=country&amp;idim=country:CR:CO&amp;ifdim=country&amp;hl=en_US&amp;dl=en&amp;ind=false&amp;icfg">Costa Rica and Colombia</a>&nbsp;<a href="#fnref1" rev="footnote">&#8617;</a></p>
+</li>
+
+</ol>
+</div>
+
+            </div>
+            <div class="col-md-3">
+              <div data-spy="affix" data-offset-top="670" class="as-sidebar hidden-print hidden-xs hidden-sm" role="complementary">
+                <ul class="nav as-sidenav">
+                  <li>
+                    <a href="#introduction">Introduction</a>
+                  </li>
+                  <li>
+                    <a href="#choosing-to-prototype">Choosing to prototype</a>
+                  </li>
+                  <li>
+                    <a href="#identifying-a-location">Identifying a location</a>
+                  </li>
+                  <li>
+                    <a href="#preparation">Preparation</a>
+                  </li>
+                  <li>
+                    <a href="#implementation">Implementation</a>
+                  </li>
+                  <li>
+                    <a href="#community-involvement">Community involvement</a>
+                  </li>
+                  <li>
+                    <a href="#follow-up-and-monitoring">Followup & Monitoring</a>
+                  </li>
+                  <li>
+                    <a href="#lessons-learned">Lessons Learned</a>
+                  </li>
+                  <li>
+                    <a href="#conclusion">Conclusion</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer">
+            <div class="contact">
+              <p>
+                Ben Rudolph<br />
+                Data Visualization Consultant<br />
+                rudolph@unhcr.org
+              </p>
+            </div>
+            <div class="contact">
+              <p>
+                <a href="https://github.com/benrudolph">github.com/benrudolph</a><br />
+                <a href="https://twitter.com/_benrudolph">twitter.com/benrudolph</a><br />
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <script src="/bootstrap/js/bootstrap.min.js"></script>
+        <script>
+          var $header = $('.header');
+          //$header.css('height', $(window).height())
+          $header.css('width', $(window).width())
+          $(window).on('resize', function() {
+
+            $header.css('width', $(window).width())
+          })
+
+          $('table').addClass('table')
+
+        </script>
+    </body>
+</html>

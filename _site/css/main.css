@@ -1,0 +1,365 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url('/fonts/Lato/Lato-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url('/fonts/Lato/Lato-Regular.ttf')
+  format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url('/fonts/Lato/Lato-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'vollkorn';
+  font-style: bold;
+  font-weight: 700;
+  src: local('Vollkorn Bold'), local('Vollkorn-Bold'), url('/fonts/Vollkorn/Vollkorn-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'vollkorn';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Vollkorn Regular'), local('Vollkorn-Regular'), url('/fonts/Vollkorn/Vollkorn-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'gentium book basic';
+  font-style: bold;
+  font-weight: 400;
+  src: local('Gentium Regular'), local('Gentium-Regular'), url('/fonts/Gentium/GenBkBasR.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  position: relative;
+  background-color: #f9f9f9;
+  font: 18px/26px 'vollkorn', Georgia, serif;
+  font-weight: lighter;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+h1 {
+  margin-bottom: 1em;
+  font-size: 38px;
+}
+
+h2 {
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 10px
+}
+
+p { margin: 1em 0; }
+
+li {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+.as-info img {
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+a         { color: #00a; }
+a:hover   { color: #000; }
+a:visited { color: #00a; }
+
+small {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 45px;
+}
+
+.header {
+  background-image: url('/images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 6px solid rgb(32, 180, 180);
+  height: 600px;
+  width: 100%;
+  position: relative;
+}
+
+.as-divider {
+  border-top: 1px solid #a6f0e1;
+}
+
+
+.content {
+  padding-top: 63px;
+}
+
+.tagline {
+  padding-top: 100px;
+  color: white;
+  font-weight: light;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.tagline h1 {
+  font-size: 100px;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+
+.tagline span {
+  font-style: italic;
+}
+
+.as-info {
+
+  font-family: 'Lato' 'Helvetica Neue';
+  padding: 20px;
+
+}
+
+::selection {
+  background-color: rgb(32,180,180); /* Safari */
+  color: white;
+}
+::-moz-selection {
+  background-color: rgb(32,180,180); /* Safari */
+  color: white;
+}
+ol li {
+  padding: 5px 10px;
+  /*color: rgb(175, 68, 24);*/
+}
+
+p.as-quote {
+  padding: 20px 70px;
+  color: rgb(150,150,150);
+  position:relative;
+  font-family: 'Helvetica';
+}
+
+p.as-quote:after, p.as-quote:before {
+  font-family: 'Gentium';
+  font-size: 100px;
+  position:absolute;
+}
+
+p.as-quote:before {
+  content: '“';
+  left: 15px;
+  color: rgb(32,180,180);
+  top: 30px;
+}
+p.as-quote:after {
+  content: '”';
+  right: 15px;
+  color: rgb(32,180,180);
+  bottom: -10px;
+}
+
+.as-info p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.click-to-tweet, .click-to-tweet:visited {
+  cursor: pointer;
+  color: black;
+}
+.click-to-tweet:hover {
+  color: #4099FF;
+}
+
+.as-sidebar {
+  margin-top: 20px;
+}
+
+.as-sidebar a,  .as-sidebar a:visited {
+  color: rgb(120, 120, 120);
+}
+.content .as-sidebar a:hover {
+  color: rgb(20, 20, 20);
+  border-left: 2px solid rgb(32, 180, 180);
+  background-color: inherit;
+  padding-left: 13px;
+
+}
+.as-sidebar li.active a {
+  color: rgb(20, 20, 20);
+  border-left: 3px solid rgb(32, 180, 180);
+  padding-left: 12px;
+}
+
+.as-sidebar li {
+  margin-bottom: 0;
+}
+
+.affix {
+  top: 0;
+}
+
+
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+.posts li {
+  line-height: 1.75em;
+}
+
+.posts span {
+  color: #aaa;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 80%;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.meta {
+  color: #aaa;
+}
+
+.footer {
+  font-size: 80%;
+  color: #666;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  overflow: hidden;
+}
+
+.footer .contact {
+  float: left;
+  margin-right: 3em;
+}
+
+.footer .contact a {
+  color: #8085C1;
+}
+
+.footer .rss {
+  margin-top: 1.1em;
+  margin-right: -.2em;
+  float: right;
+}
+
+.footer .rss img {
+  border: 0;
+}
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+/* standard */
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+.post ul, .post ol {
+  margin-left: 1.35em;
+}
+
+.post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+.post pre code {
+  border: none;
+}
+
+/* terminal */
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+.post pre.terminal code {
+  background-color: #333;
+}
+
+#disqus_thread {
+  padding-top: 100px;
+}
+
+.message {
+  margin: 20px 40px;
+  padding: 20px;
+  background-color: white;
+  border: 1px #ccc solid;
+  -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+  -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+
+}
+
+.message-translation {
+  font-size: 12px;
+  margin: 10px 80px;
+  font-style: italic;
+  line-height: 1.1em;
+  text-align: center;
+
+}
+.message-translation:before {
+  content: 'Translation: ';
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .content, .tagline {
+    padding: 0 5px;
+  }
+}
