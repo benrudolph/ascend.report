@@ -102,7 +102,7 @@ img {
 
 a         { color: #00a; }
 a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a:visited { color: #00a; }
 
 small {
   display: block;
@@ -154,6 +154,19 @@ small {
   font-family: 'Lato' 'Helvetica Neue';
   padding: 20px;
 
+}
+
+::selection {
+  background-color: rgb(32,180,180); /* Safari */
+  color: white;
+}
+::-moz-selection {
+  background-color: rgb(32,180,180); /* Safari */
+  color: white;
+}
+ol li {
+  padding: 5px 10px;
+  /*color: rgb(175, 68, 24);*/
 }
 
 p.as-quote {

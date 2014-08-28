@@ -24,9 +24,9 @@ Before any plans and preparations were made, we asked ourselves, “What do we h
 
 1.	How do we best utilize SMS to connect with a refugees residing in an urban area?
 2.	How do we embed a new tool like SMS in organizations to be sustainable, even after the pilot is over?
-3.	What types of utilities does an SMS application need to appropriately handle the desires of UNHCR and NGO staff?
+3.	What types of utilities does an SMS application need to appropriately handle the desires of UNHCR and non-governmental organization (NGO) staff?
 
-These questions arose from gaps and assumptions we made when conceptualizing the SMS system as well as from the previous pilot in Esmeraldas, Ecuador. With our priorities set, we could now start to frame the pilot to answer these questions.  Based on these goals, we chose to pilot FrontlineCloud. FrontlineCloud was an off the shelf solution for SMS that would easily let us answer these questions without having to invest vast amounts of time and resources into building our own system only to find out later that SMS perhaps wasn’t an ideal tool for refugees in an urban context.
+These questions arose from gaps and assumptions we made when conceptualizing the SMS system as well as from the previous pilot in Esmeraldas, Ecuador. With our priorities set, we could now start to frame the pilot to answer these questions.  Based on these goals, we chose to pilot FrontlineCloud. FrontlineCloud is an off the shelf solution for SMS that would easily let us answer these questions without having to invest vast amounts of time and resources into building our own system only to find out later that SMS perhaps wasn’t an ideal tool for refugees in an urban context.
 
 {% include fidelity.html %}
 
@@ -38,30 +38,30 @@ These questions arose from gaps and assumptions we made when conceptualizing the
 The location and type of population you test can greatly impact the results of your pilot. We found it important to understand the biases that Costa Rica would bring to our results. There were multiple reasons for choosing San José.
 
 *	__Interest from “the field”__ – in the case of Costa Rica, we received a request from their office to pilot the SMS program.  With both headquarters and the field operation committed to working on the project, we believed the pilot would have a high probability of success.
-*	__Stability within the region__ – while no refugee situation is truly stable, it is fair to say the refugee situation in Costa Rica is less turbulent than a place like Lebanon. In extreme emergency situations such as in Lebanon, where many other things are rightly prioritized over an SMS pilot.
+*	__Stability within the region__ – while no refugee situation is truly stable, it is fair to say the refugee situation in Costa Rica is less turbulent than a place like Lebanon. In extreme emergency situations such as in Lebanon, many other things are rightly prioritized over an SMS pilot.
 *	__Mobile phone precedence__ – not all UNHCR operations work with populations that have mobile phones or even cell signal to send messages. In some areas, the literacy rate isn’t high enough for it to make sense to use SMS as a tool of communication. However, Costa Rica ended up being an ideal operation where both literacy rates and cellphone usage were quite high.[^1]
 
-While it isn’t always the best option to prototype in an ideal location, for our purposes we thought it would be the most appropriate way to discover how to effectively use SMS. We assumed that more and more locations will have higher literacy rate and mobile phone penetration as time goes on rather than less.
+While it isn’t always the best option to prototype in an ideal location, for our purposes we thought it would be the most appropriate way to discover how to effectively use SMS. We assumed that more and more locations will have higher literacy rates and mobile phone penetration as time goes on rather than less.
 
 ## Preparation
 
-One of the first stages of our innovation projects revolves around ensuring that the need for that project actually exists. This was done in Costa Rica through focus groups and discussions with UNHCR and NGO staff. Through these methods we decided to focus on three areas that SMS could immediately impact. This helped us define the scope of the project and where we’d focus our efforts. We identified these areas:
+A first stage of our innovation process is to ensure that the need for that project actually exists. This was done in Costa Rica through discussions with focus groups and UNHCR staff. Through these methods we decided to focus on three areas that SMS could immediately impact. This helped us define the scope of the project and where we’d focus our efforts. We identified these areas:
 
 
-*	__Job opportunity alerts__ – one of the NGOs we were working with, [Association of International Consultants and Advisors](https://www.facebook.com/pages/ACAI/114321045280940?sk=timeline) or ACAI, has a job placement program. ACAI creates projects and livelihood activities for asylum seekers and refugees to facilitate integration into the community. Currently they were having difficulty notifying refugees of the new jobs that were available. SMS could easily provide a way to notify the relevant population, especially since ACAI had a database of phone numbers that they’d like to contact.
+*	__Job opportunity alerts__ – one of the NGOs we were working with, [Association of International Consultants and Advisors](https://www.facebook.com/pages/ACAI/114321045280940?sk=timeline) or ACAI, has a job placement program. ACAI creates projects and livelihood activities for asylum seekers and refugees to facilitate integration into the community. Currently they were having difficulty notifying refugees of the new jobs that were available. SMS could easily provide a way to notify the relevant population, especially since ACAI already had a database of phone numbers.
 *	__Participatory Assessments__ – in a few months time, UNHCR Costa Rica would be conducting Participatory Assessments, which are surveys that UNHCR gives to refugees to evaluate different aspects of the operation. We planned to use SMS as a way to notify and remind people to complete the assessment.
 *	__Microcredit Program__ – the last program we’d tackle was a Microcredit program established by an organization called [Aprode](http://www.corresponsaldepaz.org/news/es/2009/05/11/0004/costa-rica-microcreditos-para-refugiados-en-tiempos-de-crisis). Aprode gives out small loans incrementally to refugees as well as other Costa Ricans to start businesses. Throughout the process though, it’s important for Aprode to maintain contact with the people they’ve lent money to in order to assess whether they would need more assistance or potentially need more money.
 
 <p class="as-quote">
-One of the first stages of our innovation projects revolves around ensuring that the need for that project actually exists.
-  <a class="click-to-tweet" href="http://ctt.ec/UaqCB"><i class="fa fa-twitter"></i></a>
+A first stage of our innovation process is to ensure that the need for that project actually exists.
+  <a target="_blank" class="click-to-tweet" href="http://ctt.ec/UaqCB"><i class="fa fa-twitter"></i></a>
 </p>
 
 We concretely defined the scope for the pilot so that we’d have clear areas we could focus on. No matter the preparation though, we learned that the scope often grows as we're responding to real world contexts.
 
 ### Choosing a champion
 
-A champion is someone within the organization where you will be piloting that is enthusiastic and a strong supporter of the project. This person often pushes the project and ensures that it succeeds.  For many reasons identifying a champion is critical for the success of the pilot.
+A champion is someone within the organization where you will be piloting that is enthusiastic and a strong supporter of the project. This person often advocates for the project and ensures that it succeeds.  For many reasons identifying a champion is critical for the success of the pilot.
 
 Early on with Costa Rica we identified our champion, Valentina Duque. Valentina had been involved in our Innovation [fellowship program](http://www.unhcrifellows.org/) and proved to be an excellent champion. She was instrumental in coordinating the implementation, getting key stakeholders involved and ensuring follow up from various other organizations.
 
@@ -99,7 +99,7 @@ At UNHCR Innovation, we try as hard as possible to keep refugees at the center o
 
 <p class="as-quote">
 At UNHCR Innovation, we try as hard as possible to keep refugees at the center of our work. That means that for pilots and projects we try to get as much feedback from refugees as we can.
-  <a class="click-to-tweet" href="http://ctt.ec/c2fcI"><i class="fa fa-twitter"></i></a>
+  <a target="_blank" class="click-to-tweet" href="http://ctt.ec/c2fcI"><i class="fa fa-twitter"></i></a>
 </p>
 From these interviews we were able to begin formulating ways to address the challenges presented by the refugees. At the end of the monitoring and evaluation phase, we again got in contact with the same refugees to get their opinion on the program. These interviews were conducted over the phone and can be viewed [here](https://docs.google.com/document/d/1-5v-UI1kdsaQiAjk2EUTT21DXQKpPQV9Z6IT1teRTlA/edit). The responses were overwhelmingly positive which is a huge success for the pilot as a whole.
 
@@ -131,22 +131,22 @@ In addition to gathering feedback from the staff members themselves, we also con
 
 <p class="as-quote">
   When done correctly, M&E allows us to iterate on our solution. Without it we are merely guessing at how to improve.
-  <a class="click-to-tweet" href="http://ctt.ec/6q5hJ"><i class="fa fa-twitter"></i></a>
+  <a target="_blank" class="click-to-tweet" href="http://ctt.ec/6q5hJ"><i class="fa fa-twitter"></i></a>
 </p>
 
 ## Lessons Learned
 
 After monitoring for three months, we underwent the process of consolidating and processing the data to come up with tangible lessons learned from the pilot. These lessons will serve to shape the steps we take to improve the solution.
 
-*Technical Issues*
+### Technical Issues
 
 A host of issues with the software became apparent when working with FrontlineCloud. All these issues have been reported to FrontlineCloud and hopefully will be corrected in the future. Here are a few common software "gotchas" that should always be checked before a pilot begins, including this one.
 
-*	__Internationalization/Locality__ - The compatability across all languages and regions is often one of the last features to be refined. When using FrontlineCloud we came across several issues when using characters outside the Roman alphabet. Another thing to be cognizant of is the incompatability of file types in different regions. While rare, it was an issue we experienced.
+*	__Internationalization/Locality__ - The compatibility across all languages and regions is often one of the last features to be refined. When using FrontlineCloud we came across several issues when using characters outside the Roman alphabet. Another thing to be cognizant of is the incompatibility of file types in different regions. While rare, it was an issue we experienced.
 *	__Scalability__ – When testing FrontlineCloud beforehand, only small contact databases were used. However, upon arrival we needed to use much larger databases and the software did not work as well. We should have tested the software on representative database sizes.
 *	__Low connectivity__ – In places where the Internet goes out from time to time, SMS software needs to be able to handle syncing. FrontlineCloud worked well when the connection was great. However, we experienced difficulties in buildings where the Internet would sporadically go out. The result was sometimes duplicate messages in the system, or worse, missing messages.
 
-*Trust Building*
+### Trust Building
 
 Initially we had started the pilot with a prepared list of contacts to message. Sending the blast welcome message explaining the project elicited many responses saying, “Who is this?” or “Why am I receiving this?” After interviewing refugees we began to see a pattern. People were hesitant to trust a message from an unknown number. We ended up tackling this issue by first advertising the number in UNHCR and the other NGOs so that people would become familiar with the program and expect to receive messages. In addition to that, we setup boxes where people could drop their contact information and we would then add that phone number to the FrontlineCloud database. In this way we increased trust in and awareness for the program.
 
@@ -154,7 +154,7 @@ Initially we had started the pilot with a prepared list of contacts to message. 
 
 {% include poster_caption.html %}
 
-*Invalid or unused phone numbers*
+### Invalid or unused phone numbers
 
 Currently, there is no functionality in FrontlineCloud that enables you to determine whether a phone number you just messaged is inactive. This ended up being an issue since the contact databases were well-known to be out of date. Therefore, the only people we could assume received the SMS are those that responded. In fact, to get a better estimate of the number invalid phone numbers in use, one of the UNHCR workers did a small case study on the existing contacts. UNHCR sent out a poll to 50 random contacts. Here is the breakdown of the 50 contacts:
 
@@ -164,7 +164,7 @@ Looking at the above chart it is easy to see that 20 out of 50 contacts need to 
 
 {% include stat_significance.html %}
 
-*Consistent SMS programming*
+### Consistent SMS programming
 
 One strategy that worked well for UNHCR was setting up a consistent messaging program. Every week UNHCR would send out some sort of asylum related fact or interesting event that was happening. This became a way for UNHCR to engage with its users on a weekly basis, and they garnered many positive responses from the receivers.
 
@@ -172,21 +172,21 @@ Here are a few sample SMS sent by UNHCR and ACAI:
 
 {% include sms.html %}
 
-*Two-way communication*
+### Two-way communication
 
 At ACAI, we planned to send many broadcast messages and polls to their entire contact database. After a few weeks, ACAI found that it was more useful to use the system to communicate on an individual level. This is why you'll notice the dip in messages sent by ACAI after the beginning weeks of the pilot.
 
-*Institutional knowledge of the system*
+### Institutional knowledge of the system
 
 A very difficult part of running a pilot is embedding the system knowledge within the organization. We accomplished this through establishing a champion for the project who would be able to carry on the project after UNHCR Innovation had left. In addition to this, we ran as many trainings as possible with UNHCR, ACAI and Aprode. We had two sets of trainings. The first was a brief overview of the system designed for those who wouldn’t be directly interacting with the system. It lasted for an hour. The second part was more in depth with hands-on practice, geared to those who would be using FrontlineCloud.
 
-*Time of sending the messages*
+### Time of sending the messages
 
 We knew it took hours sometimes even a whole day to send bulk messages to hundreds of contacts. However we overlooked the fact that if we send the message at 6pm, many of the messages won’t be delivered until the wee hours of the morning. We received a few complaints about this and promptly decided that broadcast messages had to be sent in the morning or they’d have to be delayed until the next day.
 
-*Usage guidelines*
+### Usage guidelines
 
-We soon discovered there needed to be a human system in place for each organization to send SMS after the pilot was over. We didn't want everyone haphazardly sending messages, but we also didn't want one person to have absolute control over the system. Under these contraints, we came up with a plan that composed of:
+We soon discovered there needed to be a human system in place for each organization to send SMS after the pilot was over. We didn't want everyone haphazardly sending messages, but we also didn't want one person to have absolute control over the system. Under these constraints, we came up with a plan that composed of:
 
 * __Focal point__ - This person was responsible for sending broadcasts and polls. S/he was also the person to receive message requests from others in the organization.
 * __Daily messenger__ - This person handled all the messages that were sent into the system on an individual basis.
@@ -196,7 +196,7 @@ You can view our more detailed version [here](https://docs.google.com/document/d
 
 <p class="as-quote">
   A very difficult part of running a pilot is embedding the system knowledge within the organization. We accomplished this through establishing a champion for the project who would be able to carry on the project after UNHCR Innovation had left.
-  <a class="click-to-tweet" href="http://ctt.ec/P91dA"><i class="fa fa-twitter"></i></a>
+  <a target="_blank" class="click-to-tweet" href="http://ctt.ec/P91dA"><i class="fa fa-twitter"></i></a>
 </p>
 
 ## Conclusion
