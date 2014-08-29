@@ -91,7 +91,7 @@ Most of the time was spent preparing the messages and the software. However, we 
 
 ## Community involvement
 
-At UNHCR Innovation, we try as hard as possible to keep refugees at the center of our work. That means that for pilots and projects we try to get as much feedback from refugees as we can. Before the implementation of the project, we sat down with four refugees to engage in a conversation about communication with organizations like UNHCR. We've anonymized the interviews and posted our notes for your [viewing](https://docs.google.com/document/d/1bMDeYQ0fI1IrIPhDY2ofc4iKdH96ln03KL-8HOw5nY4/edit). In short, some key takeaways were:
+At UNHCR Innovation, we try as hard as possible to keep refugees at the center of our work. That means for pilots and projects we try to get as much feedback from refugees as we can. Before the implementation of the project, we sat down with four refugees to engage in a conversation about communication with organizations like UNHCR. We've anonymized the interviews and posted our notes for your [viewing](https://docs.google.com/document/d/1bMDeYQ0fI1IrIPhDY2ofc4iKdH96ln03KL-8HOw5nY4/edit). In short, some key takeaways were:
 
 * __Phone presence__ - most of the interviewees had phones and used them, though some only used it for family matters. Many cited it as a good means of reaching them. There were also a couple who said it was better to call rather than send an SMS.
 * __SMS uses__ - by and large, most of the interviewees wanted more information on activities and opportunities that were available to them. In addition, some thought it would be a good way to ask questions to UNHCR, ACAI or Aprode.
@@ -101,7 +101,7 @@ At UNHCR Innovation, we try as hard as possible to keep refugees at the center o
 At UNHCR Innovation, we try as hard as possible to keep refugees at the center of our work. That means that for pilots and projects we try to get as much feedback from refugees as we can.
   <a target="_blank" class="click-to-tweet" href="http://ctt.ec/c2fcI"><i class="fa fa-twitter"></i></a>
 </p>
-From these interviews we were able to begin formulating ways to address the challenges presented by the refugees. At the end of the monitoring and evaluation phase, we again got in contact with the same refugees to get their opinion on the program. These interviews were conducted over the phone and can be viewed [here](https://docs.google.com/document/d/1-5v-UI1kdsaQiAjk2EUTT21DXQKpPQV9Z6IT1teRTlA/edit). The responses were overwhelmingly positive which is a huge success for the pilot as a whole.
+From these interviews we were able to begin formulating ways to address the challenges presented by the refugees. At the end of the monitoring and evaluation phase, we again got in contact with the same refugees to get their opinion on the program. These interviews were conducted over the phone and can be viewed [here](https://docs.google.com/document/d/1-5v-UI1kdsaQiAjk2EUTT21DXQKpPQV9Z6IT1teRTlA/edit). The responses were overwhelmingly positive which is a big success for the pilot as a whole.
 
 
 {% include interviews.html %}
@@ -140,9 +140,9 @@ After monitoring for three months, we underwent the process of consolidating and
 
 ### Technical Issues
 
-A host of issues with the software became apparent when working with FrontlineCloud. All these issues have been reported to FrontlineCloud and hopefully will be corrected in the future. Here are a few common software "gotchas" that should always be checked before a pilot begins, including this one.
+A few issues with the software became apparent when working with FrontlineCloud. All these issues have been reported to FrontlineCloud and hopefully will be corrected in the future. Here are a few common software "gotchas" that should always be checked before a pilot begins, including this one.
 
-*	__Internationalization/Locality__ - The compatibility across all languages and regions is often one of the last features to be refined. When using FrontlineCloud we came across several issues when using characters outside the Roman alphabet. Another thing to be cognizant of is the incompatibility of file types in different regions. While rare, it was an issue we experienced.
+*	__Internationalization/Locality__ - The compatibility across all languages and regions was a feature we initially overlooked. When using FrontlineCloud we came across several issues when using characters outside the Roman alphabet. Another thing to be cognizant of is the incompatibility of file types in different regions. While rare, it was an issue we experienced.
 *	__Scalability__ – When testing FrontlineCloud beforehand, only small contact databases were used. However, upon arrival we needed to use much larger databases and the software did not work as well. We should have tested the software on representative database sizes.
 *	__Low connectivity__ – In places where the Internet goes out from time to time, SMS software needs to be able to handle syncing. FrontlineCloud worked well when the connection was great. However, we experienced difficulties in buildings where the Internet would sporadically go out. The result was sometimes duplicate messages in the system, or worse, missing messages.
 
@@ -156,7 +156,7 @@ Initially we had started the pilot with a prepared list of contacts to message. 
 
 ### Invalid or unused phone numbers
 
-Currently, there is no functionality in FrontlineCloud that enables you to determine whether a phone number you just messaged is inactive. This ended up being an issue since the contact databases were well-known to be out of date. Therefore, the only people we could assume received the SMS are those that responded. In fact, to get a better estimate of the number invalid phone numbers in use, one of the UNHCR workers did a small case study on the existing contacts. UNHCR sent out a poll to 50 random contacts. Here is the breakdown of the 50 contacts:
+Currently, there is no functionality in FrontlineCloud that enables you to determine whether a phone number you just messaged is inactive. This ended up being an issue since the contact databases were well-known to be out of date. Therefore, the only people we could assume received the SMS are those that responded. In fact, to get a better estimate of the number invalid phone numbers in use, one of the UNHCR workers did a small case study on the existing contacts. UNHCR sent out a poll to 50 random contacts. For those that did not respond to the poll, he proceeded to followup by calling the number. After each call he annotated the reason for not responding to the poll. Here is the breakdown of the 50 contacts:
 
 {% include phone_breakdown.html %}
 
@@ -211,9 +211,11 @@ Did we find out what staff need in an SMS application? After becoming deeply fam
 
 There were many bumps along the road and not everything worked out as planned, but we'd undoubtedly say the pilot was a success. The Costa Rica UNHCR operation is now planning on setting up FrontlineCloud with two other refugee organizations in San José, after receiving requests to do so. Most importantly, the feedback from refugees was extremely positive and indicates that this should be a part of more operations.
 
-The next steps for us would be to move UNHCR to adopting a common SMS system that is deployed in each operation. Currently, UNHCR has a SMS system randomly spattered across the globe. This has a lot to do with the level of technical capacity that a specific country office has. In fact, there exists a giant spreadsheet of all the different SMS systems that UNHCR is using. Moving forward, it would be ideal to have a deploy kit that UNHCR can use to setup SMS capabilities.
+The next steps for us would be to move UNHCR to adopting a common SMS system that is deployed in each operation. Currently, UNHCR has an SMS system randomly spattered across the globe. This has a lot to do with the level of technical capacity that a specific country office has. In fact, there exists a giant spreadsheet of all the different SMS systems that UNHCR is using. Moving forward, it would be ideal to have a deploy kit that UNHCR can use to setup SMS capabilities.
 
 As often as possible, UNHCR Innovation tries to be as transparent as possible. Please feel free to leave any feedback or questions!
+
+Hate the web? <a target="_blank" href="{{ site.baseurl }}/report_content.pdf">Download the PDF.</a>
 
 {% include comments.html %}
 
