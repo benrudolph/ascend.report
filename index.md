@@ -217,6 +217,8 @@ As often as possible, UNHCR Innovation tries to be as transparent as possible. P
 
 Hate the web? <a target="_blank" href="{{ site.baseurl }}/report_content.pdf">Download the PDF.</a>
 
+{% include contact.html %}
+
 {% include comments.html %}
 
 [^1]: Cell phone subscriptions per 100 inhabitants in [Costa Rica and Colombia](http://www.google.com/publicdata/explore?ds=emi9ik86jcuic_&ctype=l&strail=false&bcs=d&nselm=h&met_y=i911&scale_y=lin&ind_y=false&rdim=country&idim=country:CR:CO&ifdim=country&hl=en_US&dl=en&ind=false&icfg)
