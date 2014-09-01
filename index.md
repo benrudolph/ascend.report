@@ -83,7 +83,7 @@ Even after months of preparation, the ability to improvise on the ground is almo
 
 {% include gantt.html %}
 
-Most of the time was spent preparing the messages and the software. However, we would have had spent longer sending the messages if we did not put time into conducting the trainings. Without this portion, we would have had to individually explain to each person using the system, or we would have had to send the messages, jeopardizing the pilot's sustainability after UNHCR Innovation left.
+Most of the time was spent preparing the messages and the software. However, we would have had spent longer sending the messages if we did not put time into conducting the trainings. Our trainings consisted of two parts. The first part was the "theory" part where we explained what FrontlineCloud could do and different benefits of SMS. The second part was the "practical" part where we would have each person interact with FrontlineCloud and practice sending messages. By frontloading the mission with trainings, it was easier to then focus on the types of messages we would send for the rest of the pilot.
 
 ![Running practical training]({{ site.baseurl }}/images/TRAINING.jpg)
 
@@ -156,7 +156,7 @@ Initially we had started the pilot with a prepared list of contacts to message. 
 
 ### Invalid or unused phone numbers
 
-Currently, there is no functionality in FrontlineCloud that enables you to determine whether a phone number you just messaged is inactive. This ended up being an issue since the contact databases were well-known to be out of date. Therefore, the only people we could assume received the SMS are those that responded. In fact, to get a better estimate of the number invalid phone numbers in use, one of the UNHCR workers did a small case study on the existing contacts. UNHCR sent out a poll to 50 random contacts. For those that did not respond to the poll, he proceeded to followup by calling the number. After each call he annotated the reason for not responding to the poll. Here is the breakdown of the 50 contacts:
+Currently, there is no functionality in FrontlineCloud that enables you to determine whether a phone number you just messaged is inactive. This ended up being an issue since the contact databases were well-known to be out of date. Therefore, the only people we could assume received the SMS are those that responded. In fact, to get a better estimate of the number invalid phone numbers in use, one of the UNHCR workers did a small case study on the existing contacts. UNHCR sent out a poll to 50 random contacts. For those that did not respond to the poll, he proceeded to followup by calling the number. After each call he annotated the reason for not responding to the poll. Below features a graph of the 50 contacts -- fraction that replied to the poll and the others who he had called to follow up.
 
 {% include phone_breakdown.html %}
 
