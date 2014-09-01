@@ -3,4 +3,4 @@ markdown: redcarpet
 redcarpet:
   extensions: [with_toc_data, tables, footnotes]
 highlighter: true
-baseurl: /ascend.report
+baseurl: /ascend.unhcrinnovation
