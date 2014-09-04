@@ -6,7 +6,7 @@ comments: True
 
 ## Introduction
 
-SMS as a tool for humanitarian aid is becoming an increasingly common tool. UNHCR Innovation recently piloted an SMS system in two UNHCR operations: Esmeraldas, Ecuador and San José, Costa Rica. Along the way we made a few blunders and also did a few things right. We wanted to share our experiences piloting FrontlineCloud in San José, Costa Rica so that you could learn from us.
+SMS as a tool for humanitarian aid is becoming an increasingly common tool. UNICEF piloted an [SMS program](http://unicefinnovation.org/projects/rapidsms-nigeria-0) in Nigeria. The Red Cross has developed their own system, [TERA](http://www.ifrc.org/en/what-we-do/beneficiary-communications/tera/). A host of other smaller organizations have sprouted up on the basis of providing aid via SMS.[^1] UNHCR Innovation recently piloted an SMS system in two UNHCR operations: Esmeraldas, Ecuador and San José, Costa Rica. Along the way we made a few blunders and also did a few things right. We wanted to share our experiences piloting FrontlineCloud in San José, Costa Rica so that you could learn from us.
 
 The project, named Ascend, began as a collaboration between Stanford University and UNHCR Innovation. The two institutions developed a class called “Rethinking Refugee Communities.” From this, Ascend was born out of a student group with the initial intention of tackling early camp registration by using mobile phone devices. The course took the students through the design process: research, challenge definition, ideation and prototyping. Along the way, UNHCR Innovation colleagues were in contact with the students to provide feedback.
 
@@ -39,7 +39,7 @@ The location and type of population you test can greatly impact the results of y
 
 *	__Interest from “the field”__ – in the case of Costa Rica, we received a request from their office to pilot the SMS program.  With both headquarters and the field operation committed to working on the project, we believed the pilot would have a high probability of success.
 *	__Stability within the region__ – while no refugee situation is truly stable, it is fair to say the refugee situation in Costa Rica is less turbulent than a place like Lebanon. In extreme emergency situations such as in Lebanon, many other things are rightly prioritized over an SMS pilot.
-*	__Mobile phone precedence__ – not all UNHCR operations work with populations that have mobile phones or even cell signal to send messages. In some areas, the literacy rate isn’t high enough for it to make sense to use SMS as a tool of communication. However, Costa Rica ended up being an ideal operation where both literacy rates and cellphone usage were quite high.[^1]
+*	__Mobile phone precedence__ – not all UNHCR operations work with populations that have mobile phones or even cell signal to send messages. In some areas, the literacy rate isn’t high enough for it to make sense to use SMS as a tool of communication. However, Costa Rica ended up being an ideal operation where both literacy rates and cellphone usage were quite high.[^2]
 
 While it isn’t always the best option to prototype in an ideal location, for our purposes we thought it would be the most appropriate way to discover how to effectively use SMS. We assumed that more and more locations will have higher literacy rates and mobile phone penetration as time goes on rather than less.
 
@@ -224,7 +224,8 @@ Hate the web? <a target="_blank" href="{{ site.baseurl }}/report_content.pdf">Do
 
 {% include comments.html %}
 
-[^1]: Cell phone subscriptions per 100 inhabitants in [Costa Rica and Colombia](http://www.google.com/publicdata/explore?ds=emi9ik86jcuic_&ctype=l&strail=false&bcs=d&nselm=h&met_y=i911&scale_y=lin&ind_y=false&rdim=country&idim=country:CR:CO&ifdim=country&hl=en_US&dl=en&ind=false&icfg)
+[^1]: [Souktel](http://www.souktel.org/development), [Dimagi](http://www.dimagi.com/mobile-health/), [Voix des Kivus](http://www.ushahidi.com/blog/2011/05/16/voix-des-kivus-a-crowd-seeding-system-in-drc/), [Medic Mobile](http://medicmobile.org/)
+[^2]: Cell phone subscriptions per 100 inhabitants in [Costa Rica and Colombia](http://www.google.com/publicdata/explore?ds=emi9ik86jcuic_&ctype=l&strail=false&bcs=d&nselm=h&met_y=i911&scale_y=lin&ind_y=false&rdim=country&idim=country:CR:CO&ifdim=country&hl=en_US&dl=en&ind=false&icfg)
 
 <script type="text/javascript">
 //<![CDATA[
