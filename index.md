@@ -47,10 +47,9 @@ While it isn’t always the best option to prototype in an ideal location, for o
 
 A first stage of our innovation process is to ensure that the need for that project actually exists. This was done in Costa Rica through discussions with focus groups and UNHCR staff. Through these methods we decided to focus on three areas that SMS could immediately impact. This helped us define the scope of the project and where we’d focus our efforts. We identified these areas:
 
-
-*	__Job opportunity alerts__ – one of the NGOs we were working with, [Association of International Consultants and Advisors](https://www.facebook.com/pages/ACAI/114321045280940?sk=timeline) or ACAI, has a job placement program. ACAI creates projects and livelihood activities for asylum seekers and refugees to facilitate integration into the community. Currently they were having difficulty notifying refugees of the new jobs that were available. SMS could easily provide a way to notify the relevant population, especially since ACAI already had a database of phone numbers.
+*	__Livelihood trainings__ – one of the NGOs we were working with, Association of International Consultants and Advisors or ACAI, offers an array of courses to refugees, including English classes and computer training. ACAI creates these projects and more for asylum seekers and refugees to facilitate integration into the community. Currently they were having difficulty notifying refugees of the new courses that were available and when they were starting. SMS could easily provide a way to inform the relevant people, especially since ACAI already had a database of phone numbers.
 *	__Participatory Assessments__ – in a few months time, UNHCR Costa Rica would be conducting Participatory Assessments, which are surveys that UNHCR gives to refugees to evaluate different aspects of the operation. We planned to use SMS as a way to notify and remind people to complete the assessment.
-*	__Microcredit Program__ – the last program we’d tackle was a Microcredit program established by an organization called [Aprode](http://www.corresponsaldepaz.org/news/es/2009/05/11/0004/costa-rica-microcreditos-para-refugiados-en-tiempos-de-crisis). Aprode gives out small loans incrementally to refugees as well as other Costa Ricans to start businesses. Throughout the process though, it’s important for Aprode to maintain contact with the people they’ve lent money to in order to assess whether they would need more assistance or potentially need more money.
+*	__Microcredit Program__ – the last program we’d tackle was a Microcredit program established by an organization called [Aprode](https://www.facebook.com/profile.php?id=100005436465164&fref=ts). Aprode gives out small loans incrementally to refugees as well as other Costa Ricans to start businesses. Throughout the process though, it’s important for Aprode to maintain contact with the people they’ve lent money to in order to assess whether they would need more assistance.
 
 <p class="as-quote">
 A first stage of our innovation process is to ensure that the need for that project actually exists.
@@ -160,7 +159,7 @@ Currently, there is no functionality in FrontlineCloud that enables you to deter
 
 {% include phone_breakdown.html %}
 
-Looking at the above chart it is easy to see that 20 out of 50 contacts need to be updated - a full 40% of the contacts were out of date. This gave us an indication that the excel contact database badly needed to be updated or we could miss 40% of potential recipients. After this discovery, UNHCR worked with ACAI to update all 670 contacts. The database is now much more complete and better formatted.
+Looking at the above chart it is easy to see that 20 out of 50 contacts need to be updated - a full 40% of the contacts were out of date. This gave us an indication that the excel contact database badly needed to be updated or we could miss 40% of potential recipients. After this discovery, UNHCR worked with ACAI to update all 670 contacts. The database is now much more complete and better formatted. This though represents a problem that many UNHCR operations face when they work in cities. Refugees tend to change address and phone number on a relatively frequent basis.
 
 {% include stat_significance.html %}
 
@@ -178,7 +177,11 @@ At ACAI, we planned to send many broadcast messages and polls to their entire co
 
 ### Institutional knowledge of the system
 
-A very difficult part of running a pilot is embedding the system knowledge within the organization. We accomplished this through establishing a champion for the project who would be able to carry on the project after UNHCR Innovation had left. In addition to this, we ran as many trainings as possible with UNHCR, ACAI and Aprode. We had two sets of trainings. The first was a brief overview of the system designed for those who wouldn’t be directly interacting with the system. It lasted for an hour. The second part was more in depth with hands-on practice, geared to those who would be using FrontlineCloud.
+A very difficult part of running a pilot is embedding the system knowledge within the organization. We accomplished this through establishing a champion for the project who would be able to carry on the project after UNHCR Innovation had left. In addition to this, we ran as many trainings as possible with UNHCR, ACAI and Aprode. At the trainings we would include as many people as we could, including managers. The training was broken down into two sections. The first was a brief overview of the system designed for those who wouldn’t be directly interacting with the system. It lasted for an hour. The second part was more in depth with hands-on practice, geared to those who would be using FrontlineCloud.
+
+### Behavior change
+
+In addition to embedding a culture of SMS within an organization, it is also takes time to introduce the program to refugees and more time to have it gain traction. Using SMS at UNHCR represents a shift in the traditional way refugees contact staff. This change should be addressed early on. New refugees and asylum seekers are now briefed about the system to ensure that each person is aware that SMS is an option for communication.
 
 ### Time of sending the messages
 
