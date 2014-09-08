@@ -147,10 +147,12 @@ small {
 }
 
 .as-info {
-
   font-family: 'Lato' 'Helvetica Neue';
   padding: 20px;
+}
 
+.as-slider-container {
+  padding-bottom: 30px;
 }
 
 ::selection {
