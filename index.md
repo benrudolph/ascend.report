@@ -26,7 +26,7 @@ Before any plans and preparations were made, we asked ourselves, “What do we h
 2.	How do we embed a new tool like SMS in organizations to be sustainable, even after the pilot is over?
 3.	What types of utilities does an SMS application need to appropriately handle the requirements of UNHCR and non-governmental organization (NGO) staff?
 
-These questions arose from gaps and assumptions we made when conceptualizing the SMS system as well as from the previous pilot in Esmeraldas, Ecuador. With our priorities set, we could now start to frame the pilot to answer these questions.  Based on these goals, we chose to pilot FrontlineCloud. FrontlineCloud is an off-the-shelf solution for SMS that would easily let us answer these questions without having to invest vast amounts of time and resources into building our own system only to find out later that SMS perhaps wasn’t an ideal tool for refugees in an urban context.
+These questions arose from gaps and assumptions we made when conceptualizing the SMS system as well as from the previous pilot in Esmeraldas, Ecuador. With our priorities set, we could now start to frame the pilot to answer these questions.  Based on these goals, we chose to pilot FrontlineCloud. FrontlineCloud is an off-the-shelf solution for SMS that would easily let us answer these questions without having to invest vast amounts of time and financial resources into building our own system only to find out later that SMS perhaps wasn’t an ideal tool for refugees in an urban context.
 
 {% include fidelity.html %}
 
