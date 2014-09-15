@@ -13,7 +13,7 @@ The project, named Ascend, began as a collaboration between Stanford University 
 About six months after the course ended, Ascend iterated based on needs and limitations discovered in a need-finding trip to Ethiopia. Ascend shifted from a tool to help registration to general purpose messaging. A few key takeaways were observed: one, the need for message classification to handle a large number of inbound SMS (think Gmail classifying messages as priority or not priority); two, the ability to have a feature rich application to conduct polls and surveys via SMS; three, a focus on visualizing the data received and report generation in order to convey effectiveness to potential donors.
 
 ![ETHIOPIA]({{ site.baseurl }}/images/ETHIOPIA.jpg)
-<small>A Stanford student conducting interviews in Ethiopia to learn more about communications within a camp setting</small>
+<small>A Stanford student conducting interviews in Ethiopia to learn more about communications within a camp&nbsp;setting</small>
 
 By the end of 2013, the Ascend group was adopted into UNHCR Innovation where the project would continue and have better access to piloting locations. The decision was made to use FrontlineCloud as a prototype with the goal of better understanding SMS in humanitarian contexts. The first pilot was conducted, as mentioned, in Esmeraldas, Ecuador. In April 2014, FrontlineCloud was piloted in San José, Costa Rica. The following is an account of the process we went through to pilot FrontlineCloud in San José.
 
