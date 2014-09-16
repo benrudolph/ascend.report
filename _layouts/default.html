@@ -1,120 +1,302 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Ascend report</title>
-        <meta name="viewport" content="width=device-width">
-        <meta name="description" content="Ascend was an SMS project to enable UNHCR staff more easily communicate with refugees. This is the UNHCR Innovation report detailing our process.">
-        <meta property="og:title" content="UNHCR Innovation: An SMS pilot in Costa Rica">
-        <meta property="og:description" content="Ascend was an SMS project to enable UNHCR staff more easily communicate with refugees. This is the UNHCR Innovation report detailing our process.">
-        <meta property="og:image" content="http://ascend.unhcrinnovation.org/images/TRAINING.jpg">
-        <meta property="og:url" content="http://ascend.unhcrinnovation.org">
-        <link rel="icon" href="ascend.ico" type="image/x-icon"/>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Ascend report</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Ascend was an SMS project to enable UNHCR staff more easily communicate with refugees. This is the UNHCR Innovation report detailing our process.">
+  <meta property="og:title" content="UNHCR Innovation: An SMS pilot in Costa Rica">
+  <meta property="og:description" content="Ascend was an SMS project to enable UNHCR staff more easily communicate with refugees. This is the UNHCR Innovation report detailing our process.">
+  <meta property="og:image" content="http://ascend.unhcrinnovation.org/images/TRAINING.jpg">
+  <meta property="og:url" content="http://ascend.unhcrinnovation.org">
+  <link rel="icon" href="ascend.ico" type="image/x-icon" />
 
 
-        <!-- syntax highlighting CSS -->
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
+  <!-- syntax highlighting CSS -->
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
 
-        <link rel="stylesheet" href="{{ site.baseurl }}/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/slick/slick.css"/>
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/slick/slick.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
 
-    </head>
-    <body data-spy="scroll" data-target=".as-sidebar">
-        <script src="http://www.google.com/jsapi"></script>
-        <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
-        <script type="text/javascript" src="{{ site.baseurl }}/slick/slick.min.js"></script>
-        <script src="{{ site.baseurl }}/js/chartkick.js"></script>
+</head>
 
-        <div class="site container-fluid">
-          <div class="row header">
-            <div class="col-md-12">
-              <div class="row tagline">
-                <div class="col-md-12">
-                  <div class="logo-container">
-                    <img class="logo" height="60" src="{{ site.baseurl }}/images/UNHCR-LOGO-WHITE.png" />
-                    <img class="logo" height="60" src="{{ site.baseurl }}/images/UNHCR-INNOVATION-LOGO-WHITE.png" />
-                  </div>
-                  <h1>Ascend</h1>
-                  <span>An exploration of mobile phone usage in refugee situations</span>
-                </div>
-              </div>
+<body data-spy="scroll" data-target=".as-sidebar">
+  <script src="http://www.google.com/jsapi"></script>
+  <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
+  <script type="text/javascript" src="{{ site.baseurl }}/slick/slick.min.js"></script>
+  <script src="{{ site.baseurl }}/js/chartkick.js"></script>
+
+  <div class="site container-fluid">
+    <div class="row header">
+      <div class="col-md-12">
+        <div class="row tagline">
+          <div class="col-md-12">
+            <div class="logo-container">
+              <img class="logo" height="60" src="{{ site.baseurl }}/images/UNHCR-LOGO-WHITE.png" />
+              <svg class="logo innovation-logo-svg" height="60" version="1.1" id="innovation-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+              y="0px" viewBox="0 0 178.5 180" enable-background="new 0 0 178.5 180" xml:space="preserve">
+                <g>
+                  <defs>
+                    <rect id="SVGID_1_" x="-54.5" y="-189" width="514.6" height="560" />
+                  </defs>
+                  <clipPath id="SVGID_2_">
+                    <use xlink:href="#SVGID_1_" overflow="visible" />
+                  </clipPath>
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M120.2,78.8c2.1,3.5,3.4,7.7,3.4,12.1c0,4.4-1.2,8.6-3.4,12.1
+		c-2.1-3.5-3.4-7.7-3.4-12.1C116.8,86.5,118.1,82.3,120.2,78.8" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M55.2,78.8c2.1,3.5,3.4,7.7,3.4,12.1c0,4.4-1.2,8.6-3.4,12.1
+		c-2.1-3.5-3.4-7.7-3.4-12.1C51.8,86.5,53,82.3,55.2,78.8" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M80.9,58c-1.7,3.1-4.3,5.9-7.6,7.8c-3.3,1.9-7,2.8-10.5,2.7
+		c1.7-3.1,4.3-5.9,7.6-7.8C73.6,58.8,77.3,57.9,80.9,58" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M112.8,68.4c-1.7-3.1-4.3-5.9-7.6-7.8c-3.3-1.9-7-2.8-10.5-2.7
+		c1.7,3.1,4.3,5.9,7.6,7.8C105.6,67.7,109.3,68.5,112.8,68.4" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M94.7,123.8c1.7-3.1,4.3-5.9,7.6-7.8c3.3-1.9,7-2.8,10.5-2.7
+		c-1.7,3.1-4.3,5.9-7.6,7.8S98.3,123.9,94.7,123.8" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M62.7,113.4c1.7,3.1,4.3,5.9,7.6,7.8c3.3,1.9,7,2.8,10.5,2.7
+		c-1.7-3.1-4.3-5.9-7.6-7.8C69.9,114.2,66.3,113.3,62.7,113.4" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M87.7,61.2c2.1,3.5,3.3,7.5,3.3,11.9c0,4.3-1.2,8.4-3.3,11.9
+		c-2.1-3.5-3.3-7.5-3.3-11.9C84.4,68.7,85.6,64.6,87.7,61.2" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M58.2,74c5-0.1,10.1,1.1,14.7,3.8c4.6,2.7,8.2,6.5,10.6,10.8
+		c-5,0.1-10.1-1.1-14.7-3.8C64.2,82.1,60.6,78.4,58.2,74" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M58.2,108c2.4-4.4,6-8.2,10.6-10.8c4.6-2.7,9.7-3.9,14.7-3.8
+		c-2.4,4.4-6,8.2-10.6,10.8C68.3,106.9,63.2,108.1,58.2,108" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M117.2,108c-5,0.1-10.1-1.1-14.7-3.8c-4.6-2.7-8.2-6.5-10.6-10.9
+		c5-0.1,10.1,1.1,14.7,3.8C111.2,99.9,114.8,103.7,117.2,108" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M117.2,74c-2.4,4.4-6,8.2-10.6,10.8c-4.6,2.7-9.7,3.9-14.7,3.8
+		c2.4-4.4,6-8.2,10.6-10.8C107.2,75.1,112.2,73.9,117.2,74" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M87.7,120.4c-2.1-3.5-3.3-7.5-3.3-11.9c0-4.3,1.2-8.4,3.3-11.9
+		c2.1,3.5,3.3,7.5,3.3,11.9C91,112.8,89.8,116.9,87.7,120.4" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M53.1,71c-1.7-3.2-4.3-5.9-7.7-7.8c-3.3-1.9-7-2.8-10.6-2.7
+		c1.7,3.2,4.3,5.9,7.7,7.8C45.9,70.2,49.5,71.1,53.1,71" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M34.9,121.5c1.7-3.2,4.3-5.9,7.7-7.8c3.3-1.9,7-2.8,10.6-2.7
+		c-1.7,3.2-4.3,5.9-7.7,7.8C42.1,120.8,38.5,121.6,34.9,121.5" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M52.2,105.7c-3.6,0.1-7.3-0.8-10.6-2.7c-3.3-1.9-5.9-4.7-7.7-7.8
+		c3.6-0.1,7.3,0.8,10.6,2.7C47.9,99.8,50.4,102.6,52.2,105.7" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M52.2,76.1c-1.7,3.2-4.3,5.9-7.7,7.8c-3.3,1.9-7,2.8-10.6,2.7
+		c1.7-3.2,4.3-5.9,7.7-7.8C44.9,76.9,48.6,76,52.2,76.1" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M57.6,47.1c1.9,3.1,2.9,6.7,2.9,10.6c0,3.9-1.1,7.5-2.9,10.6
+		c-1.9-3.1-2.9-6.7-2.9-10.6C54.6,53.7,55.7,50.1,57.6,47.1" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M122.3,111c1.7,3.2,4.3,5.9,7.7,7.8c3.3,1.9,7,2.8,10.6,2.7
+		c-1.7-3.2-4.3-5.9-7.7-7.8C129.6,111.8,125.9,110.9,122.3,111" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M140.6,60.5c-1.7,3.2-4.3,5.9-7.7,7.8c-3.3,1.9-7,2.8-10.6,2.7
+		c1.7-3.2,4.3-5.9,7.7-7.8C133.3,61.3,137,60.4,140.6,60.5" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M123.3,76.1c3.6-0.1,7.3,0.8,10.6,2.7c3.3,1.9,5.9,4.7,7.7,7.8
+		c-3.6,0.1-7.3-0.8-10.6-2.7C127.6,82,125,79.2,123.3,76.1" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M123.3,105.7c1.7-3.2,4.3-5.9,7.7-7.8c3.3-1.9,7-2.8,10.6-2.7
+		c-1.7,3.2-4.3,5.9-7.7,7.8C130.5,105,126.9,105.8,123.3,105.7" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M118,46.8c1.9,3.1,2.9,6.7,2.9,10.6c0,3.9-1.1,7.5-2.9,10.6
+		c-1.9-3.1-2.9-6.7-2.9-10.6C115.1,53.5,116.2,49.8,118,46.8" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M118,113.8c1.9,3.1,2.9,6.7,2.9,10.6s-1.1,7.5-2.9,10.6
+		c-1.9-3.1-2.9-6.7-2.9-10.6S116.2,116.9,118,113.8" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M93.2,54.3c1.7-3.2,4.3-5.9,7.7-7.8c3.3-1.9,7-2.8,10.6-2.7
+		c-1.7,3.2-4.3,5.9-7.7,7.8C100.4,53.5,96.8,54.4,93.2,54.3" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M64.2,43.8c1.7,3.2,4.3,5.9,7.7,7.8c3.3,1.9,7,2.8,10.6,2.7
+		c-1.7-3.2-4.3-5.9-7.7-7.8C71.4,44.6,67.8,43.7,64.2,43.8" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M87.7,51.2c-1.9-3.1-2.9-6.7-2.9-10.6c0-3.9,1.1-7.5,2.9-10.6
+		c1.9,3.1,2.9,6.7,2.9,10.6C90.7,44.5,89.6,48.1,87.7,51.2" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M87.7,130.7c1.9,3.1,2.9,6.7,2.9,10.6c0,3.9-1.1,7.5-2.9,10.6
+		c-1.9-3.1-2.9-6.7-2.9-10.6C84.8,137.4,85.8,133.8,87.7,130.7" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M57.6,114c1.9,3.1,2.9,6.7,2.9,10.6s-1.1,7.5-2.9,10.6
+		c-1.9-3.1-2.9-6.7-2.9-10.6S55.7,117,57.6,114" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M82.4,127.6c-1.7,3.2-4.3,5.9-7.7,7.8c-3.3,1.9-7,2.8-10.6,2.7
+		c1.7-3.2,4.3-5.9,7.7-7.8C75.2,128.4,78.8,127.5,82.4,127.6" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M111.4,138.1c-1.7-3.2-4.3-5.9-7.7-7.8c-3.3-1.9-7-2.8-10.6-2.7
+		c1.7,3.2,4.3,5.9,7.7,7.8C104.2,137.3,107.8,138.2,111.4,138.1" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M28,65.7c1.5,2.5,2.4,5.4,2.4,8.4c0,3.1-0.9,6-2.4,8.4
+		c-1.5-2.5-2.4-5.4-2.4-8.4C25.6,71.1,26.5,68.2,28,65.7" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M28,116.1c-1.5-2.5-2.4-5.4-2.4-8.4c0-3.1,0.9-6,2.4-8.4
+		c1.5,2.5,2.4,5.4,2.4,8.4C30.3,110.8,29.5,113.6,28,116.1" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M51.6,45c-1.4,2.5-3.5,4.7-6.1,6.3c-2.7,1.5-5.6,2.2-8.5,2.2
+		c1.4-2.5,3.5-4.7,6.1-6.3C45.8,45.6,48.7,44.9,51.6,45" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M147.5,116.1c-1.5-2.5-2.4-5.4-2.4-8.4c0-3.1,0.9-6,2.4-8.4
+		c1.5,2.5,2.4,5.4,2.4,8.4C149.9,110.7,149,113.6,147.5,116.1" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M147.5,65.7c1.5,2.5,2.4,5.4,2.4,8.4c0,3.1-0.9,6-2.4,8.4
+		c-1.5-2.5-2.4-5.4-2.4-8.4C145.1,71.1,146,68.2,147.5,65.7" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M123.9,44.7c2.9-0.1,5.8,0.6,8.5,2.2c2.7,1.5,4.7,3.7,6.1,6.3
+		c-2.9,0.1-5.8-0.6-8.5-2.2C127.4,49.4,125.3,47.2,123.9,44.7" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M138.6,128.6c-1.4,2.5-3.5,4.7-6.1,6.3c-2.7,1.5-5.6,2.2-8.5,2.2
+		c1.4-2.5,3.5-4.7,6.1-6.3C132.7,129.3,135.7,128.6,138.6,128.6" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M66,36.5c1.4-2.5,3.5-4.7,6.1-6.3c2.7-1.5,5.6-2.2,8.5-2.2
+		c-1.4,2.5-3.5,4.7-6.1,6.3C71.8,35.9,68.9,36.6,66,36.5" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M109.6,36.5c-2.9,0.1-5.8-0.6-8.5-2.2c-2.7-1.5-4.7-3.7-6.1-6.3
+		c2.9-0.1,5.8,0.6,8.5,2.2C106.2,31.8,108.2,34,109.6,36.5" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M66,145.4c2.9-0.1,5.8,0.6,8.5,2.2c2.7,1.5,4.8,3.7,6.1,6.3
+		c-2.9,0.1-5.8-0.6-8.5-2.2C69.4,150.1,67.4,147.9,66,145.4" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M109.6,145.4c-1.4,2.5-3.5,4.7-6.1,6.3c-2.7,1.5-5.6,2.2-8.5,2.2
+		c1.4-2.5,3.5-4.7,6.1-6.3C103.8,146,106.8,145.3,109.6,145.4" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M51.5,137.1c-1.4-2.5-3.5-4.7-6.1-6.3c-2.7-1.5-5.6-2.2-8.5-2.2
+		c1.4,2.5,3.5,4.7,6.1,6.3C45.7,136.4,48.6,137.1,51.5,137.1" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M0,87.8c1.5,0.4,2.9,1.1,4,2.3c1.2,1.1,1.9,2.5,2.3,4c-1.5-0.4-2.9-1.1-4-2.3
+		C1.1,90.7,0.4,89.3,0,87.8" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M46,13.7c0.5,1.5,0.5,3.2,0.1,4.9c-0.4,1.7-1.3,3.1-2.5,4.2
+		c-0.5-1.6-0.5-3.2-0.1-4.9C44,16.2,44.9,14.8,46,13.7" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M134.4,16.6c-1.5-0.5-3.2-0.5-4.9-0.1c-1.7,0.4-3.1,1.3-4.2,2.5
+		c1.6,0.5,3.2,0.5,4.9,0.1C131.8,18.6,133.3,17.8,134.4,16.6" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M19.8,51.8c-1.6,0-3.3-0.4-4.8-1.2c-1.5-0.9-2.7-2.1-3.4-3.5
+		c1.6,0,3.3,0.4,4.8,1.2C17.9,49.2,19.1,50.4,19.8,51.8" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M175.5,94c-1.5-0.4-2.9-1.1-4-2.3c-1.2-1.1-1.9-2.5-2.3-4
+		c1.5,0.4,2.9,1.1,4,2.3C174.4,91.2,175.1,92.6,175.5,94" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M155.6,51.8c0.8-1.4,1.9-2.6,3.4-3.5c1.5-0.9,3.1-1.3,4.8-1.2
+		c-0.8,1.4-1.9,2.6-3.4,3.5C158.8,51.5,157.2,51.9,155.6,51.8" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M155.6,130.2c0.8,1.4,1.9,2.6,3.4,3.5c1.5,0.9,3.1,1.3,4.8,1.2
+		c-0.8-1.4-1.9-2.6-3.4-3.5C158.8,130.5,157.2,130.2,155.6,130.2" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M129.5,168.1c-0.5-1.5-0.5-3.2,0-4.9c0.5-1.7,1.3-3.1,2.5-4.2
+		c0.5,1.6,0.5,3.2,0,4.9C131.6,165.6,130.7,167,129.5,168.1" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M87.7,12.1c-0.8-1.3-1.2-2.8-1.2-4.4c0-1.6,0.5-3.1,1.2-4.4
+		C88.5,4.5,89,6,89,7.6C89,9.2,88.5,10.8,87.7,12.1" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M87.7,169.9c0.8,1.3,1.2,2.8,1.2,4.4c0,1.6-0.5,3.1-1.2,4.4
+		c-0.8-1.3-1.2-2.8-1.2-4.4C86.5,172.8,86.9,171.2,87.7,169.9" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M11.6,134.9c0.8-1.4,1.9-2.6,3.4-3.5c1.5-0.9,3.1-1.3,4.8-1.2
+		c-0.8,1.4-1.9,2.6-3.4,3.5C14.9,134.6,13.3,135,11.6,134.9" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M49.8,162.7c-1.1,1.2-2.6,2.1-4.2,2.5c-1.7,0.4-3.4,0.4-4.9-0.1
+		c1.1-1.2,2.6-2.1,4.2-2.5C46.5,162.2,48.2,162.3,49.8,162.7" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M21.8,61.5c-1.2,2.3-3.1,4.2-5.5,5.6c-2.4,1.4-5,2-7.6,2
+		c1.2-2.3,3.1-4.2,5.5-5.6C16.6,62,19.2,61.4,21.8,61.5" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M8.6,112.9c1.2,2.3,3.1,4.2,5.5,5.6c2.4,1.4,5,2,7.6,2
+		c-1.2-2.3-3.1-4.2-5.5-5.6C13.9,113.5,11.2,112.8,8.6,112.9" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M8.6,78.7c2.6-0.1,5.2,0.6,7.6,2c2.4,1.4,4.3,3.4,5.5,5.6
+		c-2.6,0.1-5.2-0.6-7.6-2C11.7,83,9.9,81,8.6,78.7" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M8.6,103.1c1.2-2.3,3.1-4.2,5.5-5.6c2.4-1.4,5.1-2,7.6-2
+		c-1.2,2.3-3.1,4.2-5.5,5.6C13.9,102.5,11.2,103.1,8.6,103.1" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M29.7,32.9c1.3,2.2,2.1,4.8,2.1,7.6c0,2.8-0.8,5.4-2.1,7.6
+		c-1.3-2.2-2.1-4.8-2.1-7.6C27.6,37.8,28.4,35.2,29.7,32.9" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M50.8,36.3c-1.2-2.3-3.1-4.2-5.5-5.6c-2.4-1.4-5-2-7.6-2
+		c1.2,2.3,3.1,4.2,5.5,5.6C45.6,35.7,48.2,36.3,50.8,36.3" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M153,120.5c1.2-2.3,3.1-4.2,5.5-5.6c2.4-1.4,5-2,7.6-2
+		c-1.2,2.3-3.1,4.2-5.5,5.6C158.3,119.9,155.6,120.5,153,120.5" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M166.8,69.1c-1.2-2.3-3.1-4.2-5.5-5.6c-2.4-1.4-5-2-7.6-2
+		c1.2,2.3,3.1,4.2,5.5,5.6C161.6,68.5,164.2,69.1,166.8,69.1" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M166.8,103.1c-2.6,0.1-5.2-0.6-7.6-2c-2.4-1.4-4.3-3.4-5.5-5.6
+		c2.6-0.1,5.2,0.6,7.6,2C163.7,98.8,165.6,100.8,166.8,103.1" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M137.8,28.4c-1.2,2.3-3.1,4.2-5.5,5.6c-2.4,1.4-5,2-7.6,2
+		c1.2-2.3,3.1-4.2,5.5-5.6C132.6,28.9,135.2,28.3,137.8,28.4" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M145.8,32.9c1.3,2.2,2.1,4.8,2.1,7.6c0,2.8-0.8,5.4-2.1,7.6
+		c-1.3-2.2-2.1-4.8-2.1-7.6C143.6,37.8,144.4,35.2,145.8,32.9" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M124.7,145.8c2.6-0.1,5.2,0.6,7.6,2c2.4,1.4,4.3,3.4,5.5,5.6
+		c-2.6,0.1-5.2-0.6-7.6-2C127.8,150.1,125.9,148.1,124.7,145.8" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M145.8,133.6c1.3,2.2,2.1,4.8,2.1,7.6c0,2.8-0.8,5.4-2.1,7.6
+		c-1.3-2.2-2.1-4.8-2.1-7.6C143.6,138.5,144.4,135.9,145.8,133.6" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M116.8,16.3c1.3,2.2,2.1,4.8,2.1,7.6c0,2.8-0.8,5.4-2.1,7.6
+		c-1.3-2.2-2.1-4.8-2.1-7.6C114.7,21.2,115.5,18.6,116.8,16.3" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M58.8,16.3c1.3,2.2,2.1,4.8,2.1,7.6c0,2.8-0.8,5.4-2.1,7.6
+		c-1.3-2.2-2.1-4.8-2.1-7.6C56.6,21.2,57.4,18.6,58.8,16.3" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M65.6,11.7c2.6-0.1,5.2,0.6,7.6,2c2.4,1.4,4.3,3.4,5.5,5.6
+		c-2.6,0.1-5.2-0.6-7.6-2C68.7,16,66.9,14,65.6,11.7" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M109.8,11.7c-1.2,2.3-3.1,4.2-5.5,5.6c-2.4,1.4-5.1,2-7.6,2
+		c1.2-2.3,3.1-4.2,5.5-5.6C104.5,12.3,107.2,11.7,109.8,11.7" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M116.8,150.4c1.3,2.2,2.1,4.8,2.1,7.6c0,2.8-0.8,5.4-2.1,7.6
+		c-1.3-2.2-2.1-4.8-2.1-7.6C114.7,155.2,115.5,152.6,116.8,150.4" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M58.8,150.4c1.3,2.2,2.1,4.8,2.1,7.6c0,2.8-0.8,5.4-2.1,7.6
+		c-1.3-2.2-2.1-4.8-2.1-7.6C56.6,155.2,57.4,152.6,58.8,150.4" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M65.8,170.1c1.2-2.3,3.1-4.2,5.5-5.6c2.4-1.4,5.1-2,7.6-2
+		c-1.2,2.3-3.1,4.2-5.5,5.6C71,169.6,68.4,170.2,65.8,170.1" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M109.7,170.1c-2.6,0.1-5.2-0.6-7.6-2c-2.4-1.4-4.3-3.4-5.5-5.6
+		c2.6-0.1,5.2,0.6,7.6,2C106.6,165.9,108.4,167.9,109.7,170.1" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M29.7,133.6c1.3,2.2,2.1,4.8,2.1,7.6c0,2.8-0.8,5.4-2.1,7.6
+		c-1.3-2.2-2.1-4.8-2.1-7.6C27.5,138.4,28.3,135.8,29.7,133.6" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M50.8,145.8c-1.2,2.3-3.1,4.2-5.5,5.6c-2.4,1.4-5.1,2-7.6,2
+		c1.2-2.3,3.1-4.2,5.5-5.6C45.5,146.4,48.2,145.7,50.8,145.8" />
+                  <path clip-path="url(#SVGID_2_)" fill="#EE3624" d="M166.8,78.7c-1.2,2.3-3.1,4.2-5.5,5.6c-2.4,1.4-5.1,2-7.6,2
+		c1.2-2.3,3.1-4.2,5.5-5.6C161.6,79.3,164.3,78.7,166.8,78.7" />
+                </g>
+              </svg>
             </div>
-
+            <h1>Ascend</h1>
+            <span>An exploration of mobile phone usage in refugee situations</span>
           </div>
-          <div class="as-divider row"></div>
-
-          <div class="row content">
-            <div class="col-md-9">
-              {{ content }}
-            </div>
-            <div class="col-md-3">
-              <div data-spy="affix" data-offset-top="670" class="as-sidebar hidden-print hidden-xs hidden-sm" role="complementary">
-                <ul class="nav as-sidenav">
-                  <li>
-                    <a href="#introduction">Introduction</a>
-                  </li>
-                  <li>
-                    <a href="#choosing-to-prototype">Choosing to prototype</a>
-                  </li>
-                  <li>
-                    <a href="#identifying-a-location">Identifying a location</a>
-                  </li>
-                  <li>
-                    <a href="#preparation">Preparation</a>
-                  </li>
-                  <li>
-                    <a href="#implementation">Implementation</a>
-                  </li>
-                  <li>
-                    <a href="#community-involvement">Community involvement</a>
-                  </li>
-                  <li>
-                    <a href="#follow-up-and-monitoring">Follow up & Monitoring</a>
-                  </li>
-                  <li>
-                    <a href="#lessons-learned">Lessons Learned</a>
-                  </li>
-                  <li>
-                    <a href="#conclusion">Conclusion</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
         </div>
+      </div>
 
-        <script src="{{ site.baseurl }}/bootstrap/js/bootstrap.min.js"></script>
-        <script>
-          var $header = $('.header');
-          //$header.css('height', $(window).height())
-          $header.css('width', $(window).width())
-          $(window).on('resize', function() {
+    </div>
+    <div class="as-divider row"></div>
 
-            $header.css('width', $(window).width())
-          })
+    <div class="row content">
+      <div class="col-md-9">
+        {{ content }}
+      </div>
+      <div class="col-md-3">
+        <div data-spy="affix" data-offset-top="670" class="as-sidebar hidden-print hidden-xs hidden-sm" role="complementary">
+          <ul class="nav as-sidenav">
+            <li>
+              <a href="#introduction">Introduction</a>
+            </li>
+            <li>
+              <a href="#choosing-to-prototype">Choosing to prototype</a>
+            </li>
+            <li>
+              <a href="#identifying-a-location">Identifying a location</a>
+            </li>
+            <li>
+              <a href="#preparation">Preparation</a>
+            </li>
+            <li>
+              <a href="#implementation">Implementation</a>
+            </li>
+            <li>
+              <a href="#community-involvement">Community involvement</a>
+            </li>
+            <li>
+              <a href="#follow-up-and-monitoring">Follow up & Monitoring</a>
+            </li>
+            <li>
+              <a href="#lessons-learned">Lessons Learned</a>
+            </li>
+            <li>
+              <a href="#conclusion">Conclusion</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-          $('table').addClass('table')
+  </div>
 
-          console.log('  _   _ _  _ _  _  ___ ___\n | | | | \\| | || |/ __| _ \\\n | |_| | .` | __ | (__|   /\n  \\___/|_|\\_|_||_|\\___|_|_\\')
+  <script src="{{ site.baseurl }}/bootstrap/js/bootstrap.min.js"></script>
+  <script>
+    var $header = $('.header');
+     //$header.css('height', $(window).height())
+    $header.css('width', $(window).width())
+     $(window).on('resize', function() {
 
-          console.log('   (_)__  ___  ___ _  _____ _/ /_(_)__  ___ \n  / / _ \\/ _ \\/ _ \\ |/ / _ `/ __/ / _ \\/ _ \\\n /_/_//_/_//_/\\___/___/\\_,_/\\__/_/\\___/_//_/')
-          console.log('http://www.github.com/benrudolph/ascend.report');
+      $header.css('width', $(window).width())
+    })
 
-        </script>
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+     $('table').addClass('table')
 
-          ga('create', 'UA-54330515-1', 'auto');
-          ga('send', 'pageview');
+     console.log(
+      '  _   _ _  _ _  _  ___ ___\n | | | | \\| | || |/ __| _ \\\n | |_| | .` | __ | (__|   /\n  \\___/|_|\\_|_||_|\\___|_|_\\'
+    )
 
-        </script>
-    </body>
+     console.log(
+      '   (_)__  ___  ___ _  _____ _/ /_(_)__  ___ \n  / / _ \\/ _ \\/ _ \\ |/ / _ `/ __/ / _ \\/ _ \\\n /_/_//_/_//_/\\___/___/\\_,_/\\__/_/\\___/_//_/'
+    )
+     console.log('http://www.github.com/benrudolph/ascend.report');
+  </script>
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-54330515-1', 'auto');
+    ga('send', 'pageview');
+
+    $('#innovation-logo').on('click', function() {
+      window.location.href = 'http://www.unhcrinnovation.org/'
+    });
+  </script>
+</body>
+
 </html>

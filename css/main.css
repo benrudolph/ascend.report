@@ -102,6 +102,28 @@ img {
   padding: 5px;
 }
 
+.logo {
+  padding: 5px;
+  vertical-align: middle;
+}
+
+.innovation-logo-svg {
+
+  cursor:pointer;
+}
+
+.innovation-logo-svg path {
+  -moz-transition:all .5s;
+  -webkit-transition:all .5s;
+  -o-transition:all .5s;
+  transition:all .5s;
+  fill: white;
+}
+
+.innovation-logo-svg:hover path {
+  fill: #0967ea;
+}
+
 .as-info img {
   padding-top: 30px;
   padding-left: 10px;
