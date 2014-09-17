@@ -1,5 +1,5 @@
 set :application, "ascend"
-set :repository,  "git@github.com:benrudolph/ascend.report.git"
+set :repository,  "git@github.com:benrudolph/ascend.unhcrinnovation.git"
 set :scm, :git
 set :deploy_via, :copy
 set :user, :deploy
