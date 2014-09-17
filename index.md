@@ -22,7 +22,7 @@ By the end of 2013, the Ascend group was adopted into UNHCR Innovation where the
 
 Before any plans and preparations were made, we asked ourselves, “What do we hope to achieve with this prototype?” This framed our pilot with specific objectives. The goals for this particular pilot were:
 
-1.	How do we best utilize SMS to connect with a refugees residing in an urban area?
+1.	How do we best utilize SMS to connect with refugees residing in an urban area?
 2.	How do we embed a new tool like SMS in organizations to be sustainable, even after the pilot is over?
 3.	What types of utilities does an SMS application need to appropriately handle the requirements of UNHCR and non-governmental organization (NGO) staff?
 
