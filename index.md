@@ -214,7 +214,7 @@ Did we find out what staff need in an SMS application? After becoming deeply fam
 
 There were many bumps along the road and not everything worked out as planned, but we'd undoubtedly say the pilot was a success. The Costa Rica UNHCR operation is now planning on setting up FrontlineCloud with two other refugee organizations in San José, after receiving requests to do so. Most importantly, the feedback from refugees was extremely positive and indicates that this should be a part of more operations.
 
-The next steps for us would be advocate that UNHCR adopts a common SMS system that is deployed in each operation. Currently, UNHCR has an SMS system randomly spattered across the globe. The lack of consolidation to date is influenced mostly by the level of technical capacity that a specific country office has. In fact, there exists a giant spreadsheet of all the different SMS systems that UNHCR currently uses. Moving forward, it would be ideal to have a deploy kit that UNHCR can use to setup SMS capabilities.
+The next steps for us would be advocate that UNHCR adopts a common SMS system that is deployed in each operation. Currently, UNHCR has many SMS systems randomly spattered across the globe. The lack of consolidation to date is influenced mostly by the level of technical capacity that a specific country office has. In fact, there exists a giant spreadsheet of all the different SMS systems that UNHCR currently uses. Moving forward, it would be ideal to have a deploy kit that UNHCR can use to setup SMS capabilities.
 
 As often as possible, UNHCR Innovation tries to be as transparent as possible. Please feel free to leave any feedback or questions!
 
@@ -224,7 +224,7 @@ Hate the web? <a target="_blank" href="{{ site.baseurl }}/report_content.pdf">Do
 
 {% include comments.html %}
 
-[^1]: [Souktel](http://www.souktel.org/development), [Dimagi](http://www.dimagi.com/mobile-health/), [Voix des Kivus](http://www.ushahidi.com/blog/2011/05/16/voix-des-kivus-a-crowd-seeding-system-in-drc/), [Medic Mobile](http://medicmobile.org/)
+[^1]: [Souktel](http://www.souktel.org/development), [Dimagi](http://www.dimagi.com/mobile-health/), [Voix des Kivus](http://www.ushahidi.com/blog/2011/05/16/voix-des-kivus-a-crowd-seeding-system-in-drc/), [Medic Mobile](http://medicmobile.org/), [Telerivet](https://telerivet.com/)
 [^2]: Cell phone subscriptions per 100 inhabitants in [Costa Rica and Colombia](http://www.google.com/publicdata/explore?ds=emi9ik86jcuic_&ctype=l&strail=false&bcs=d&nselm=h&met_y=i911&scale_y=lin&ind_y=false&rdim=country&idim=country:CR:CO&ifdim=country&hl=en_US&dl=en&ind=false&icfg)
 
 <script type="text/javascript">
