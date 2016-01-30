@@ -3,7 +3,7 @@ set :repository,  "git@github.com:benrudolph/ascend.unhcrinnovation.git"
 set :scm, :git
 set :deploy_via, :copy
 set :user, :deploy
-require '/Users/benrudolph/Dropbox/credientials/capcreds.rb'
+set :use_sudo, false
 set :deploy_to, "/var/www/#{application}"
 default_run_options[:pty] = true
 
@@ -11,7 +11,7 @@ default_run_options[:pty] = true
 # set :scm, :git # You can set :scm explicitly or Capistrano will make an intelligent guess based on known version control directory names
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
-role :blog, "176.58.105.165"
+role :blog, "personal"
 
 set :ssh_options, { :forward_agent => true }
 
